@@ -1,4 +1,4 @@
-# Cymetrics 技術部落格
+# StarBugs Weekly 技術週刊
 
 網址：https://tech-blog.cymetrics.io/
 
