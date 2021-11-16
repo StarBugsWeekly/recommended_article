@@ -2,15 +2,11 @@
 title: 第107期 Go 推薦文章
 date: 2021-11-16
 author: larry
-# description: 這篇文章將從 AOP 的核心思想談到目前主流實現 AOP 的不同策略並比較他們的差異，適合了解 Java 語言或者有稍微玩過 AOP 但是不清楚其原理的人閱讀。
+
 layout: layouts/post.njk
 tags: [Go, Back-end]
 # image: /img/TheSpiritAndImplementationOfAOP/0____Bm36Dv5mm97e2vF.jpg
 ---
-
-<!-- summary -->
-該如何入門 CTF 中的 Web 題？, Custom Elements defining new elements in HTML, CSS Tricks to Create that Dark Futuristic Web3 Look
-<!-- summary -->
 
 ## Go
 

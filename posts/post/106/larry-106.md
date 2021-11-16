@@ -2,7 +2,6 @@
 title: 第106期 Testing 推薦文章
 date: 2021-11-09
 author: larry
-# description: 這篇文章將從 AOP 的核心思想談到目前主流實現 AOP 的不同策略並比較他們的差異，適合了解 Java 語言或者有稍微玩過 AOP 但是不清楚其原理的人閱讀。
 layout: layouts/post.njk
 tags: [Software Engineering]
 # image: /img/TheSpiritAndImplementationOfAOP/0____Bm36Dv5mm97e2vF.jpg

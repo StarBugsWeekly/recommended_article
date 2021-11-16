@@ -1,19 +1,8 @@
-# StarBugs Weekly 技術週刊
+# StarBugs Weekly
 
-網址：https://tech-blog.cymetrics.io/
+Website: https://weekly.starbugs.dev/
 
-## 開發
-
-```
-npm install
-npm run watch
-``` 
-
-## 部署
-
-只要把 code push 之後就會自動透過 GitHub actions 部署到 GitHub Pages。
-
-## 該如何新增作者？
+## How to contribute?
 
 每一個作者都會有個 unique 的 key 來識別，這邊假設 key 是 peter。
 
@@ -29,6 +18,17 @@ npm run watch
 1. 把 repo clone 下來
 2. 在 `posts/peter` 裡面新增 markdown 檔案，開頭 frontmatter 格式請參考下面
 3. 完成之後 commit + push 就會觸發部署流程，大約五分鐘後可以在 production 上看到改動
+
+## Development
+
+```
+npm install
+npm run watch
+``` 
+
+## Deployment
+
+Auto 
 
 ## 文章 frontmatter 格式
 
@@ -80,4 +80,6 @@ css/main.css 所有的樣式都在裡面，有新增的都放在最下面
 1. [Eleventy Documentation](https://www.11ty.dev/docs/collections/)
 2. [Nunjucks 文件](https://mozilla.github.io/nunjucks/templating.html)
 
-fork from [error-baker-blog](https://github.com/Lidemy/error-baker-blog) and [eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)
+this project forks  from the following projects: 
+- [error-baker-blog](https://github.com/Lidemy/error-baker-blog) 
+- [eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)
