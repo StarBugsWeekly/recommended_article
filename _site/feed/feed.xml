@@ -5,7 +5,7 @@
 	
 	<link href="https://tech-blog.cymetrics.io/feed/feed.xml" rel="self"/>
 	<link href="https://tech-blog.cymetrics.io"/>
-	<updated>2021-11-10T08:00:00+08:00</updated>
+	<updated>2021-11-16T08:00:00+08:00</updated>
 	<id>https://tech-blog.cymetrics.io</id>
 	<author>
 		<name>Cymetrics Tech Blog</name>
@@ -5512,7 +5512,7 @@ Parse a query string into an object. Leading ? or # are ignored, so you can pass
 &lt;p&gt;爬站時不管是資安人員還是駭客都想繞過 reCAPTCHA，但背後有機器學習導致規則不斷變化，在加上本身不斷改版，所以不少網住文章上的繞過方法都已經失效，這邊分享 3 個經過驗證，至少在當前版本可行的繞過方法。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://tech-blog.cymetrics.io/img/posts/nick/google-recaptcha/re_5.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88-1-%3A-%E5%81%BD%E8%A3%9D&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88-1-%3A-%E5%81%BD%E8%A3%9D&quot;&gt;#&lt;/a&gt; 解決方案 1 : 偽裝&lt;/h3&gt;
-&lt;p&gt;偽裝成一般人使用搜索功能，避免出現 reCAPTCHA，偽裝的話期時有很多細節，但最直接影響 reCAPTCHA 出現機會的有 2 個要注意的點。&lt;/p&gt;
+&lt;p&gt;偽裝成一般人使用搜索功能，避免出現 reCAPTCHA，偽裝的話有很多細節，但最直接影響 reCAPTCHA 出現的有 2 點。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;設定 User-Agent 偽裝成常見的設備:&lt;/strong&gt;&lt;br&gt;
@@ -5527,7 +5527,7 @@ Parse a query string into an object. Leading ? or # are ignored, so you can pass
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88-2-%3A-%E6%AD%A3%E9%9D%A2%E5%B0%8D%E6%B1%BA&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88-2-%3A-%E6%AD%A3%E9%9D%A2%E5%B0%8D%E6%B1%BA&quot;&gt;#&lt;/a&gt; 解決方案 2 : 正面對決&lt;/h3&gt;
-&lt;p&gt;模仿一般人去回答 reCAPTCHA 的問題，但針對 reCAPTCHA 做出一套影像辨識系統非常麻煩，有一個取巧的方法是利用盲人輔助功能，讓回答難度從影像辨識降低到語音辨識，降到語音辨識後甚至可以用 Google Translate 來對付 Google reCAPTCHA。&lt;/p&gt;
+&lt;p&gt;模仿一般人去回答 reCAPTCHA 的問題，但針對 reCAPTCHA 做出一套影像辨識系統非常麻煩，有一個取巧的方法是利用盲人輔助功能，讓回答難度從影像辨識降低到語音辨識，降到語音辨識後甚至可以讓 Google Speech 來對付 Google reCAPTCHA。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://tech-blog.cymetrics.io/img/posts/nick/google-recaptcha/re_7.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;自動化測試時用的是 Python 的 SpeechRecognition 模組，利用模組中的 recognixe_google() 去呼叫 Google 語音辨識 API，讓 Google 語音辨識解決 Google reCAPTCHA 出的題目。&lt;/p&gt;
 &lt;h3 id=&quot;%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88-3-%3A-%E6%8F%9B%E5%BC%95%E6%93%8E&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%A1%88-3-%3A-%E6%8F%9B%E5%BC%95%E6%93%8E&quot;&gt;#&lt;/a&gt; 解決方案 3 : 換引擎&lt;/h3&gt;
@@ -5599,7 +5599,7 @@ Parse a query string into an object. Leading ? or # are ignored, so you can pass
 &lt;li&gt;優點: 穩定&lt;/li&gt;
 &lt;li&gt;缺點: 有次數上限、驗證複雜&lt;/li&gt;
 &lt;li&gt;使用心得:&lt;br&gt;
-因為不用擔心像前一個方法跳出驗證就導致服務中斷，比起來穩定的多，可惜的是語音辨識多使用幾次後 Google 背後的 AI 會開始懷疑來源是自動化程式，一旦懷疑就會禁用語音驗證的功能，這時候就不能再用 Google Translate 來對付 Google reCAPTCHA 了。&lt;/li&gt;
+因為不用擔心像前一個方法跳出驗證就導致服務中斷，比起來穩定的多，可惜的是語音辨識多使用幾次後 Google 背後的 AI 會開始懷疑來源是自動化程式，一旦懷疑就會禁用語音驗證的功能，這時候就不能再用 Google Speech 來對付 reCAPTCHA 了。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;%E6%8F%9B%E5%BC%95%E6%93%8E-%3A-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E6%8F%9B%E5%BC%95%E6%93%8E-%3A-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86&quot;&gt;#&lt;/a&gt; 換引擎 : ★★★★☆&lt;/h3&gt;
 &lt;ul&gt;
@@ -5609,6 +5609,29 @@ Parse a query string into an object. Leading ? or # are ignored, so you can pass
 沒有限制後要自動化容易多了，不會綁手綁腳，唯一可惜的地方是 Bing 會過濾掉一些 Microsoft 認為重複或不重要的結果，Google 雖然預設也會過濾但可選擇顯示所有結果，很可惜 Bing 沒有提供這個選項，導致有機會漏掉一些資料，如果可以看到所有資料肯定給 5 顆星。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;前面為快速說明原理挑了一些簡單易懂的攻擊來示範，實際上還有更多更進階的用法，如果閱覽數量夠多，之後會再加開一篇分享一些更進階的用法與經典案例，有任何資安方面相關的問題都歡迎留言討論，或者直接到 Cymetrics 尋求協助。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第107期 前端開發推薦文章</title>
+		<link href="https://tech-blog.cymetrics.io/posts/larry/01/"/>
+		<updated>2021-11-16T08:00:00+08:00</updated>
+		<id>https://tech-blog.cymetrics.io/posts/larry/01/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;h3 id=&quot;%E8%A9%B2%E5%A6%82%E4%BD%95%E5%85%A5%E9%96%80-ctf-%E4%B8%AD%E7%9A%84-web-%E9%A1%8C%EF%BC%9F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E8%A9%B2%E5%A6%82%E4%BD%95%E5%85%A5%E9%96%80-ctf-%E4%B8%AD%E7%9A%84-web-%E9%A1%8C%EF%BC%9F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.techbridge.cc/2021/02/20/web-ctf-is-fun/?fbclid=IwAR2mOQnLA0NF7ukl8XLSBe03Ft2-F9qZR_8l9yj9Mg9H_LcKaCnmZ3FdE0Q&quot;&gt;該如何入門 CTF 中的 Web 題？&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;CTF 一直是個很有趣的比賽，參賽者必須要想辦法在網頁上尋找相對應的 flag 或者讓網頁產生一些奇怪的行為，雖然自己身為一位前端工程師但玩了 CTF 才知道自己原來對前端這麼不熟，想要一起了解 CTF 是甚麼的讀者歡迎閱讀這篇文章，之後就可以慢慢摸索一些 CTF 的練習題了！&lt;/p&gt;
+&lt;h3 id=&quot;custom-elements-defining-new-elements-in-html&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#custom-elements-defining-new-elements-in-html&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.html5rocks.com/en/tutorials/webcomponents/customelements/&quot;&gt;Custom Elements defining new elements in HTML&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;原來 HTML tag 是可以自己隨便定義一個出來的，不一定要是 HTML5 中規範的 tag，其實會突然分享這個文章也是因為上面的 CTF 有些技巧是需要用到這種手段才能達到的，所以假如讀者不知道 HTML tag 可以自己自定義的話也可以看看這篇文章，裡面都有一些作者對於自定義 tag 的見解。&lt;/p&gt;
+&lt;h3 id=&quot;css-tricks-to-create-that-dark-futuristic-web3-look&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#css-tricks-to-create-that-dark-futuristic-web3-look&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/trishathecookie/css-tricks-to-create-that-dark-futuristic-web3-look-53bm&quot;&gt;CSS Tricks to Create that Dark Futuristic Web3 Look&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;這個真的太酷了，沒想到 CSS 還有這麼多的玩法可以讓一個文字有這麼多不同的顯示方式，學會了這些技巧就不用擔心設計師突然設計出一個難以開發的樣式了XD&lt;/p&gt;
+&lt;h3 id=&quot;useref-or-usestate%2C-which-is-better%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#useref-or-usestate%2C-which-is-better%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/salehmubashar/useref-or-usestate-which-is-better-258j&quot;&gt;useRef or useState, which is better?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;雖然 &lt;code&gt;useRef&lt;/code&gt; 或 &lt;code&gt;useState&lt;/code&gt; 都可以存放想要的東西，在使用上貌似滿雷同的，但其實兩者對 Component render 的影響可是完全不一樣的！會分享這篇文章也是我突然想到 &lt;a href=&quot;https://swr.vercel.app/&quot;&gt;SWR&lt;/a&gt; 就是利用 &lt;code&gt;useRef&lt;/code&gt; 來存放 state 唷！&lt;/p&gt;
+&lt;h3 id=&quot;writing-clean-code-in-javascript&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#writing-clean-code-in-javascript&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.bitsrc.io/writing-clean-code-in-javascript-dd584bbe1874&quot;&gt;Writing Clean Code in JavaScript&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;JavaScript 在近幾年真的提供了很多方便的寫法，只要善用就可以讓程式碼變得更簡潔，當然同時也出現了各種古怪的寫法 😂，在使用上還是要考慮到之後的人容不容易看懂。&lt;/p&gt;
+&lt;h3 id=&quot;react-router-dom-6.x-%E7%89%88%E6%9C%AC-%E8%AE%A9%E6%88%91%F0%9F%90%93-%F0%9F%90%9D-%E4%BA%86&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#react-router-dom-6.x-%E7%89%88%E6%9C%AC-%E8%AE%A9%E6%88%91%F0%9F%90%93-%F0%9F%90%9D-%E4%BA%86&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://juejin.cn/post/7030700352622034952&quot;&gt;react-router-dom 6.x 版本 让我🐓 🐝 了&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;最近在研究 React 的專案配置時，一如往常地裝了 react-router-dom，然後依照記憶寫下程式碼，結果在執行後卻發現錯誤狂噴，原來是 react-router-dom 更新到 v6 後，一堆寫法都變了，而今天又看到這篇文章就覺得不分享不行，希望之後的人少走一點坑。&lt;/p&gt;
 
 		</content>
 	</entry>

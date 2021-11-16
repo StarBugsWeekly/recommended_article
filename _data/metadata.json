@@ -23,6 +23,11 @@
     "twitterHandle": ""
   },
   "authors": {
+    "larry": {
+      "name": "larry",
+      "intro": "遊走在前端與資安間，以開發者身份學習資安，也從資安重新學習前端",
+      "avatarUrl": "/img/authors/larry_logo.png"
+    },
     "huli": {
       "name": "huli",
       "intro": "遊走在前端與資安間，以開發者身份學習資安，也從資安重新學習前端",
