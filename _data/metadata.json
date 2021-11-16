@@ -6,8 +6,7 @@
   "genre": "Insert a schema.org genre",
   "googleAnalyticsId": "G-3VBVCXV9Z0",
   "sendWebVitals": false,
-  "facebookUrl": "https://www.facebook.com/Cymetrics-100957872049641",
-  "linkedinUrl": "https://www.linkedin.com/company/onedegree-hk",
+  "facebookUrl": "https://www.facebook.com/StarbugsWeekly/",
   "feed": {
     "subtitle": "StarBugs Weekly",
     "filename": "feed.xml",
@@ -25,27 +24,27 @@
   "authors": {
     "larry": {
       "name": "larry",
-      "intro": "遊走在前端與資安間，以開發者身份學習資安，也從資安重新學習前端",
+      "intro": "我是 Larry，傳說中的 0.1 倍工程師！",
       "avatarUrl": "/img/authors/larry_logo.png"
     },
     "gqsm": {
       "name": "gqsm",
-      "intro": "遊走在前端與資安間，以開發者身份學習資安，也從資安重新學習前端",
+      "intro": "Hi！我是神 Q 超人，一個先衝再說的男人。",
       "avatarUrl": "/img/authors/gqsm_logo.png"
     },
     "luka": {
-      "name": "luka",
-      "intro": "遊走在前端與資安間，以開發者身份學習資安，也從資安重新學習前端",
+      "name": "lukajojo",
+      "intro": "一名全身都是死角的工程師。",
       "avatarUrl": "/img/authors/luka_logo.png"
     },
     "smalltown": {
       "name": "smalltown",
-      "intro": "遊走在前端與資安間，以開發者身份學習資安，也從資安重新學習前端",
+      "intro": "熱愛鑽研各種可以提升雲端服務品質及增進團隊開發效率的開源技術。",
       "avatarUrl": "/img/authors/smalltown_logo.png"
     },
     "andy": {
       "name": "andy",
-      "intro": "遊走在前端與資安間，以開發者身份學習資安，也從資安重新學習前端",
+      "intro": "目標成為用嘴巴工作的工程師，專長為網頁開發以及 K8s。",
       "avatarUrl": "/img/authors/andy_logo.png"
     }
   },
