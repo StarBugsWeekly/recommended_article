@@ -47,46 +47,6 @@
       "name": "andy",
       "intro": "遊走在前端與資安間，以開發者身份學習資安，也從資安重新學習前端",
       "avatarUrl": "/img/authors/andy_logo.png"
-    },
-    "huli": {
-      "name": "huli",
-      "intro": "遊走在前端與資安間，以開發者身份學習資安，也從資安重新學習前端",
-      "avatarUrl": "/img/authors/huli_logo.jpg"
-    },
-    "mingyou": {
-      "name": "ming-you-tsai",
-      "intro": "Front-end Developer",
-      "avatarUrl": "/img/authors/mingyou_avatar.jpeg"
-    },
-    "nick": {
-      "name": "nick",
-      "intro": "Security",
-      "avatarUrl": "/img/authors/nick_logo.jpg"
-    },
-    "jo": {
-      "name": "jo",
-      "intro": "Love Cyber Security and commit to Cyber Security science popularization",
-      "avatarUrl": "/img/authors/jo_logo.png"
-    },
-    "crystal": {
-      "name": "crystal",
-      "intro": "Security newbie with a gallon of passion",
-      "avatarUrl": "/img/authors/crystal_logo.png"
-    },
-    "genchilu": {
-      "name": "genchilu",
-      "intro": "I am Genchi, a backend engineer in Taiwan.",
-      "avatarUrl": "/img/authors/genchilu_logo.jpeg"
-    },
-    "maxchiu": {
-      "name": "maxchiu",
-      "intro": "Fullstack rookie, also love developing games and visual computing",
-      "avatarUrl": "/img/authors/max_logo.jpeg"
-    },
-    "cymetrics": {
-      "name": "Cymetrics",
-      "intro": "Cymetrics 官方帳號",
-      "avatarUrl": "/img/authors/cymetrics_logo.png"
     }
   },
   "publisher": {

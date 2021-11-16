@@ -13,12 +13,73 @@
 	</author>
 	
 	<entry>
+		<title>第106期 前端開發 推薦文章</title>
+		<link href="https://tech-blog.cymetrics.io/posts/post/106/gqsm-106/"/>
+		<updated>2021-11-09T08:00:00+08:00</updated>
+		<id>https://tech-blog.cymetrics.io/posts/post/106/gqsm-106/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;h3 id=&quot;creating-a-react-component-with-tdd&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#creating-a-react-component-with-tdd&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/mbarzeev/creating-a-react-component-with-tdd-2jn8&quot;&gt;Creating a React component with TDD&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;看那麼多文章說了什麼是單元測試、什麼是 TDD 或是該如何對 Component 用 TDD 開發，這篇文章的作者直接示範了整個 TDD 開發 Component 的流程，很適合剛接觸測試、不知道如何對 Component 做測試或是想用測試改變開發方式的讀者們一讀！&lt;/p&gt;
+&lt;h3 id=&quot;understanding-the-box-model-in-css&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#understanding-the-box-model-in-css&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/yamanidev/understanding-the-box-model-in-css-1af&quot;&gt;Understanding The Box Model in CSS&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;CSS 的屬性那麼多，真的不需要全部都記起來，只需要在用到的時候去搜尋相關的語法就行了，&lt;strong&gt;但是這並不代表你可以忽略那些在 CSS 中的重要觀念&lt;/strong&gt;，這篇文章的作者講解了 CSS 的 Box Model（盒子模型），Box Model 是 CSS 非常重要的基本觀念，如果還不熟悉的話就快來看看這篇文章吧！&lt;/p&gt;
+&lt;h3 id=&quot;javascript-programming-styles%3A-best-practices&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#javascript-programming-styles%3A-best-practices&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.ma-no.org/en/programming/javascript/javascript-programming-styles-best-practices&quot;&gt;JavaScript Programming Styles: Best Practices&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;不知道大家有沒有在使用 ESLint 等工具在檢查你的程式碼風格，除了一些客製化的部分，比較常見的其他應該是 &lt;a href=&quot;https://google.github.io/styleguide/jsguide.html&quot;&gt;Google&lt;/a&gt; 和 &lt;a href=&quot;https://github.com/airbnb/javascript&quot;&gt;AirBnb&lt;/a&gt; ，這裡我就不戰哪種風格比較優秀，不如先來看看作者選擇每種寫法的差異和理由吧！或許也能想想自己除了習慣外為什麼選擇了某種風格！&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第106期 Testing 推薦文章</title>
+		<link href="https://tech-blog.cymetrics.io/posts/post/106/larry-106/"/>
+		<updated>2021-11-09T08:00:00+08:00</updated>
+		<id>https://tech-blog.cymetrics.io/posts/post/106/larry-106/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;testing&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#testing&quot;&gt;#&lt;/a&gt; Testing&lt;/h2&gt;
+&lt;h3 id=&quot;%E4%B8%80%E6%AC%A1%E6%90%9E%E6%87%82%E5%96%AE%E5%85%83%E6%B8%AC%E8%A9%A6%E3%80%81%E6%95%B4%E5%90%88%E6%B8%AC%E8%A9%A6%E3%80%81%E7%AB%AF%E5%B0%8D%E7%AB%AF%E6%B8%AC%E8%A9%A6%E4%B9%8B%E9%96%93%E7%9A%84%E5%B7%AE%E7%95%B0&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E4%B8%80%E6%AC%A1%E6%90%9E%E6%87%82%E5%96%AE%E5%85%83%E6%B8%AC%E8%A9%A6%E3%80%81%E6%95%B4%E5%90%88%E6%B8%AC%E8%A9%A6%E3%80%81%E7%AB%AF%E5%B0%8D%E7%AB%AF%E6%B8%AC%E8%A9%A6%E4%B9%8B%E9%96%93%E7%9A%84%E5%B7%AE%E7%95%B0&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.miniasp.com/post/2019/02/18/Unit-testing-Integration-testing-e2e-testing&quot;&gt;一次搞懂單元測試、整合測試、端對端測試之間的差異&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;大家都知道測試可以確保程式的正確性，但根據不同的目的，測試又可大略分成單元測試、整合測試、端對端測試三種，因此在真的開始寫測試之前，務必要先搞清楚你需要的是哪種測試，才不會花了一堆時間結果沒測到最重要的部分哦～&lt;/p&gt;
+&lt;h3 id=&quot;what&#39;s-in-a-story%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#what&#39;s-in-a-story%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dannorth.net/whats-in-a-story/&quot;&gt;What&#39;s in a Story?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;身為工程師，在跟 PM 溝通需求時最怕的就是 PM 以為他講清楚了，工程師也以為自己聽懂了，結果做出來後得到的回覆卻是「這不是我要的！」。所以在真的開始實作之前，雙方可以用 User Story 把各種 scenario 一一列出來，雙方都同意之後這些 scenario 也可以直接寫成測試，真的是非常省時間的一套方法&lt;/p&gt;
+&lt;h3 id=&quot;mocks-and-explicit-contracts&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#mocks-and-explicit-contracts&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;http://blog.plataformatec.com.br/2015/10/mocks-and-explicit-contracts/&quot;&gt;Mocks and explicit contracts&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;寫測試寫到一定程度之後，為了方便建立測試專用的環境，一定會需要用到 mock。而這篇文章雖然已經是多年前發表的，但我覺得他在講怎麼正確使用 mock 講得非常好，尤其是他內文有講到 mock 應該當作名詞而非動詞來用，看完之後覺得又更了解怎麼用 mock 跟 interface 了&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第106期 DevOps 推薦文章</title>
+		<link href="https://tech-blog.cymetrics.io/posts/post/106/smalltown-106/"/>
+		<updated>2021-11-09T08:00:00+08:00</updated>
+		<id>https://tech-blog.cymetrics.io/posts/post/106/smalltown-106/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;h3 id=&quot;just-7-remarkable-k8s-tools-boosting-up-your-effectiveness&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#just-7-remarkable-k8s-tools-boosting-up-your-effectiveness&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://getbetterdevops.io/7-essential-tools-to-be-more-efficient-on-kubernetes/&quot;&gt;Just 7 Remarkable K8S Tools Boosting Up Your Effectiveness&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Kubernetes 是目前負責管理 Container 和微服務的的主要平台，一般人在開始學習跟 K8s 互動時都是透過 &lt;code&gt;kubectl&lt;/code&gt;，它的確也真的扮演著很重要的角色，不過不知道使用者是否發現透過他一直在重複著一樣的動作，因而浪費掉寶貴的時間，所以這篇文章要介紹 7 個可以幫助使用者增進效率的工具：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/cloudnativelabs/kube-shell&quot;&gt;Kube-shell&lt;/a&gt;: 透過顯示豐富的資訊和提示來減少使用 kubectl 時可能產生的錯誤並且加快操作速度&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ahmetb/kubectx&quot;&gt;Kubectx - Kubens&lt;/a&gt;: 管理 Multi-Cluster 的必備工具，協助使用者切換不同的 Cluster&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/johanhaleby/kubetail&quot;&gt;Kubetail&lt;/a&gt;: 功能有點像是 &lt;code&gt;kubectl logs -f&lt;/code&gt;，但可以一次將多個 Pod 的 Log 同時顯示&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ahmetb/kubectl-tree&quot;&gt;Kubetree&lt;/a&gt;: K8s 的某些資源間其實是有親子關係的，透過此工具可以將資源間的關係視覺化呈現出來&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/derailed/k9s&quot;&gt;K9S&lt;/a&gt;: K9S 應該就不用多說了，強大的 K8s Terminal UI，讓你可以輕易地與 K8s Cluster 互動&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/robscott/kube-capacity&quot;&gt;Kube-Capacity&lt;/a&gt;: 顯示 K8s Cluster 中 Resource 的 Request, Limit 和使用程度&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://k8slens.dev/&quot;&gt;Lens&lt;/a&gt;: Lens 應該也是大家都耳熟能響的 K8s UI 工具，可以運行在各種系統中 (Windows, Linux 和 Mac)，讓使用者可以透過類似 IDE 的感覺來跟 K8s 互動&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;compliance-in-a-devops-culture&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#compliance-in-a-devops-culture&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://martinfowler.com/articles/devops-compliance.html&quot;&gt;Compliance in a DevOps Culture&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;將 Compliance Control 和 Audit 整合進 CI/CD 的流程，對於想要在 DevOps 文化中滿足 Security Compliance 是滿直覺的作法，但根據不同的組織大小會遭遇到不同的挑戰，了解透過不同的實作方式所可能造成的影響是導致成功與否的重要關鍵，文中從理論開始談起 (講解得很細)，隨後提到各種模式，例如：Manual Compliance, Pipeline Compoiance, Composition Compliance 和 Point-of-Change Compliance，對於這塊領域有興趣的人可以參考看看&lt;/p&gt;
+&lt;h3 id=&quot;anatomy-of-a-terminal-emulator&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#anatomy-of-a-terminal-emulator&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.poor.dev/blog/terminal-anatomy/&quot;&gt;Anatomy of a Terminal Emulator&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Terminal 是一個無所不在的平台，多年來一直相當穩定地存在著，雖然目前有大量的資源可以用來理解 Terminal 的內部運作方式，但其中大多數要嘛相當的神秘，或是需要特定領域的深入知識，所以這篇文章希望提供一個平易近人且相對廣泛容易了解的內容，來讓大家知道要開發一個 Terminal Emulator 平台時需要具備的知識&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第107期 前端開發 推薦文章</title>
 		<link href="https://tech-blog.cymetrics.io/posts/post/107/andy-107/"/>
 		<updated>2021-11-16T08:00:00+08:00</updated>
 		<id>https://tech-blog.cymetrics.io/posts/post/107/andy-107/</id>
 		<content type="html">
-		  &lt;h3 id=&quot;%E8%A9%B2%E5%A6%82%E4%BD%95%E5%85%A5%E9%96%80-ctf-%E4%B8%AD%E7%9A%84-web-%E9%A1%8C%EF%BC%9F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E8%A9%B2%E5%A6%82%E4%BD%95%E5%85%A5%E9%96%80-ctf-%E4%B8%AD%E7%9A%84-web-%E9%A1%8C%EF%BC%9F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.techbridge.cc/2021/02/20/web-ctf-is-fun/?fbclid=IwAR2mOQnLA0NF7ukl8XLSBe03Ft2-F9qZR_8l9yj9Mg9H_LcKaCnmZ3FdE0Q&quot;&gt;該如何入門 CTF 中的 Web 題？&lt;/a&gt;&lt;/h3&gt;
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;h3 id=&quot;%E8%A9%B2%E5%A6%82%E4%BD%95%E5%85%A5%E9%96%80-ctf-%E4%B8%AD%E7%9A%84-web-%E9%A1%8C%EF%BC%9F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E8%A9%B2%E5%A6%82%E4%BD%95%E5%85%A5%E9%96%80-ctf-%E4%B8%AD%E7%9A%84-web-%E9%A1%8C%EF%BC%9F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.techbridge.cc/2021/02/20/web-ctf-is-fun/?fbclid=IwAR2mOQnLA0NF7ukl8XLSBe03Ft2-F9qZR_8l9yj9Mg9H_LcKaCnmZ3FdE0Q&quot;&gt;該如何入門 CTF 中的 Web 題？&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;CTF 一直是個很有趣的比賽，參賽者必須要想辦法在網頁上尋找相對應的 flag 或者讓網頁產生一些奇怪的行為，雖然自己身為一位前端工程師但玩了 CTF 才知道自己原來對前端這麼不熟，想要一起了解 CTF 是甚麼的讀者歡迎閱讀這篇文章，之後就可以慢慢摸索一些 CTF 的練習題了！&lt;/p&gt;
 &lt;h3 id=&quot;custom-elements-defining-new-elements-in-html&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#custom-elements-defining-new-elements-in-html&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.html5rocks.com/en/tutorials/webcomponents/customelements/&quot;&gt;Custom Elements defining new elements in HTML&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;原來 HTML tag 是可以自己隨便定義一個出來的，不一定要是 HTML5 中規範的 tag，其實會突然分享這個文章也是因為上面的 CTF 有些技巧是需要用到這種手段才能達到的，所以假如讀者不知道 HTML tag 可以自己自定義的話也可以看看這篇文章，裡面都有一些作者對於自定義 tag 的見解。&lt;/p&gt;

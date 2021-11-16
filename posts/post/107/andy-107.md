@@ -8,6 +8,8 @@ tags: [Front-end]
 # image: /img/TheSpiritAndImplementationOfAOP/0____Bm36Dv5mm97e2vF.jpg
 ---
 
+## 前端開發
+
 ### [該如何入門 CTF 中的 Web 題？](https://blog.techbridge.cc/2021/02/20/web-ctf-is-fun/?fbclid=IwAR2mOQnLA0NF7ukl8XLSBe03Ft2-F9qZR_8l9yj9Mg9H_LcKaCnmZ3FdE0Q)
 
 CTF 一直是個很有趣的比賽，參賽者必須要想辦法在網頁上尋找相對應的 flag 或者讓網頁產生一些奇怪的行為，雖然自己身為一位前端工程師但玩了 CTF 才知道自己原來對前端這麼不熟，想要一起了解 CTF 是甚麼的讀者歡迎閱讀這篇文章，之後就可以慢慢摸索一些 CTF 的練習題了！

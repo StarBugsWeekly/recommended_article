@@ -16,10 +16,76 @@
     
     
     <url>
+      <loc>https://tech-blog.cymetrics.io/posts/post/106/gqsm-106/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2021-11-16T16:24:08.316Z</lastmod>
+    </url>
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+      
+    
+    
+    
+    <url>
+      <loc>https://tech-blog.cymetrics.io/posts/post/106/larry-106/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2021-11-16T16:21:48.692Z</lastmod>
+    </url>
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+      
+    
+    
+    
+    <url>
+      <loc>https://tech-blog.cymetrics.io/posts/post/106/smalltown-106/</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <lastmod>2021-11-16T16:41:25.173Z</lastmod>
+    </url>
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+      
+    
+    
+    
+    <url>
       <loc>https://tech-blog.cymetrics.io/posts/post/107/andy-107/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2021-11-16T12:48:31.649Z</lastmod>
+      <lastmod>2021-11-16T16:24:00.696Z</lastmod>
     </url>
   
   
@@ -41,7 +107,7 @@
       <loc>https://tech-blog.cymetrics.io/posts/post/107/gqsm-107/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2021-11-16T12:48:20.408Z</lastmod>
+      <lastmod>2021-11-16T14:12:24.640Z</lastmod>
     </url>
   
   
@@ -63,7 +129,7 @@
       <loc>https://tech-blog.cymetrics.io/posts/post/107/larry-107/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2021-11-16T12:48:05.241Z</lastmod>
+      <lastmod>2021-11-16T12:59:42.951Z</lastmod>
     </url>
   
   
@@ -85,7 +151,7 @@
       <loc>https://tech-blog.cymetrics.io/posts/post/107/smalltown-107/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
-      <lastmod>2021-11-16T12:47:58.848Z</lastmod>
+      <lastmod>2021-11-16T14:10:50.343Z</lastmod>
     </url>
   
   
@@ -192,6 +258,9 @@
   
   
   
+  
+  
+  
     
     
     
@@ -208,7 +277,7 @@
       <loc>https://tech-blog.cymetrics.io/</loc>
       <changefreq>daily</changefreq>
       <priority>1</priority>
-      <lastmod>2021-11-16T12:24:44.009Z</lastmod>
+      <lastmod>2021-11-16T17:48:03.207Z</lastmod>
     </url>
   
 </urlset>

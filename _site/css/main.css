@@ -1326,8 +1326,9 @@ header nav {
   padding: 0.375rem 1.5rem;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
+  font-weight: 400;
 }
 #nav .nav-title * {
   margin: 0;
@@ -1364,9 +1365,10 @@ header nav {
 }
 
 .nav-logo {
-  width: 260px;
+  width: 40px;
   height: 40px;
-  background: url(/img/logo1.png) no-repeat center center;
+  /* background: url(/img/logo3.png) no-repeat center center; */
+  display: none;
   background-size: contain;
 }
 
@@ -1711,7 +1713,7 @@ footer > * {
   }
 
   .nav-logo {
-    width: 313px;
+    /* width: 313px; */
   }
 
 
