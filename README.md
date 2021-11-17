@@ -5,7 +5,8 @@ Website: https://weekly.starbugs.dev/
 ## Contribution
 
 1. fork current repository to your account
-2. add a new post in 
+2. create a new issue by issue template
+3. add a new file to `src/posts/starbugs-weekly/contribution`
 
 ## Development
 
