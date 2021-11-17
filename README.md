@@ -14,6 +14,7 @@ Website: https://weekly.starbugs.dev/
 npm install
 npm run watch
 ```
+
 ## Deployment 
 
 Deployment is trigger by release.

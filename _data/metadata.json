@@ -25,27 +25,32 @@
     "larry": {
       "name": "larry",
       "intro": "我是 Larry，傳說中的 0.1 倍工程師！",
-      "avatarUrl": "/img/authors/larry_logo.png"
+      "avatarUrl": "/img/authors/larry_logo.png",
+      "site": "https://larry850806.medium.com/"
     },
     "gqsm": {
       "name": "gqsm",
       "intro": "Hi！我是神 Q 超人，一個先衝再說的男人。",
-      "avatarUrl": "/img/authors/gqsm_logo.png"
+      "avatarUrl": "/img/authors/gqsm_logo.png",
+      "site": "https://gqsm.medium.com/"
     },
     "luka": {
       "name": "lukajojo",
       "intro": "一名全身都是死角的工程師。",
-      "avatarUrl": "/img/authors/luka_logo.png"
+      "avatarUrl": "/img/authors/luka_logo.png",
+      "site": "https://lukajojo.medium.com/"
     },
     "smalltown": {
       "name": "smalltown",
       "intro": "熱愛鑽研各種可以提升雲端服務品質及增進團隊開發效率的開源技術。",
-      "avatarUrl": "/img/authors/smalltown_logo.png"
+      "avatarUrl": "/img/authors/smalltown_logo.png",
+      "site": ""
     },
     "andy": {
       "name": "andy",
       "intro": "目標成為用嘴巴工作的工程師，專長為網頁開發以及 K8s。",
-      "avatarUrl": "/img/authors/andy_logo.png"
+      "avatarUrl": "/img/authors/andy_logo.png",
+      "site": "https://medium.com/@w5151381guy"
     }
   },
   "publisher": {
