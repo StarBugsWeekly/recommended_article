@@ -1236,11 +1236,11 @@ header aside {
 }
 
 .post-read-more a {
-  color: #002282;
+  color: #000;
 }
 
 .post-read-more a:hover {
-  color: #3254B4;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -1663,16 +1663,18 @@ footer > * {
 }
 
 .tag-list__item {
-  background: #ececec;
+  /* background: #ececec; */
   border-radius: 100px;
-  padding: 10px 20px;
-  font-size: 16px;
-  color: var(--fg);
+  padding: 10px 15px;
+  font-size: 24px;
+  color: #000;
+  /* border: 2px solid; */
+  margin-right: 5px;
 }
 
 .tag-list__item:hover {
   text-decoration: none;
-  background: #CCCCCC;
+  /* background: #CCCCCC; */
 }
 
 .tag-list__item--active {
