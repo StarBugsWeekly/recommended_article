@@ -1,7 +1,7 @@
 {
   "title": "StarBugs Weekly",
-  "url": "https://tech-blog.cymetrics.io",
-  "domain": "tech-blog.cymetrics.io",
+  "url": "https://starbugs-blog.netlify.app",
+  "domain": "starbugs-blog.netlify.app",
   "description": "StarBugs Weekly",
   "genre": "Insert a schema.org genre",
   "googleAnalyticsId": "G-3VBVCXV9Z0",
@@ -16,7 +16,7 @@
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://tech-blog.cymetrics.io/feed/feed.json"
+    "url": "https://starbugs-blog.netlify.app/feed/feed.json"
   },
   "author": {
     "name": "StarBugs Weekly",
