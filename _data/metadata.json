@@ -7,11 +7,12 @@
   "googleAnalyticsId": "G-3VBVCXV9Z0",
   "sendWebVitals": false,
   "facebookUrl": "https://www.facebook.com/StarbugsWeekly/",
+  "websiteUrl": "https://weekly.starbugs.dev/",
   "feed": {
     "subtitle": "StarBugs Weekly",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://tech-blog.cymetrics.io"
+    "id": "https://starbugs-blog.netlify.app/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
