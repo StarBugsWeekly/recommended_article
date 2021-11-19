@@ -1,6 +1,6 @@
 /* Color customization */
 :root {
-  --primary-color: #5789d3;
+  --primary-color: #ffd349;
   --primary-dark-color: #ffd349;
   --fgColor: #2f2f2f;
   --bgColor: linear-gradient(to top, #efefef, #ffffff);;
@@ -662,7 +662,9 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color:var(--primary);;
+  transition: all 0.2s ease-in-out;
 }
 small {
   color: #ccc;
@@ -1103,7 +1105,7 @@ mark {
 }
 
 a {
-  color: var(--primary);
+  color: #000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
