@@ -71,19 +71,12 @@
       "intro": "目標成為用嘴巴工作的工程師，專長為網頁開發以及 K8s。",
       "avatarUrl": "/img/authors/andy_logo.png",
       "site": "https://medium.com/@w5151381guy"
-    },
+    }
+  },
+  "contributors": {
     "starbugs": {
       "name": "starbugs",
       "intro": "星巴哥技術週刊",
-      "avatarUrl": "/img/authors/starbugs_logo.jpg",
-      "site": "https://weekly.starbugs.dev/"
-    }
-
-  },
-  "contributors": {
-    "example": {
-      "name": "example",
-      "intro": "範例",
       "avatarUrl": "/img/authors/starbugs_logo.jpg",
       "site": "https://weekly.starbugs.dev/"
     }
