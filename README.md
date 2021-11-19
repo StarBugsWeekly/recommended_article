@@ -22,7 +22,7 @@ Deployment is trigger by release.
 ## Reference
 
 - [Eleventy Documentation](https://www.11ty.dev/docs/collections/)
-- [Nunjucks 文件](https://mozilla.github.io/nunjucks/templating.html)
+- [Nunjucks template document](https://mozilla.github.io/nunjucks/templating.html)
 
 ## the project forks from the following projects: 
 
