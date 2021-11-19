@@ -1365,11 +1365,17 @@ header nav {
 }
 
 .nav-logo {
-  width: 40px;
-  height: 40px;
+  /* width: 40px; */
+  /* height: 40px; */
   /* background: url(/img/logo3.png) no-repeat center center; */
-  display: none;
-  background-size: contain;
+  /* display: none; */
+  /* background-size: contain; */
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-logo:hover{
+  text-decoration: none;
 }
 
 footer {
