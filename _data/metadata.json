@@ -21,7 +21,7 @@
     "name": "StarBugs Weekly",
     "twitterHandle": ""
   },
-  "authors": {
+  "maintainers": {
     "larry": {
       "name": "larry",
       "intro": "我是 Larry，傳說中的 0.1 倍工程師！",
@@ -40,6 +40,12 @@
       "avatarUrl": "/img/authors/luka_logo.png",
       "site": "https://lukajojo.medium.com/"
     },
+    "starbugs": {
+      "name": "starbugs",
+      "intro": "星巴哥技術週刊",
+      "avatarUrl": "/img/authors/starbugs_logo.jpg",
+      "site": "https://weekly.starbugs.dev/"
+    },
     "smalltown": {
       "name": "smalltown",
       "intro": "熱愛鑽研各種可以提升雲端服務品質及增進團隊開發效率的開源技術。",
@@ -51,6 +57,14 @@
       "intro": "目標成為用嘴巴工作的工程師，專長為網頁開發以及 K8s。",
       "avatarUrl": "/img/authors/andy_logo.png",
       "site": "https://medium.com/@w5151381guy"
+    }
+  },
+  "authors": {
+    "example":{
+      "name": "example",
+      "intro": "貢獻者範例",
+      "avatarUrl": "/img/authors/starbugs_logo.jpg",
+      "site": "https://weekly.starbugs.dev/"
     }
   },
   "publisher": {

@@ -10,6 +10,21 @@ templateClass: tmpl-about
 
 {{ content | safe }}
 
+<h2>維護者列表</h2>
+<div class="about-items">
+{% for key, maintainer in metadata.maintainers %}
+    <div class="about-item">
+      <img data-deopt="true" loading="lazy" class="about-item__img" src="{{ maintainer.avatarUrl }}" alt="{{ maintainer.name }}">
+      <div class="about-item__info">
+        <h4 class="about-item__author"><a href="{{maintainer.site}}">{{ maintainer.name }}</a></h4>
+        <p class="about-item__intro">{{ maintainer.intro | safe }}</p>
+      </div>
+    </div>
+{% endfor %}
+</div>
+
+<h2>作者列表</h2>
+
 <div class="about-items">
 {% for key, author in metadata.authors %}
     <div class="about-item">
