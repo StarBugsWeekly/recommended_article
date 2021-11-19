@@ -40,29 +40,50 @@
       "avatarUrl": "/img/authors/luka_logo.png",
       "site": "https://lukajojo.medium.com/"
     },
-    "starbugs": {
-      "name": "starbugs",
-      "intro": "星巴哥技術週刊",
-      "avatarUrl": "/img/authors/starbugs_logo.jpg",
-      "site": "https://weekly.starbugs.dev/"
-    },
     "smalltown": {
       "name": "smalltown",
       "intro": "熱愛鑽研各種可以提升雲端服務品質及增進團隊開發效率的開源技術。",
       "avatarUrl": "/img/authors/smalltown_logo.png",
       "site": ""
+    }
+  },
+  "authors": {
+    "hannah" :{
+      "name": "Hannah Lin",
+      "intro": "從台灣到矽谷，熱愛前端的工程師女孩。",
+      "avatarUrl": "/img/authors/hannah_logo.jpeg",
+      "site": "https://hannahlin.medium.com/"
+    },
+    "kyle" :{
+      "name": "Kyle Mo",
+      "intro": "雜食性軟體工程師，喜歡的技術我都想學。",
+      "avatarUrl": "/img/authors/kyle_logo.jpeg",
+      "site": "https://oldmo860617.medium.com/"
+    },
+    "airwaves":{
+      "name": "airwaves",
+      "intro": "Hi~我是 Airwaves，熱愛研究如何造輪子的前端工程師。",
+      "avatarUrl": "/img/authors/airwaves_logo.png",
+      "site": "https://airwaves.medium.com/"
     },
     "andy": {
       "name": "andy",
       "intro": "目標成為用嘴巴工作的工程師，專長為網頁開發以及 K8s。",
       "avatarUrl": "/img/authors/andy_logo.png",
       "site": "https://medium.com/@w5151381guy"
+    },
+    "starbugs": {
+      "name": "starbugs",
+      "intro": "星巴哥技術週刊",
+      "avatarUrl": "/img/authors/starbugs_logo.jpg",
+      "site": "https://weekly.starbugs.dev/"
     }
+
   },
-  "authors": {
-    "example":{
+  "contributors": {
+    "example": {
       "name": "example",
-      "intro": "貢獻者範例",
+      "intro": "範例",
       "avatarUrl": "/img/authors/starbugs_logo.jpg",
       "site": "https://weekly.starbugs.dev/"
     }
