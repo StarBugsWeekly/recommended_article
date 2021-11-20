@@ -18,7 +18,7 @@ Website: https://weekly.starbugs.dev/
 
 ### First-time contribution
 
-If you contribute this repo first-time, you should add information to `metadata.json` to keep the article working fine.
+If you contribute this repo first-time, you should add information to `_data/metadata.json` to keep the article working fine.
 
 ```json
   ...
