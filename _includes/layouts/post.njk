@@ -4,7 +4,12 @@ templateClass: tmpl-post
 ---
 {% extends "layouts/base.njk" %}
 
-{% set postAuthor = metadata.maintainers[author] or metadata.authors[author] or metadata.contributors[author] %}
+{% 
+  set postAuthor = metadata.maintainers[author] 
+    or metadata.authors[author] 
+    or metadata.contributors[author] 
+    or metadata.founders[author] 
+%}
 
 {% block extraArticleHeader %}
    <aside class="w-full">

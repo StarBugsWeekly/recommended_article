@@ -22,7 +22,7 @@
     "name": "StarBugs Weekly",
     "twitterHandle": ""
   },
-  "maintainers": {
+  "founders": {
     "larry": {
       "name": "larry",
       "intro": "我是 Larry，傳說中的 0.1 倍工程師！",
@@ -52,13 +52,13 @@
     "hannah" :{
       "name": "Hannah Lin",
       "intro": "從台灣到矽谷，熱愛前端的工程師女孩。",
-      "avatarUrl": "/img/authors/hannah_logo.jpeg",
+      "avatarUrl": "/img/authors/hannah_logo.png",
       "site": "https://hannahlin.medium.com/"
     },
     "kyle" :{
       "name": "Kyle Mo",
       "intro": "雜食性軟體工程師，喜歡的技術我都想學。",
-      "avatarUrl": "/img/authors/kyle_logo.jpeg",
+      "avatarUrl": "/img/authors/kyle_logo.png",
       "site": "https://oldmo860617.medium.com/"
     },
     "airwaves":{
@@ -74,11 +74,19 @@
       "site": "https://medium.com/@w5151381guy"
     }
   },
+  "maintainers":{
+    "rico":{
+      "name": "rico",
+      "intro": "熱愛許多技術且努力看透技術的本質，如果有什麼好玩的技術，還請各位歡迎直接找我聊聊。",
+      "avatarUrl": "/img/authors/rico_logo.png",
+      "site": "https://github.com/RicoToothless"
+    }
+  },
   "contributors": {
     "starbugs": {
       "name": "starbugs",
       "intro": "星巴哥技術週刊",
-      "avatarUrl": "/img/authors/starbugs_logo.jpg",
+      "avatarUrl": "/img/authors/starbugs_logo.png",
       "site": "https://weekly.starbugs.dev/"
     }
   },

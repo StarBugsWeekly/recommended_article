@@ -10,7 +10,8 @@ templateClass: tmpl-about
 
 {{ content | safe }}
 
-<h2>創辦人 Founders</h2>
+
+<h2>維護者 Maintainer</h2>
 <div class="about-items">
 {% for key, maintainer in metadata.maintainers %}
     <div class="about-item">
@@ -37,7 +38,22 @@ templateClass: tmpl-about
 {% endfor %}
 </div>
 
-<h2>貢獻者列表 Contributers</h2>
+<h2>創辦人 Founders</h2>
+<div class="about-items">
+{% for key, founder in metadata.founders %}
+    <div class="about-item">
+      <img data-deopt="true" loading="lazy" class="about-item__img" src="{{ founder.avatarUrl }}" alt="{{ founder.name }}">
+      <div class="about-item__info">
+        <h4 class="about-item__author"><a href="{{founder.site}}">{{ founder.name }}</a></h4>
+        <p class="about-item__intro">{{ founder.intro | safe }}</p>
+      </div>
+    </div>
+{% endfor %}
+</div>
+
+
+
+<h2>貢獻者列表 Contributer</h2>
 
 <div class="about-items">
 {% for key, author in metadata.contributors %}
@@ -51,4 +67,7 @@ templateClass: tmpl-about
 {% endfor %}
 </div>
 
+
+
 {% endblock %}
+

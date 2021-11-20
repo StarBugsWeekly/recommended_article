@@ -1,6 +1,11 @@
 <div class="postlist">
 {% for post in postslist %}
-  {% set author = metadata.maintainers[post.data.author] or metadata.authors[post.data.author] or metadata.contributors[post.data.author] %}
+  {% 
+    set author = metadata.maintainers[post.data.author] 
+      or metadata.authors[post.data.author] 
+      or metadata.contributors[post.data.author] 
+      or metadata.founders[post.data.author] 
+  %}
   <div class="postlist__item">
     <div class="postlist__time">
       <time datetime="{{ post.date | htmlDateString }}">{{ post.date | htmlDateString }}</time>

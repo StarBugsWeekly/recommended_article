@@ -1,5 +1,10 @@
 {% for post in postslist %}
-  {% set author = metadata.maintainers[post.data.author] or metadata.authors[post.data.author] or metadata.contributors[post.data.author] %}
+  {% 
+    set author = metadata.maintainers[post.data.author] 
+      or metadata.authors[post.data.author] 
+      or metadata.contributors[post.data.author] 
+      or metadata.founders[post.data.author] 
+  %}
   <div class="post">
     <h2 class="post-title">
       <a href="{{ post.url | url }}">{{ post.data.title | safe }}</a>
