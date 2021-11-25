@@ -938,7 +938,7 @@ article {
   margin: 0 auto;
   word-break: break-word;
 }
-article p a {
+article p a, aside a {
   text-decoration-line: underline;
 }
 ol,
