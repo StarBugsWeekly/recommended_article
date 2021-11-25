@@ -9,11 +9,11 @@ tags: [DevOps]
 ---
 
 ## DevOps
-
+<!-- summary -->
 ### [Announcing Grafana OnCall, the easiest way to do on-call management](https://grafana.com/blog/2021/11/09/announcing-grafana-oncall/)
 
 在維運服務時，系統總是會有遇到問題需要求救的時候，設定一個彈性又有效的 On Call 輪值方式是相當重要的一件事情，很多既有的工具使用起來要嘛很麻煩，要嘛對於開發者來說很不友善，所以 Grafana 宣布推出簡單易用的 Grafana On Call 管理工具，用來降低管理 On Call 輪值所需要的功夫，目前在 Grafana Cloud 為 Beta 公測階段；Grafana On Call 主要是透過今年所收購 Amixr Inc 所開發出來的，而他主要有以下三個特點：
-
+<!-- summary -->
 - 簡單建立跟管理 On-Call 時程
 - 利用自動逐步升級 (Escalation)且彈性的引導方式 (Routing) 確保找到人協助系統問題
 - 讓 On-Call 與 Incidnet 的狀態在同一個 UI 中顯現管理

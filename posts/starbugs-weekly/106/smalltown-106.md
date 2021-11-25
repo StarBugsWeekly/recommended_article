@@ -8,11 +8,11 @@ tags: [DevOps]
 ---
 
 ## DevOps
-
+<!-- summary -->
 ### [Just 7 Remarkable K8S Tools Boosting Up Your Effectiveness](https://getbetterdevops.io/7-essential-tools-to-be-more-efficient-on-kubernetes/)
 
 Kubernetes 是目前負責管理 Container 和微服務的的主要平台，一般人在開始學習跟 K8s 互動時都是透過 `kubectl`，它的確也真的扮演著很重要的角色，不過不知道使用者是否發現透過他一直在重複著一樣的動作，因而浪費掉寶貴的時間，所以這篇文章要介紹 7 個可以幫助使用者增進效率的工具：
-
+<!-- summary -->
 1. [Kube-shell](https://github.com/cloudnativelabs/kube-shell): 透過顯示豐富的資訊和提示來減少使用 kubectl 時可能產生的錯誤並且加快操作速度
 2. [Kubectx - Kubens](https://github.com/ahmetb/kubectx): 管理 Multi-Cluster 的必備工具，協助使用者切換不同的 Cluster
 3. [Kubetail](https://github.com/johanhaleby/kubetail): 功能有點像是 `kubectl logs -f`，但可以一次將多個 Pod 的 Log 同時顯示

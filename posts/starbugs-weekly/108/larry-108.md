@@ -8,10 +8,11 @@ tags: [Rust, Back-end]
 ---
 
 ## Rust
-
+<!-- summary -->
 ### [Supercharge your NodeJS with Rust](https://skwee357.medium.com/supercharge-your-nodejs-with-rust-f78952d2fa8)
 
 Rust 開發起來很慢，光是要成功編譯就不行，但執行速度非常的快；而 Node.js 則是開發起來很快，但執行速度相對就慢很多。那有什麼什麼方法可以將兩者結合起來呢？這篇文章介紹了 Neon，他可以幫你把 Rust 程式碼編譯成 native Node.js module，這樣你就可以把最需要效能的地方用 Rust 寫，接著 Node.js 裡面使用它就能兼顧開發效率跟效能囉
+<!-- summary -->
 
 ### [What Rust could learn from Kotlin](https://medium.com/@cedricbeust/what-rust-could-learn-from-kotlin-b32ebe2da28d)
 

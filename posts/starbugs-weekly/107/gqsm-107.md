@@ -9,11 +9,11 @@ tags: [Front-end]
 ---
 
 ## 前端開發
-
+<!-- summary -->
 ### [useRef or useState, which is better?](https://dev.to/salehmubashar/useref-or-usestate-which-is-better-258j)
 
 雖然 `useRef` 或 `useState` 都可以存放想要的東西，在使用上貌似滿雷同的，但其實兩者對 Component render 的影響可是完全不一樣的！會分享這篇文章也是我突然想到 [SWR](https://swr.vercel.app/) 就是利用 `useRef` 來存放 state 唷！
-
+<!-- summary -->
 ### [Writing Clean Code in JavaScript](https://blog.bitsrc.io/writing-clean-code-in-javascript-dd584bbe1874)
 
 JavaScript 在近幾年真的提供了很多方便的寫法，只要善用就可以讓程式碼變得更簡潔，當然同時也出現了各種古怪的寫法 😂，在使用上還是要考慮到之後的人容不容易看懂。

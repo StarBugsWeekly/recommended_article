@@ -9,11 +9,11 @@ tags: [Go, Back-end]
 ---
 
 ## Go
-
+<!-- summary -->
 ### [Upcoming Features in Go 1.18](https://sebastian-holstein.de/post/2021-11-08-go-1.18-features/)
 
 除了泛型之外，預計在明年發布的 Go 1.18 其實還有一些其他 feature，像是用來做測試的 fuzzing、聽說（？）更快的 go fmt，還有新的 net/netip package，看完都等不及要開始用了
-
+<!-- summary -->
 ### [Best Practices for Testing in Go](https://fossa.com/blog/golang-best-practices-testing-go/)
 
 這篇文章除了跟你說在寫測試時有哪些該注意的重點之外，也教你怎麼把 function/struct 設計得更好測試，如果你最近想寫 unit test 來增加程式的可靠性，卻發現不知道從何著手，那可以參考看看這篇文章

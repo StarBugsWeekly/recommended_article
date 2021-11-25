@@ -8,11 +8,11 @@ tags: [Software Engineering]
 ---
 
 ## Testing
-
+<!-- summary -->
 ### [一次搞懂單元測試、整合測試、端對端測試之間的差異](https://blog.miniasp.com/post/2019/02/18/Unit-testing-Integration-testing-e2e-testing)
 
 大家都知道測試可以確保程式的正確性，但根據不同的目的，測試又可大略分成單元測試、整合測試、端對端測試三種，因此在真的開始寫測試之前，務必要先搞清楚你需要的是哪種測試，才不會花了一堆時間結果沒測到最重要的部分哦～
-
+<!-- summary -->
 ### [What's in a Story?](https://dannorth.net/whats-in-a-story/)
 
 身為工程師，在跟 PM 溝通需求時最怕的就是 PM 以為他講清楚了，工程師也以為自己聽懂了，結果做出來後得到的回覆卻是「這不是我要的！」。所以在真的開始實作之前，雙方可以用 User Story 把各種 scenario 一一列出來，雙方都同意之後這些 scenario 也可以直接寫成測試，真的是非常省時間的一套方法
