@@ -17,7 +17,7 @@
         <a href="{{ post.url | url }}"> Read More</a>
       </div>
       <div class="post-footer">
-        <a href="/posts/{{ post.data.author }}" class="author-link">
+        <a href="/posts/author/{{ post.data.author }}" class="author-link">
           <img src="{{ author.avatarUrl}}" class="avatar-small" alt="avatar" />
           <span class="post-author">{{ author.name }}</span>
         </a> on <time class="post-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | htmlDateString }}</time>

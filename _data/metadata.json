@@ -24,19 +24,19 @@
   },
   "founders": {
     "larry": {
-      "name": "larry",
+      "name": "Larry Lu",
       "intro": "我是 Larry，傳說中的 0.1 倍工程師！",
       "avatarUrl": "/img/authors/larry_logo.png",
       "site": "https://larry850806.medium.com/"
     },
     "gqsm": {
-      "name": "gqsm",
+      "name": "神Q超人",
       "intro": "Hi！我是神 Q 超人，一個先衝再說的男人。",
       "avatarUrl": "/img/authors/gqsm_logo.png",
       "site": "https://gqsm.medium.com/"
     },
     "luka": {
-      "name": "lukajojo",
+      "name": "Luka",
       "intro": "我是 Luka，一名全身都是死角的開發者。",
       "avatarUrl": "/img/authors/luka_logo.png",
       "site": "https://lukajojo.medium.com/"
