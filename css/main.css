@@ -938,6 +938,9 @@ article {
   margin: 0 auto;
   word-break: break-word;
 }
+article p a {
+  text-decoration-line: underline;
+}
 ol,
 ul {
   margin-top: 0;
