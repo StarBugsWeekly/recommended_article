@@ -1,5 +1,5 @@
 <div class="tag-list">
-  {% set allowTags = ['Activity', 'Front-end', 'Back-end', 'DevOps', 'Computer Science', 'Software Engineering'] %}
+  {% set allowTags = ['Conference', 'Front-end', 'Back-end', 'DevOps', 'Computer Science', 'Software Engineering'] %}
   {% for tag in collections.tagList %}
     {% if tag in allowTags %}
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
