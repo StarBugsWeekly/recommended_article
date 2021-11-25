@@ -1,0 +1,9 @@
+---
+layout: layouts/common.njk
+title: Luka 的文章列表
+eleventyExcludeFromCollections: true
+---
+
+{% set postslist = collections.posts %}
+{% set author = 'luka' %}
+{% include "author-postslist.njk" %}
