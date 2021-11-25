@@ -70,7 +70,7 @@ templateClass: tmpl-post
       Author
     </div>
     <div class="article-author__author">
-      <a href="/posts/{{ author }}">{{ postAuthor.name }}</a>
+      <a href="{{ postAuthor.site }}">{{ postAuthor.name }}</a>
     </div>
     <div class="article-author__intro">
       {{ postAuthor.intro | safe }}
