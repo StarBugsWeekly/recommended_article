@@ -8,13 +8,20 @@ Website: https://weekly.starbugs.dev/
 
 1. fork a current repository to your account
 2. create a new issue via an issue template
-3. add a new file to directory `posts/starbugs-weekly/contribution`
+3. add a new file to directory `posts/contribution`
+
+### Contribute a conference
+
+1. fork a current repository to your account
+2. create a new issue via an issue template
+3. add a new file to directory `posts/conference`
 
 ### Contribute an activity
 
 1. fork a current repository to your account
 2. create a new issue via an issue template
-3. add a new file to directory `posts/starbugs-weekly/activities`
+3. add a new file to directory `posts/activity`
+
 
 ### First-time contribution
 
