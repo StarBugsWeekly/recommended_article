@@ -1,7 +1,7 @@
 # StarBugs Weekly
 
-Website: https://starbugs-blog.netlify.app/
-Official Website: https://weekly.starbugs.dev/
+- Website: https://starbugs-blog.netlify.app/
+- Official Website: https://weekly.starbugs.dev/
 
 ## Contribution
 
