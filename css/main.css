@@ -1413,6 +1413,10 @@ footer > * {
   flex-wrap: wrap;
 }
 
+.post-tag, .post-avatar__author a{
+  text-decoration: none;
+}
+
 .direct-link {
   display: none;
 }
