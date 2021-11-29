@@ -1,5 +1,5 @@
 ---
-title: 第106期 前端開發 推薦文章
+title: 第 106 期 前端開發 推薦文章
 date: 2021-11-09
 author: gqsm
 layout: layouts/post.njk

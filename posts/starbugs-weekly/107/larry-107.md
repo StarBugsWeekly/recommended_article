@@ -1,5 +1,5 @@
 ---
-title: 第107期 Go 推薦文章
+title: 第 107 期 Go 推薦文章
 date: 2021-11-16
 author: larry
 

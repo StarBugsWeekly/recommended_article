@@ -1,5 +1,5 @@
 ---
-title: 第108期 DevOps 推薦文章
+title: 第 108 期 DevOps 推薦文章
 date: 2021-11-23
 author: smalltown
 
@@ -18,7 +18,7 @@ Uber 的後端系統算是 MicroService 架構的榜樣，其中有數千個 Mic
 
 CloudQuery 可以將在雲端的資源資訊給萃取出來，將其轉化為 PostgreSQL Table 的資料，主要的使用情境有底下三種：
 
-- Search: 使用標準的 SQL 語法去搜尋雲端資源 
+- Search: 使用標準的 SQL 語法去搜尋雲端資源
 - Visualize:將資料透過 BI 或是視覺化工具呈現出來，例如 Grafana, QuickSight...等
 - Policy as Code: 將 Security 和 Compliance 規則寫成 SQL 語法用以達成 PaC
 <!-- summary -->

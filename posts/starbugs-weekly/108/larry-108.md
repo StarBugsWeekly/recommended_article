@@ -1,5 +1,5 @@
 ---
-title: 第108期 Rust 推薦文章
+title: 第 108 期 Rust 推薦文章
 date: 2021-11-23
 author: larry
 
