@@ -4,7 +4,7 @@
   "domain": "starbugs-blog.netlify.app",
   "description": "StarBugs Weekly",
   "genre": "Insert a schema.org genre",
-  "googleAnalyticsId": "G-3VBVCXV9Z0",
+  "googleAnalyticsId": "",
   "sendWebVitals": false,
   "facebookUrl": "https://www.facebook.com/StarbugsWeekly/",
   "websiteUrl": "https://weekly.starbugs.dev/",
