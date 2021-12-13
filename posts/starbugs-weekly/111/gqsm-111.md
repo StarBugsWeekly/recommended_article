@@ -19,6 +19,6 @@ tags: [Front-end]
 
 作者提出用 Ternary operator、Switch Case、Short Circuit、Guard clauses 和 Function delegation 改善了 if...else 的寫法，可以思考哪種方式更適合目前的情境。
 
-### [7 useful HTML attributes you may not know]https://dev.to/simonpaix/7-useful-html-attributes-you-may-not-know-7mn)
+### [7 useful HTML attributes you may not know](https://dev.to/simonpaix/7-useful-html-attributes-you-may-not-know-7mn)
 
 所有的屬性都滿少見，但是在特定用途上又非常實用，可以稍微掃視了解一下。還有第一個留言也提到可以用 designMode 使整個網站變得可修改，方便做一些初期設計工作。
