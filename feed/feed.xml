@@ -494,6 +494,25 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 	
 	<entry>
 		<title>第 111 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/111/andy-111/"/>
+		<updated>2021-12-14T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/111/andy-111/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;a-complete-guide-to-incremental-static-regeneration-(isr)-with-next.js&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#a-complete-guide-to-incremental-static-regeneration-(isr)-with-next.js&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.smashingmagazine.com/2021/04/incremental-static-regeneration-nextjs/&quot;&gt;A Complete Guide To Incremental Static Regeneration (ISR) With Next.js&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在 Next.js 中有一個相當重要的設定叫：Incremental Static Regeneration (ISR)，拜 ISR 所賜假如只有該頁面需要更新內容，可以只重 build 該頁面即可，不需要重 build 整個專案，對於 SSG 渲染方式來說可說是相當好用的一把利器，想要了解 Next.js ISR 的完整介紹，不妨可以參考這篇文章。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;keeping-things-fresh-with-stale-while-revalidate&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#keeping-things-fresh-with-stale-while-revalidate&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://web.dev/stale-while-revalidate/&quot;&gt;Keeping things fresh with stale-while-revalidate&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;stale-while-revalidate (SWR) 可以說是相當重要的一個 cache 處理機制，有了這套機制可以讓使用者在面對一個內容確定過期的頁面不會在一開始進入過長的等待，瀏覽器會先從 cache 返回之前的內容，並同時更新要顯示的正確內容，待下次使用者重新進入此頁面時就會是最新的內容了，有興趣了解 SWR 機制的可以參考看看這篇文章。&lt;/p&gt;
+&lt;h3 id=&quot;learnings-from-react-conf-2021&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#learnings-from-react-conf-2021&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/alexeagleson/learnings-from-react-conf-2021-17lg&quot;&gt;Learnings from React Conf 2021&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;React 每年都會有一場盛大的 conference，這次的 conference 又介紹了相當多好用的工具，有興趣的讀者可以參考別人整理好的筆記。(所以我說那個 React 18 什麼時候才要正式上線呢XD&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 111 期 前端開發 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/111/gqsm-111/"/>
 		<updated>2021-12-14T00:00:00-00:00</updated>
 		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/111/gqsm-111/</id>
@@ -505,7 +524,7 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;!-- summary --&gt;
 &lt;h3 id=&quot;refactoring-if..else-statement-in-js&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#refactoring-if..else-statement-in-js&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://towardsdev.com/refactoring-nested-loops-in-js-e6d8a9db2db3&quot;&gt;Refactoring If..Else Statement In JS&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;作者提出用 Ternary operator、Switch Case、Short Circuit、Guard clauses 和 Function delegation 改善了 if...else 的寫法，可以思考哪種方式更適合目前的情境。&lt;/p&gt;
-&lt;h3 id=&quot;%5B7-useful-html-attributes-you-may-not-know%5Dhttps%3A%2F%2Fdev.to%2Fsimonpaix%2F7-useful-html-attributes-you-may-not-know-7mn)&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%5B7-useful-html-attributes-you-may-not-know%5Dhttps%3A%2F%2Fdev.to%2Fsimonpaix%2F7-useful-html-attributes-you-may-not-know-7mn)&quot;&gt;#&lt;/a&gt; [7 useful HTML attributes you may not know]&lt;a href=&quot;https://dev.to/simonpaix/7-useful-html-attributes-you-may-not-know-7mn&quot;&gt;https://dev.to/simonpaix/7-useful-html-attributes-you-may-not-know-7mn&lt;/a&gt;)&lt;/h3&gt;
+&lt;h3 id=&quot;7-useful-html-attributes-you-may-not-know&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#7-useful-html-attributes-you-may-not-know&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/simonpaix/7-useful-html-attributes-you-may-not-know-7mn&quot;&gt;7 useful HTML attributes you may not know&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;所有的屬性都滿少見，但是在特定用途上又非常實用，可以稍微掃視了解一下。還有第一個留言也提到可以用 designMode 使整個網站變得可修改，方便做一些初期設計工作。&lt;/p&gt;
 
 		</content>
