@@ -1,7 +1,7 @@
 ---
 title: 第 111 期 前端開發 推薦文章
 date: 2021-12-14
-author: Andy
+author: andy
 
 layout: layouts/post.njk
 tags: [Front-end]
