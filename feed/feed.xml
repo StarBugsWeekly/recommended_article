@@ -393,7 +393,6 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;!-- summary --&gt;
 &lt;h3 id=&quot;how-to-level-up-your-kubernetes-game&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-to-level-up-your-kubernetes-game&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://itnext.io/how-to-level-up-your-kubernetes-game-96f8f7ea50b9&quot;&gt;How To Level Up Your Kubernetes Game&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;根據 Cloud Native Survey 2020 的調查顯示 Container 在 Production 環境的使用成長的三倍，因此 Kubernetes 的使用率只會升不會降，但使用 K8s 和擴展他是兩回事，K8s 設計是用來構建平台的平台，他的不僅僅只是用來管理 Container 而已，他的 API 和 Contril Plane 都是可擴展的，例如 K8s 的 Operator 和 Control Loop 都可以用來擴展 K8s，所以這篇文章想要介紹 Operator Pattern，讓大家一起學習如何適當地使用 Opertoar，並探索 Operator 的架構&lt;/p&gt;
-&lt;!-- summary --&gt;
 &lt;h3 id=&quot;dstp&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#dstp&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://github.com/ycd/dstp&quot;&gt;dstp&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;當有辦公室有人跟你說某個網站不能連時，你下意識會做什麼事情？使用 nslookup 或是 curl 嗎？現在你有更好的選擇 - dstp！這個 CLI 小工具可以幫你幫目標網站做常見的網路測試，包含 ping, DNS, TLS 和 HTTP 的檢查，讓你使用單一個工具就可以做完所有的檢查，不用在使用多個工具東查西查的&lt;/p&gt;
 
@@ -468,6 +467,7 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;!-- summary --&gt;
 &lt;h3 id=&quot;aws-re%3Ainvent-2021-adam-selipsky-keynote-summary&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#aws-re%3Ainvent-2021-adam-selipsky-keynote-summary&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://beabetterdev.com/2021/12/01/aws-reinvent-2021-adam-selipsky-keynote-summary/&quot;&gt;AWS re:Invent 2021 Adam Selipsky Keynote Summary&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;今年 AWS re:Invent 恢復在拉斯維加斯實體舉辦，這次一樣推出許多的新功能，例如之前我一直苦惱要怎麼把公開 Image 同步到，自己家裡的功能，&lt;a href=&quot;https://aws.amazon.com/blos/aws/announcing-pull-through-cache-repositories-for-amazon-elastic-container-registry/&quot;&gt;現在在 ECR 裡面就可以辦到&lt;/a&gt;，而且&lt;a href=&quot;https://aws.amazon.com/blogs/aws/introducing-karpenter-an-open-source-high-performance-kubernetes-cluster-autoscaler/&quot;&gt;推出 AWS 自有的 Kubernetes AutoScaler - Karpenter&lt;/a&gt;，當然這只是今年推出功能中的冰山一角！而在最重要的 Keynote 中又宣布的什麼大事呢？&lt;/p&gt;
+&lt;!-- summary --&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;當然就是 AWS 自家的新一代處理器 Graviton3，更快的運算速度而且更省能源，而且新的 Instance Type C7G 就會使用這顆新的處理器；除此之外也宣布了專門為訓練模型而最佳化的 Instance Type &lt;strong&gt;TRN1&lt;/strong&gt;&lt;/p&gt;
@@ -482,10 +482,8 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;p&gt;其他還有...Lake Formation Row and Cell Level Security, Lake Formation Transactions, 更多 Serverless 服務，Sagemaker Canvas，Goldman Sachs Financial Cloud For Data, AWS IoT Twinmaker, AWS IoT FleetWise 多到我連複製貼上都覺得累XD 有興趣的人可以再花點時間詳細研究&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- summary --&gt;
 &lt;h3 id=&quot;kubernetes-1.23-%E2%80%93-what%E2%80%99s-new%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#kubernetes-1.23-%E2%80%93-what%E2%80%99s-new%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://sysdig.com/blog/kubernetes-1-23-whats-new/&quot;&gt;Kubernetes 1.23 – What’s new?&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;除了 AWS re:Invent 大爆炸之外，Kubernetes 也即將推出 1.23 版本更新，這次帶來 45 個功能改善，雖然相對於 1.21 (50) 和 1.22 (56) 來說比較少，但其中幾個還滿有感的，例如 &lt;a href=&quot;https://sysdig.com/blog/kubernetes-1-23-whats-new/#1440&quot;&gt;kubectl events&lt;/a&gt; 指令，支援 &lt;a href=&quot;https://sysdig.com/blog/kubernetes-1-23-whats-new/#2887&quot;&gt;OpenAPI v3&lt;/a&gt; , &lt;a href=&quot;https://github.com/kubernetes/enhancements/issues/2727&quot;&gt;gRPC probes&lt;/a&gt;, 同時也可以看到 &lt;a href=&quot;https://sysdig.com/blog/kubernetes-1-23-whats-new/#2317&quot;&gt;CSI Drivers&lt;/a&gt; 和 &lt;a href=&quot;https://github.com/kubernetes/enhancements/issues/2802&quot;&gt;Windows Support&lt;/a&gt; 這兩個大專案的持續進展，而且也有不少功能抵達 GA 階段，有興趣的人可以閱讀原文獲得更多且詳細的資訊！&lt;/p&gt;
-&lt;!-- summary --&gt;
 &lt;h3 id=&quot;visualizing-kubernetes-clusters-with-navigate&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#visualizing-kubernetes-clusters-with-navigate&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/@brkg_/visualizing-kubernetes-clusters-with-navigate-e340e5419c19&quot;&gt;Visualizing Kubernetes Clusters with Navigate&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;這兩天發現有一個叫做 Navigate 的免費開源專案，他可以用來視覺化 Kubernetes Cluster 的各種資源，也可以顯示即時的 Log，範例圖看起來滿潮的，而且其中一個功能是可以從本地端的 YAML 檔案把即將部署到 K8s 中的資源也是進行視覺化呈現，讓開發者可以事先知道自己要部署到 K8s Cluster 中的組態長什麼樣子，感覺還滿不錯的，有機會再來試用看看！&lt;/p&gt;
 
@@ -552,7 +550,6 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;h3 id=&quot;karpenter-vs-cluster-autoscaler&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#karpenter-vs-cluster-autoscaler&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://towardsdev.com/karpenter-vs-cluster-autoscaler-dd877b91629b&quot;&gt;Karpenter vs Cluster Autoscaler&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;上個月底 AWS re:Invent 推出了另外一套叫做 &lt;a href=&quot;https://github.com/aws/karpenter&quot;&gt;Karpenter&lt;/a&gt; 的 Kubernetes Cluster Autoscaler，而他跟目前大家使用的開源 &lt;a href=&quot;https://github.com/kubernetes/autoscaler&quot;&gt;Cluster Autoscaler&lt;/a&gt; 有什麼不一樣呢？就以 EKS 這個 Kubernetes 來舉例說明，它分成 Control Plane 和 Node Group，既有的開源 Cluster Autoscaler 會去偵測是否有 Pod 處於 Pending 的狀況，然後去叫控制 Node Group 的 AWS Auto-Scaling Group 根據需求增加多少台機器&lt;/p&gt;
 &lt;p&gt;而 Karpenter 可以根據 Pending Pod 所需要的資源跳過 Node Group，直接開適合的 EC2 出來，所以其實在時間跟資源的應用上都可以更有效率，例如突然有個需要使用超級多 Memory 的 Pod 處於 Pending 的狀態，在 AWS Auto-Scaling Group 裡面所定義的機器型別根本就都不適合此 Pod 運行，Karpenter 就可以直接協助開啟一台符合此 Pod 使用的 EC2 然後直接把 Pod 指派到這台新開的 EC2 上，所以對於 Kubernets Worker Node 的擴展性來說強大很多&lt;/p&gt;
-&lt;!-- summary --&gt;
 &lt;h3 id=&quot;using-chatops-to-help-actions-on-call-engineers&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#using-chatops-to-help-actions-on-call-engineers&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://github.blog/2021-12-01-using-chatops-to-help-actions-on-call-engineers/&quot;&gt;Using ChatOps to help Actions on-call engineers&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;在 GitHub 內常使用 ChatOps 來幫助合作更順利，使用的 Chatbot 為 Hubot，運行 ChatOps Command 很像是在 Terminal 運行自己的指令一樣，但不同之初在於所有的團隊成員都可以看到運行的成果，這讓合作時的溝通是即時的，特別是在處理 Incident 時，可以更快的恢復服務並且找出原因；而目前在 GitHub 內讓應用服務保持健康不再是某個神秘團隊的責任，而是落在建立該服務的工程師手上，因此除了幫 GitHub 建立力強大的功能之外，在 GitHub 的工程師也會貢獻他們時間在維護服務的健康上，此文便是講述前幾天一個新的 Actions on-call engineer: Mona 她處理 Incident 的經過，從其中可以看出 ChatOps 如何協助她快速且有效的處理事件&lt;/p&gt;
 
