@@ -25,7 +25,7 @@ tags: [DevOps]
 
 根據 Cloud Native Survey 2020 的調查顯示 Container 在 Production 環境的使用成長的三倍，因此 Kubernetes 的使用率只會升不會降，但使用 K8s 和擴展他是兩回事，K8s 設計是用來構建平台的平台，他的不僅僅只是用來管理 Container 而已，他的 API 和 Contril Plane 都是可擴展的，例如 K8s 的 Operator 和 Control Loop 都可以用來擴展 K8s，所以這篇文章想要介紹 Operator Pattern，讓大家一起學習如何適當地使用 Opertoar，並探索 Operator 的架構
 
-<!-- summary -->
+
 ### [dstp](https://github.com/ycd/dstp)
 
 當有辦公室有人跟你說某個網站不能連時，你下意識會做什麼事情？使用 nslookup 或是 curl 嗎？現在你有更好的選擇 - dstp！這個 CLI 小工具可以幫你幫目標網站做常見的網路測試，包含 ping, DNS, TLS 和 HTTP 的檢查，讓你使用單一個工具就可以做完所有的檢查，不用在使用多個工具東查西查的

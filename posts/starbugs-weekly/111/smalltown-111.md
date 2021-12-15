@@ -26,7 +26,6 @@ HashiCorp 這幾天最大的[新聞](https://seekingalpha.com/article/4474505-ha
 
 而 Karpenter 可以根據 Pending Pod 所需要的資源跳過 Node Group，直接開適合的 EC2 出來，所以其實在時間跟資源的應用上都可以更有效率，例如突然有個需要使用超級多 Memory 的 Pod 處於 Pending 的狀態，在 AWS Auto-Scaling Group 裡面所定義的機器型別根本就都不適合此 Pod 運行，Karpenter 就可以直接協助開啟一台符合此 Pod 使用的 EC2 然後直接把 Pod 指派到這台新開的 EC2 上，所以對於 Kubernets Worker Node 的擴展性來說強大很多
 
-<!-- summary -->
 ### [Using ChatOps to help Actions on-call engineers](https://github.blog/2021-12-01-using-chatops-to-help-actions-on-call-engineers/)
 
 在 GitHub 內常使用 ChatOps 來幫助合作更順利，使用的 Chatbot 為 Hubot，運行 ChatOps Command 很像是在 Terminal 運行自己的指令一樣，但不同之初在於所有的團隊成員都可以看到運行的成果，這讓合作時的溝通是即時的，特別是在處理 Incident 時，可以更快的恢復服務並且找出原因；而目前在 GitHub 內讓應用服務保持健康不再是某個神秘團隊的責任，而是落在建立該服務的工程師手上，因此除了幫 GitHub 建立力強大的功能之外，在 GitHub 的工程師也會貢獻他們時間在維護服務的健康上，此文便是講述前幾天一個新的 Actions on-call engineer: Mona 她處理 Incident 的經過，從其中可以看出 ChatOps 如何協助她快速且有效的處理事件
