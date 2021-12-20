@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2021-12-14T00:00:00-00:00</updated>
+	<updated>2021-12-21T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -552,6 +552,25 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;p&gt;而 Karpenter 可以根據 Pending Pod 所需要的資源跳過 Node Group，直接開適合的 EC2 出來，所以其實在時間跟資源的應用上都可以更有效率，例如突然有個需要使用超級多 Memory 的 Pod 處於 Pending 的狀態，在 AWS Auto-Scaling Group 裡面所定義的機器型別根本就都不適合此 Pod 運行，Karpenter 就可以直接協助開啟一台符合此 Pod 使用的 EC2 然後直接把 Pod 指派到這台新開的 EC2 上，所以對於 Kubernets Worker Node 的擴展性來說強大很多&lt;/p&gt;
 &lt;h3 id=&quot;using-chatops-to-help-actions-on-call-engineers&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#using-chatops-to-help-actions-on-call-engineers&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://github.blog/2021-12-01-using-chatops-to-help-actions-on-call-engineers/&quot;&gt;Using ChatOps to help Actions on-call engineers&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;在 GitHub 內常使用 ChatOps 來幫助合作更順利，使用的 Chatbot 為 Hubot，運行 ChatOps Command 很像是在 Terminal 運行自己的指令一樣，但不同之初在於所有的團隊成員都可以看到運行的成果，這讓合作時的溝通是即時的，特別是在處理 Incident 時，可以更快的恢復服務並且找出原因；而目前在 GitHub 內讓應用服務保持健康不再是某個神秘團隊的責任，而是落在建立該服務的工程師手上，因此除了幫 GitHub 建立力強大的功能之外，在 GitHub 的工程師也會貢獻他們時間在維護服務的健康上，此文便是講述前幾天一個新的 Actions on-call engineer: Mona 她處理 Incident 的經過，從其中可以看出 ChatOps 如何協助她快速且有效的處理事件&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 112 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/112/gqsm-112/"/>
+		<updated>2021-12-21T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/112/gqsm-112/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;my-custom-css-reset&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#my-custom-css-reset&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.joshwcomeau.com/css/custom-css-reset/#digit-box-sizing-model&quot;&gt;My Custom CSS Reset&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;重置 CSS 是為了維持各個瀏覽器的一致性，並且撤銷所有的預設樣式。但作者試著重新定義了自己的重置 CSS，並且深入理解各個規則的作用，以及使用的原因。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;javascript-worst-practice&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#javascript-worst-practice&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.bitsrc.io/javascript-worst-practices-dc78e19d6f12&quot;&gt;Javascript Worst Practice&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;文章裡提到一些在 JavaScript 裡不是很好的幾個寫法，雖然大部分的寫法對於結果都不會有影響，但就因為這樣常常會讓開發者無法意識到這是錯誤的以及感到困惑。&lt;/p&gt;
+&lt;h3 id=&quot;5-upcoming-web-design-trends-for-2022&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#5-upcoming-web-design-trends-for-2022&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.sitepoint.com/web-design-trends-2022/&quot;&gt;5 Upcoming Web Design Trends for 2022&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;UI 的設計一直是一大的學問，文中舉出五種截然不同的網頁設計風格，並講解這些風格是如何吸引到你的眼球。&lt;/p&gt;
 
 		</content>
 	</entry>
