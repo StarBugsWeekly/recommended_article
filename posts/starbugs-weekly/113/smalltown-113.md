@@ -13,14 +13,14 @@ tags: [DevOps]
 <!-- summary -->
 ### [SLICK: Adopting SLOs for improved reliability](https://engineering.fb.com/2021/12/13/production-engineering/slick/)
 
-相信大家或多或少應該都有聽過 SLO (service-level objectives) 與 SLI (service-level indicator)，Meta (Facebook) 為了能夠中心化管理與定義 SLI 與 SLO，他們建立一個叫做 SLICK 的工具，讓大家可以更簡單查詢與理解所有服務的可靠性；在使用 SLICK 時間，SLO 或是其他有關服務效能的 Metrics 通常儲存在客製化的儀表板，文件或是其他的工具內，假如你想要衡量一個團隊的 SLO，可能需要花上一個小時去搜尋，或是找人問東問西，而且 Meta 以前儲存 Metric 的系統並沒有保留太久的資料，導致幾乎不可能去分析週期比較長的 SLO，但自從使用 SLICK 之後可以達到四個目標：
+相信大家或多或少應該都有聽過 SLO (service-level objectives) 與 SLI (service-level indicator)，Meta (Facebook) 為了能夠中心化管理與定義 SLI 與 SLO，他們建立一個叫做 SLICK 的工具，讓大家可以更簡單查詢與理解所有服務的可靠性；在使用 SLICK 之前，SLO 或是其他有關服務效能的 Metrics 通常儲存在客製化的儀表板，文件或是其他的工具內，假如你想要衡量一個團隊的 SLO，可能需要花上一個小時去搜尋，或是找人問東問西，而且 Meta 以前儲存 Metric 的系統並沒有保留太久的資料，導致幾乎不可能去分析週期比較長的 SLO，但自從使用 SLICK 之後可以達到四個目標：
 
 1. 使用統一的方式對所有的服務定義 SLO
 2. 擁有精準度為每分鐘且保存兩年的 Metric 資料
 3. 對於 SLI/SLO 的 Metric 可以有一套標準的視覺化與搜尋方式
 4. 提供週期性的可靠性報告給內部成員，讓團隊可以用來做可靠性檢查
 
-更多詳細做法可以參考內文，看他還有提供一些 UI 出來，比較可惜的是看起來並不是開源專案
+更多詳細做法可以參考內文，看他還有提供一些 UI 截圖出來，比較可惜的是看起來並不是開源專案
 
 <!-- summary -->
 ### [GitHub may replace DockerHub](https://levelup.gitconnected.com/github-may-replace-dockerhub-a5da5e547f01)
