@@ -17,7 +17,7 @@
     },{
       "id": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/113/luka-113/",
       "url": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/113/luka-113/",
-      "title": "第 113 期 前端開發 推薦文章",
+      "title": "第 113 期 Ruby 推薦文章",
       "content_html": "<h2 id=\"ruby\"><a class=\"direct-link\" href=\"#ruby\">#</a> Ruby</h2>\n<!-- summary -->\n<h3 id=\"from-node-to-ruby-on-rails-%7C-d-u-n-k\"><a class=\"direct-link\" href=\"#from-node-to-ruby-on-rails-%7C-d-u-n-k\">#</a> <a href=\"https://nikodunk.com/a-node-js-developer-discovers-rails/\">From Node to Ruby on Rails | D U N K</a></h3>\n<p>從 Node.js Express 框架到 Rails 的心路歷程。可以更專注在商業邏輯，花更少的力氣組織專案。</p>\n<!-- summary -->\n<h3 id=\"ruby-3.1.0-released\"><a class=\"direct-link\" href=\"#ruby-3.1.0-released\">#</a> <a href=\"https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/\">Ruby 3.1.0 Released</a></h3>\n<p>Ruby 3.1 發佈了，這次有台灣人的 Code 進到了 Ruby 之中，真是可喜可賀！</p>\n<h3 id=\"benchmarking-ruby-2.5-to-3.1\"><a class=\"direct-link\" href=\"#benchmarking-ruby-2.5-to-3.1\">#</a> <a href=\"https://gettalong.org/blog/2021/benchmarking-rubies.html\">Benchmarking Ruby 2.5 to 3.1</a></h3>\n<p>從 Ruby 2.5 到 Ruby 3.1 的效能增進，用 Benchmark 來查看。從各個角度來看，Ruby 3.1 都增加了不少的效能，而不只是增進了 CPU 的處理能力。</p>\n",
       "date_published": "2021-12-28T00:00:00-00:00"
     },{
