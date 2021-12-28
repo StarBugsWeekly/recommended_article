@@ -1,5 +1,5 @@
 ---
-title: 第 113 期 前端開發 推薦文章
+title: 第 113 期 Ruby 推薦文章
 date: 2021-12-28
 author: luka
 
