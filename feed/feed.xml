@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2021-12-21T00:00:00-00:00</updated>
+	<updated>2021-12-28T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -610,6 +610,25 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;!-- summary --&gt;
 &lt;h3 id=&quot;improving-platform-efficiency%2C-reliability%2C-and-performance-in-one-week-with-linkerd&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#improving-platform-efficiency%2C-reliability%2C-and-performance-in-one-week-with-linkerd&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.cncf.io/blog/2021/12/13/improving-platform-efficiency-reliability-and-performance-in-one-week-with-linkerd/&quot;&gt;Improving platform efficiency, reliability, and performance in one week with Linkerd&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Salt Security 是一間提供 API 防護功能的公司，所以他們的服務不能夠容忍任何的 Down Time, 因為顧客不會有停止遭受攻擊的時候，他們一開始將微服務運行於 Kubernets Cluster 中，而隨著規模越來越大，他們開始想要遷移到使用 gRPC 的架構，但是遇到 K8s 沒有支援 Load Balancing 的問題，所以發現了 Linkerd 這個專案，因為他不僅可以讓 gRPC 具備 Load Balancing 的功能之外，而且也提高了整個平台的效率，可靠性和整體效能，文章中對於他們的每一個技術方案選擇做出詳細的解釋，有遇到一樣問題的人，或是徬徨要不要導入 Linkerd 的人可以參考看看這篇文章&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 113 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/113/gqsm-113/"/>
+		<updated>2021-12-28T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/113/gqsm-113/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;tailwind-css-v3.0&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#tailwind-css-v3.0&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://tailwindcss.com/blog/tailwindcss-v3&quot;&gt;Tailwind CSS v3.0&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Tailwind CSS 在十二月的時候進入到 3.0 囉！除了 Colored box shadows、Scroll snap API 和 Multi-column layout 外，快來看看還有哪些酷東西可以使用！&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;writing-clean-code-in-javascript&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#writing-clean-code-in-javascript&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.bitsrc.io/writing-clean-code-in-javascript-dd584bbe1874&quot;&gt;Writing Clean Code in JavaScript&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;有些文章只會告訴你該怎麼寫，但沒有告訴你為什麼，但這作者在解釋 arrow function 和 regular function 時，雖然推薦 arrow function，但也提出了你還是該了解它們的差別，並且在適當的時機使用 regular function。&lt;/p&gt;
+&lt;h3 id=&quot;amazing%EF%BC%81%EF%BC%81css-%E4%B9%9F%E8%83%BD%E5%AE%9E%E7%8E%B0%E7%83%9F%E9%9B%BE%E6%95%88%E6%9E%9C%EF%BC%9F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#amazing%EF%BC%81%EF%BC%81css-%E4%B9%9F%E8%83%BD%E5%AE%9E%E7%8E%B0%E7%83%9F%E9%9B%BE%E6%95%88%E6%9E%9C%EF%BC%9F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://juejin.cn/post/7046573911957307405&quot;&gt;Amazing！！CSS 也能实现烟雾效果？&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在 CSS 裡，只要透過 &lt;code&gt;text-shadow&lt;/code&gt;、&lt;code&gt;opacity&lt;/code&gt; 和 &lt;code&gt;transform&lt;/code&gt; 的搭配，就可以輕鬆製作出厲害的煙霧效果！&lt;/p&gt;
 
 		</content>
 	</entry>
