@@ -27,7 +27,7 @@ tags: [DevOps]
 
 過去數年來 Docker 的崛起，讓大家一度以為 Linux Container 就叫做 Docker，因為他讓大家很輕易地就可以發布 Container 到免費的 DockerHub，不過作者認為將 DockerHub 視為 Container Image 唯一 Repository 的時代已經過去了，他覺得 GitHub 將會把這個第一名的寶座搶到手，因為 GitHub 目前算是開源專案的不二選擇，所有的開發者幾乎被他握在手中，而且他持續不斷地在加強 CI/CD 功能，改善 Issues, Documentation 還有架站功能，除此之外，近期對於 Package 儲存功能也越來越完整...等，因此他覺得 DockerHub 最後將會被 GitHub 所取代，大家也是這樣覺得嗎？
 
-<!-- summary -->
+
 ### [Web 1.0, Web 2.0 & Web 3.0 Explained](https://dev.to/narottam04/web-10-web-20-web-30-explained-591n)
 
 最近 Web 3.0 這個詞彙突然很熱門！他究竟是什麼呢？這篇文章從 Web 1.0 Beta -> Web 1.0 -> Web 2.0 的定義開始解釋起，並且提出 Web 2.0 的缺點，也就是所有的使用者資料都集中在大公司手上，例如 Google, Facebook，他們靠著販賣大家的資料來賺大錢，而 Web 3.0 主要就是想要建立一個去中心化又安全的網路環境，讓人類可以使用它安全的交換金錢與資訊，而不再需要中介者或是大型科技公司，所以資料不再像 Web 2.0 集中儲存在單一資料庫內，而是像運行在區塊鏈內，Peer to Peer 的節點內的感覺，有人甚至預測在 Web 3.0 的架構下，每個人都會是內容擁有者，公司將會變成由去中心化的團體所運行，又稱為 DAO (Decentralized Autonomous Organization)，而不再需要 CEO 或是任何公司的高層管理組織，而且每個人都是匿名存在於 Web 3.0 中
