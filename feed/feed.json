@@ -9,6 +9,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/115/smalltown-115/",
+      "url": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/115/smalltown-115/",
+      "title": "第 115 期 DevOps 推薦文章",
+      "content_html": "<h2 id=\"devops\"><a class=\"direct-link\" href=\"#devops\">#</a> DevOps</h2>\n<!-- summary -->\n<h3 id=\"the-state-of-enterprise-linux-in-2022\"><a class=\"direct-link\" href=\"#the-state-of-enterprise-linux-in-2022\">#</a> <a href=\"http://crunchtools.com/the-state-of-enterprise-linux-in-2022/\">The State Of Enterprise Linux In 2022</a></h3>\n<p>近年來 Enterprise Linux 滿熱鬧的，例如 CentOS Stream 作為 Red Hat Enterprise Linux 上游的宣布， Alma Linux 和 Rocky Linux 作為 CentOS 下游的宣布，還有作為 Fedora 下游 AWS Linux 2022...等，那麼這一些 Enterprise Linux 在 2022 年的情況又是如何呢？</p>\n<!-- summary -->\n<h3 id=\"the-full-stack-developer-vocabulary(the-full-list!)\"><a class=\"direct-link\" href=\"#the-full-stack-developer-vocabulary(the-full-list!)\">#</a> <a href=\"https://dev.to/code_jedi/the-full-stack-developer-vocabularythe-full-list-4n5d\">The Full-Stack Developer Vocabulary(The Full List!)</a></h3>\n<p>身為一位 Full-Stack Developer 帶一本科技辭海在身上也是很合理的XD 畢竟 Full-Stack 要懂的東西這麼多，而且還一直有新東西冒出來，所以這篇文章很貼心的幫大家把常見的詞彙跟說明給列出來，讓大家在日常溝通時可以順暢無礙，避免雞同鴨講的狀況發生</p>\n<h3 id=\"advanced-git-concepts-you-should-know\"><a class=\"direct-link\" href=\"#advanced-git-concepts-you-should-know\">#</a> <a href=\"https://dev.to/ruppysuppy/advanced-git-concepts-you-should-know-nle\">Advanced Git Concepts You Should Know</a></h3>\n<p>一般來說，使用 Git 最常用的指令就是 <code>git pull</code>, <code>git add</code>, <code>git commit</code>, <code>git push</code>，不過隨著使用的時間或是合作人數增加時，一定會需要一些比較進階一點點的操作，這篇文章便想要帶大家認識一下 Stash, Reflog, cherry-pick, Rebase，除此之外也解釋了各種常見的 Merge 策略</p>\n",
+      "date_published": "2022-01-11T00:00:00-00:00"
+    },{
       "id": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/114/smalltown-114/",
       "url": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/114/smalltown-114/",
       "title": "第 114 期 DevOps 推薦文章",

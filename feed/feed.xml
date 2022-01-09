@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-01-04T00:00:00-00:00</updated>
+	<updated>2022-01-11T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -746,6 +746,25 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;!-- summary --&gt;
 &lt;h3 id=&quot;spotify-system-architecture&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#spotify-system-architecture&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/interviewnoodle/spotify-system-architecture-6bb418db6084&quot;&gt;Spotify System Architecture&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;目前市面上有很多的音樂串流服務，例如 Spotify, Apple Music, Pandora, Soundcloud 和 Tidal，而今天作者想要跟大家解釋更多有關於  Spotify 這個音樂串流服務，首先從他的系統功能需求開始分析起，例如可以下載歌曲，發現音樂，Spotify Connect...等，接著預估他的 Scale 有多大，例如有多少使用者，歌曲的串流品質需要的頻寬，可以下載多少首歌，支援多少種語言...等，然後根據這些要點將系統架構給勾勒出來，並且逐步分析每一個元件使用的技術，函式庫與演算法...等，讓讀者可以跟著文章一步一步去做一次完整的系統架分析&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 115 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/115/smalltown-115/"/>
+		<updated>2022-01-11T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/115/smalltown-115/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;the-state-of-enterprise-linux-in-2022&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#the-state-of-enterprise-linux-in-2022&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;http://crunchtools.com/the-state-of-enterprise-linux-in-2022/&quot;&gt;The State Of Enterprise Linux In 2022&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;近年來 Enterprise Linux 滿熱鬧的，例如 CentOS Stream 作為 Red Hat Enterprise Linux 上游的宣布， Alma Linux 和 Rocky Linux 作為 CentOS 下游的宣布，還有作為 Fedora 下游 AWS Linux 2022...等，那麼這一些 Enterprise Linux 在 2022 年的情況又是如何呢？&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;the-full-stack-developer-vocabulary(the-full-list!)&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#the-full-stack-developer-vocabulary(the-full-list!)&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/code_jedi/the-full-stack-developer-vocabularythe-full-list-4n5d&quot;&gt;The Full-Stack Developer Vocabulary(The Full List!)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;身為一位 Full-Stack Developer 帶一本科技辭海在身上也是很合理的XD 畢竟 Full-Stack 要懂的東西這麼多，而且還一直有新東西冒出來，所以這篇文章很貼心的幫大家把常見的詞彙跟說明給列出來，讓大家在日常溝通時可以順暢無礙，避免雞同鴨講的狀況發生&lt;/p&gt;
+&lt;h3 id=&quot;advanced-git-concepts-you-should-know&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#advanced-git-concepts-you-should-know&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/ruppysuppy/advanced-git-concepts-you-should-know-nle&quot;&gt;Advanced Git Concepts You Should Know&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;一般來說，使用 Git 最常用的指令就是 &lt;code&gt;git pull&lt;/code&gt;, &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt;, &lt;code&gt;git push&lt;/code&gt;，不過隨著使用的時間或是合作人數增加時，一定會需要一些比較進階一點點的操作，這篇文章便想要帶大家認識一下 Stash, Reflog, cherry-pick, Rebase，除此之外也解釋了各種常見的 Merge 策略&lt;/p&gt;
 
 		</content>
 	</entry>
