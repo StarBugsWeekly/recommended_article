@@ -1,8 +1,9 @@
 # StarBugs Weekly
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1926bf8-7473-4fdb-bbb7-60740e2d89bb/deploy-status)](https://app.netlify.com/sites/recommend-starbugs/deploys)
 
-- Website: https://starbugs-blog.netlify.app/
-- Official Website: https://weekly.starbugs.dev/
-
+- Recommend Website: https://recommend.starbugs.dev/
+- Weekly Website: https://weekly.starbugs.dev/
+- Blog Website: https://medium.com/starbugs
 ## Contribution
 
 ### Contribute recommend article
