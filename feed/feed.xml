@@ -297,6 +297,7 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/108/smalltown-108/</id>
 		<content type="html">
 		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
 &lt;h3 id=&quot;crisp%3A-critical-path-analysis-for-microservice-architectures&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#crisp%3A-critical-path-analysis-for-microservice-architectures&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://eng.uber.com/crisp-critical-path-analysis-for-microservice-architectures/&quot;&gt;CRISP: Critical Path Analysis for Microservice Architectures&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Uber 的後端系統算是 MicroService 架構的榜樣，其中有數千個 MicroService 透過 RPC 的方式跟其他服務進行溝通，所以當服務請求發生時，就很像是網路傳遞時會有數個 hops 一樣，當數個 MicroService 都正常時，這個服務請求才能夠運行成功，其過程是相當複雜的，可能隱含很多的動作，非同步..等，所以當要追查一個服務請求點到點的品質時，可以想像是相當困難的，所以 Uber 開發了一個叫做 CRISP 的工具，用來解決追蹤複雜服務請求中到底是哪一個環節出了問題，CRISP 主要使用 Jaeger 這個 RPC 的追蹤工具，對於此主題有興趣的人，可以查看原文獲得更仔細的資訊&lt;/p&gt;
 &lt;!-- summary --&gt;
@@ -307,7 +308,6 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;li&gt;Visualize:將資料透過 BI 或是視覺化工具呈現出來，例如 Grafana, QuickSight...等&lt;/li&gt;
 &lt;li&gt;Policy as Code: 將 Security 和 Compliance 規則寫成 SQL 語法用以達成 PaC&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- summary --&gt;
 &lt;h3 id=&quot;prometheus-announces-an-agent-to-address-a-new-range-of-use-cases&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#prometheus-announces-an-agent-to-address-a-new-range-of-use-cases&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases/&quot;&gt;Prometheus announces an Agent to address a new range of use cases&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;一直以來 Prometheus 都是使用 Pull 的模式，透過 Prometheus Server 把來自各方的資料做彙整，而最近宣佈了新的模式 Agent Mode，Prometheus Agent 跟 Prometheus Server 其實有點像，他還是透過 Pull 去抓取 HTTP 所暴露的 Metric 資料，然後使用 Remote Write 的方式將資料送到遠端的 Prometheus Server，不過 Metric 資料並不會儲存在本地端，送出去後就會立即移除掉，希望可以應用在某些應用情境上，例如 Edge Networks 和 IoT&lt;/p&gt;
 
@@ -661,6 +661,7 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;!-- summary --&gt;
 &lt;h3 id=&quot;slick%3A-adopting-slos-for-improved-reliability&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#slick%3A-adopting-slos-for-improved-reliability&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://engineering.fb.com/2021/12/13/production-engineering/slick/&quot;&gt;SLICK: Adopting SLOs for improved reliability&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;相信大家或多或少應該都有聽過 SLO (service-level objectives) 與 SLI (service-level indicator)，Meta (Facebook) 為了能夠中心化管理與定義 SLI 與 SLO，他們建立一個叫做 SLICK 的工具，讓大家可以更簡單查詢與理解所有服務的可靠性；在使用 SLICK 之前，SLO 或是其他有關服務效能的 Metrics 通常儲存在客製化的儀表板，文件或是其他的工具內，假如你想要衡量一個團隊的 SLO，可能需要花上一個小時去搜尋，或是找人問東問西，而且 Meta 以前儲存 Metric 的系統並沒有保留太久的資料，導致幾乎不可能去分析週期比較長的 SLO，但自從使用 SLICK 之後可以達到四個目標：&lt;/p&gt;
+&lt;!-- summary --&gt;
 &lt;ol&gt;
 &lt;li&gt;使用統一的方式對所有的服務定義 SLO&lt;/li&gt;
 &lt;li&gt;擁有精準度為每分鐘且保存兩年的 Metric 資料&lt;/li&gt;
@@ -668,7 +669,6 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;li&gt;提供週期性的可靠性報告給內部成員，讓團隊可以用來做可靠性檢查&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;更多詳細做法可以參考內文，看他還有提供一些 UI 截圖出來，比較可惜的是看起來並不是開源專案&lt;/p&gt;
-&lt;!-- summary --&gt;
 &lt;h3 id=&quot;github-may-replace-dockerhub&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#github-may-replace-dockerhub&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://levelup.gitconnected.com/github-may-replace-dockerhub-a5da5e547f01&quot;&gt;GitHub may replace DockerHub&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;過去數年來 Docker 的崛起，讓大家一度以為 Linux Container 就叫做 Docker，因為他讓大家很輕易地就可以發布 Container 到免費的 DockerHub，不過作者認為將 DockerHub 視為 Container Image 唯一 Repository 的時代已經過去了，他覺得 GitHub 將會把這個第一名的寶座搶到手，因為 GitHub 目前算是開源專案的不二選擇，所有的開發者幾乎被他握在手中，而且他持續不斷地在加強 CI/CD 功能，改善 Issues, Documentation 還有架站功能，除此之外，近期對於 Package 儲存功能也越來越完整...等，因此他覺得 DockerHub 最後將會被 GitHub 所取代，大家也是這樣覺得嗎？&lt;/p&gt;
 &lt;h3 id=&quot;web-1.0%2C-web-2.0-%26-web-3.0-explained&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#web-1.0%2C-web-2.0-%26-web-3.0-explained&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/narottam04/web-10-web-20-web-30-explained-591n&quot;&gt;Web 1.0, Web 2.0 &amp;amp; Web 3.0 Explained&lt;/a&gt;&lt;/h3&gt;
@@ -727,6 +727,7 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;!-- summary --&gt;
 &lt;h3 id=&quot;11-things-i-learned-after-becoming-a-coding-interviewer&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#11-things-i-learned-after-becoming-a-coding-interviewer&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://betterprogramming.pub/11-things-i-learned-after-becoming-a-coding-interviewer-b951370ebda7&quot;&gt;11 Things I Learned After Becoming a Coding Interviewer&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;大家這次的年終有超過 40 個月嗎？要是沒有的話是不是要準備看新的工作機會啦 (大誤)，身為一個工程師擔任應徵者的機會通常比面試官來得多，作者在他將近七年的職涯中參加過 40 次的面試，他通常會因為感到緊張，尷尬和沒自信，而在 Coding 的面試階段失敗，他總是覺得面試官就像神一樣，隨時要對他宣判什麼，而最近他的職位變得相對資深，所以開始需要規律的當面試官，所以他想要分享 11 件事情給準備參加面試的人&lt;/p&gt;
+&lt;!-- summary --&gt;
 &lt;ol&gt;
 &lt;li&gt;面試官並不會將履歷鉅細彌遺地看過，過往的工作經驗也不代表目前的 Coding 技巧有多強，所以不用花太多時間去準備自我介紹的部分&lt;/li&gt;
 &lt;li&gt;面試官可能也跟應徵者一樣緊張，因為兩者都在做一件不是日常工作會做的事情，面試官也會怕被應徵者問倒&lt;/li&gt;
@@ -740,10 +741,8 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;li&gt;當面試官不說話時，並不表示給應徵者吃閉門羹，因為有時候閒聊會讓應徵者受到影響，面試工程師職務時，還是會以技術相關的內容為衡量依據，其他的不用多想&lt;/li&gt;
 &lt;li&gt;面試官比應徵者更希望你可以獲得這份工作，因為招募是很昂貴的流程，因為招募一個人要花很多的時間，假如面試沒有通過就整個要再重來一次&lt;/li&gt;
 &lt;/ol&gt;
-&lt;!-- summary --&gt;
 &lt;h3 id=&quot;github%E2%80%99s-top-10-blog-posts-of-2021&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#github%E2%80%99s-top-10-blog-posts-of-2021&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://github.blog/2021-12-28-githubs-top-10-blog-posts-of-2021/&quot;&gt;GitHub’s top 10 blog posts of 2021&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;在跨入到 2022 之後，好像沒有看到太多 2021 的技術回顧文章，最近好像只有看到這篇 GitHub 回顧自己在 2021 最熱門的十大技術文章，前三名分別是 &lt;a href=&quot;https://github.blog/2021-08-11-githubs-engineering-team-moved-codespaces/&quot;&gt;GitHub’s Engineering Team has moved to Codespaces&lt;/a&gt;，&lt;a href=&quot;https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/&quot;&gt;Behind GitHub’s new authentication token format&lt;/a&gt; 和 &lt;a href=&quot;https://github.blog/2021-06-29-introducing-github-copilot-ai-pair-programmer/&quot;&gt;Introducing GitHub Copilot: your AI pair programmer&lt;/a&gt;，這樣的排名結果會讓你覺得出乎意料之外嗎？對於其他十大技術文章有興趣的人可以參閱內文&lt;/p&gt;
-&lt;!-- summary --&gt;
 &lt;h3 id=&quot;spotify-system-architecture&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#spotify-system-architecture&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/interviewnoodle/spotify-system-architecture-6bb418db6084&quot;&gt;Spotify System Architecture&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;目前市面上有很多的音樂串流服務，例如 Spotify, Apple Music, Pandora, Soundcloud 和 Tidal，而今天作者想要跟大家解釋更多有關於  Spotify 這個音樂串流服務，首先從他的系統功能需求開始分析起，例如可以下載歌曲，發現音樂，Spotify Connect...等，接著預估他的 Scale 有多大，例如有多少使用者，歌曲的串流品質需要的頻寬，可以下載多少首歌，支援多少種語言...等，然後根據這些要點將系統架構給勾勒出來，並且逐步分析每一個元件使用的技術，函式庫與演算法...等，讓讀者可以跟著文章一步一步去做一次完整的系統架分析&lt;/p&gt;
 
