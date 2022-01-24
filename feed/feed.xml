@@ -883,6 +883,25 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 	</entry>
 	
 	<entry>
+		<title>第 117 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/117/gqsm-117/"/>
+		<updated>2022-01-25T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/117/gqsm-117/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;css-practices-to-avoid-as-a-web-developer&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#css-practices-to-avoid-as-a-web-developer&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://enlear.academy/5-css-practices-to-avoid-as-a-web-developer-d7645fb51d53&quot;&gt;CSS Practices To Avoid as a Web Developer&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在寫 CSS 的時候會因為想要使用某些寫法，而去設定相關的屬性，以確保畫面顯示的正確（例如有些開發者會在使用 &lt;code&gt;position&lt;/code&gt; 的時候，再另外將 &lt;code&gt;display&lt;/code&gt; 設定成 &lt;code&gt;block&lt;/code&gt;），但在某些 element 上其實是不需要這麼做的，只要你懂 element，那 element 就會幫你，一起來看看文章中舉的例子吧。 🙌&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;%E5%A6%82%E4%BD%95%E5%90%88%E7%90%86%E7%9A%84%E4%BD%BF%E7%94%A8-react-context&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%A6%82%E4%BD%95%E5%90%88%E7%90%86%E7%9A%84%E4%BD%BF%E7%94%A8-react-context&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://juejin.cn/post/7056696289559314446&quot;&gt;如何合理的使用 React Context&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;React Context 的使用非常容易，但是在容易使用的背後，還要特別注意透過 &lt;code&gt;Context.Provider&lt;/code&gt; 取得資料的 component，是否存在著不必要的 render 問題。&lt;/p&gt;
+&lt;h3 id=&quot;14-github-repositories-to-ace-your-javascript-interviews-%F0%9F%8E%AF-%F0%9F%9A%80&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#14-github-repositories-to-ace-your-javascript-interviews-%F0%9F%8E%AF-%F0%9F%9A%80&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/madza/14-github-repositories-to-ace-your-javascript-interviews-1phi&quot;&gt;14 GitHub Repositories to Ace Your JavaScript Interviews 🎯 🚀&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;相信在等到公司的年終三寶「尾牙、抽獎和年終」後，某些人已經準備好履歷要大投特投了，但是前端那麼大，該如何準備起呢？這裡剛好整理了 14 個和面試相關的 GitHub 專案，讓你在面試前的準備可以衝刺一波！&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 117 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/117/smalltown-117/"/>
 		<updated>2022-01-25T00:00:00-00:00</updated>
