@@ -23,4 +23,4 @@ tags: [Testing]
 
 ### [React Snapshot Testing With Jest: An Introduction With Examples](https://blog.openreplay.com/react-snapshot-testing-with-jest-an-introduction-with-examples)
 
-在前端的測試除了 end-to-end testing 外還有另一個前端工程師可以做的就是 snapshot testing，透過 snpashot 我們可以確保元素會正常的 render 出我們想要的結構，這篇文章就在介紹 React 的 snpashot testing，有興趣的讀者可以閱讀看看。
+在前端的測試除了 end-to-end testing 外還有另一個前端工程師可以做的就是 snapshot testing，透過 snapshot 我們可以確保元素會正常的 render 出我們想要的結構，這篇文章就在介紹 React 的 snapshot testing，有興趣的讀者可以閱讀看看。
