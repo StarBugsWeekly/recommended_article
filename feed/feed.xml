@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-01-25T00:00:00-00:00</updated>
+	<updated>2022-02-01T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -916,6 +916,34 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;p&gt;假如自己私人跟公司都使用 GitHub 來儲存程式碼，兩邊都需要推 Code，而且你不想要使用公司帳號額外建立一個 GitHub 帳號的話，那該怎麼做呢？解決的方法有兩個，分別是 SSH Configuration 或是 git URL re-writing 來達成，有興趣的人可以參考這篇文章來試試看&lt;/p&gt;
 &lt;h3 id=&quot;9-open-source-add-ons-to-improve-your-mozilla-firefox-experience&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#9-open-source-add-ons-to-improve-your-mozilla-firefox-experience&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://itsfoss.com/best-firefox-add-ons/&quot;&gt;9 Open Source Add-Ons to Improve Your Mozilla Firefox Experience&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;相信除了 Chrome 之外，大家應該或多或少會有第二選擇的瀏覽器，像我自己就是使用 Firefox，這篇文章介紹九個加強 Firefox 的開源 Add-Ons，例如有可以讓網站變成黑色模式的 Dark Reader，密碼管理工具 Bitwarden，設定快捷鍵功能工具 Vimium-FF...等，有在使用 Firefox 的人可以參考詳細內文去安裝有興趣的 Add-Ons&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 118 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/118/smalltown-118/"/>
+		<updated>2022-02-01T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/118/smalltown-118/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;kubernetes-jobs-market-trends-for-2021&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#kubernetes-jobs-market-trends-for-2021&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://kube.careers/report-2021-q4&quot;&gt;Kubernetes jobs market trends for 2021&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在 2022 的一開始讓我們來回顧一下 2021 年 Kubernetes 相關工作職缺的趨勢吧！從數量上來看的話， 2021 Q3 是最多 Kubernetes 工作職缺出現的時候，而在這些工作職缺中，以北美和歐洲為最大宗，份別佔比 30% 和 29% (東南亞為 15%)；而且在所有 Kubernetes 職缺中有超過 21% 為純遠端，而這些職缺在美國平均來說薪資範圍落在 US$ 123,494 到 US$ $162,177，比較高的薪資區間落在 US$200,000 到 US$ 260,000，而且從 Q1 到 Q4 平均薪資慢慢增加 10%&lt;/p&gt;
+&lt;p&gt;在 91.66% 中的職缺中並不要求應徵者需要具備證照，假如有提到的話，以 AWS 證照為最大宗，再來則是 CKA, 接著分別是 GCP 和 Azure 的證照，有一半左右的職缺提及 Configuration Management 工具的使用能力，其中以 Terraform 為大宗，再來則是 Ansible...想知道其他更多關於 Kubernetes 職缺需要具備哪些技術門檻可以直接參考內文&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;announcing-the-kubernetes-policy-management-paper&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#announcing-the-kubernetes-policy-management-paper&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.cncf.io/blog/2022/01/28/announcing-the-kubernetes-policy-management-paper/&quot;&gt;Announcing the Kubernetes Policy Management Paper&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Kubernetes Seucirty SIG 和 Policy WG 最近一起釋出 Kubernetes Policy Management 的白皮書，用來協助社群了解使用 Policy 管理 K8s 組態的最佳方式；這份白皮書目標在於讓大家知曉為什麼 K8s Policy 的管理對於 K8s Cluster 和 Worklaod 的安全性和自動化為什麼如此的重要，同時也描述 K8s Policy 可以協助解決什麼樣的問題，以及怎麼去實作 K8s Policy，有興趣的人可以直接到這個 &lt;a href=&quot;https://github.com/kubernetes/sig-security/tree/main/sig-security-docs/papers/policy&quot;&gt;GitHub&lt;/a&gt; 連結裡面去下載白皮書 PDF 檔案來研究看看&lt;/p&gt;
+&lt;h3 id=&quot;6-programming-languages-you-should-not-learn-(and-what-to-learn-instead)&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#6-programming-languages-you-should-not-learn-(and-what-to-learn-instead)&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://levelup.gitconnected.com/6-programming-languages-you-should-not-learn-and-what-to-learn-instead-95c0c3ff1fa1&quot;&gt;6 Programming Languages You Should Not Learn (and What To Learn Instead)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;學習一門新的語言可以是一段很有趣的旅程，但學習新事物意味著在時間上的投資，還有你的精力，甚至是全心投入，換句話說，做出一定程度的犧牲是難免的，因此一開始如何做出正確的決定就相當的重要，所以作者列舉出 6 個不應該去學習的語言，並且述說為什麼不該去學習他們，而是應該去學習其他的替代語言，底下簡單條列重點，細節可以參考原文&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Objective-C -&amp;gt; Swift&lt;/li&gt;
+&lt;li&gt;Jave -&amp;gt; Kotlin or Scala&lt;/li&gt;
+&lt;li&gt;HTML and CSS -&amp;gt; Javascript&lt;/li&gt;
+&lt;li&gt;PHP -&amp;gt; Python, Javascript or Go&lt;/li&gt;
+&lt;li&gt;C -&amp;gt; Rust or Ruby&lt;/li&gt;
+&lt;li&gt;C++ -&amp;gt; Rust or Ruby&lt;/li&gt;
+&lt;/ol&gt;
 
 		</content>
 	</entry>
