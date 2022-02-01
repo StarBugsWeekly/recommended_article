@@ -921,6 +921,31 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 	</entry>
 	
 	<entry>
+		<title>第 118 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/118/gqsm-118/"/>
+		<updated>2022-02-01T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/118/gqsm-118/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;learn-typescript-%E2%80%93-the-ultimate-beginners-guide&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#learn-typescript-%E2%80%93-the-ultimate-beginners-guide&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.freecodecamp.org/news/learn-typescript-beginners-guide/&quot;&gt;Learn TypeScript – The Ultimate Beginners Guide&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;如同文章標題，如果是想要學習 TypeScript 的初學者，那這是篇很好入門的文章。雖然文章內容偏長，但剛好可以利用年假找時間看完！😂&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;how-to-make-money-with-css%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-to-make-money-with-css%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://nazanin-ashrafi.hashnode.dev/how-to-make-money-with-css#comments-list&quot;&gt;How To Make Money With CSS?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;CSS 不只可以拿來讓網頁變得更漂亮，還可以拿來賺錢？如果你熱愛 CSS，並且理解 CSS 的話，也許能考慮作者介紹幾個利用 CSS 這項技能賺取額外收入的方式！&lt;/p&gt;
+&lt;h3 id=&quot;my-honest-opinion-on-tailwind-css&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#my-honest-opinion-on-tailwind-css&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://h.daily-dev-tips.com/my-honest-opinion-on-tailwind-css&quot;&gt;My honest opinion on Tailwind CSS&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;對於 Tailwind CSS，作者認為如果你還沒有相當的經驗，那就不太適合使用 Tailwind CSS，因為你可能無法找到正確的 class 實現你想做的事情，那對於熟悉 CSS 的開發者又如何呢？看看文章怎麼說吧！🙌&lt;/p&gt;
+&lt;h3 id=&quot;making-pixel-art-with-pure-css&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#making-pixel-art-with-pure-css&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://pokecoder.hashnode.dev/making-pixel-art-with-pure-css&quot;&gt;Making pixel-art with pure CSS&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在 CodePen 上常常看到一些把 CSS 用到出神入化的開發者，雖然我沒辦法理解那些看了也不懂的 CSS，但要學學這篇文章的像素藝術還是沒問題的！&lt;/p&gt;
+&lt;h3 id=&quot;why-you-should-use-a-developer-font&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#why-you-should-use-a-developer-font&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/anthonyjdella/why-you-should-use-a-developer-font-2gio&quot;&gt;Why you should use a developer font&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在幾個月前我才安裝了開發者字體（單純覺得帥 😂），但從來沒有了解過開發者字體為什麼存在，這篇文章提供了幾個開發者字體的特別之處！🙌&lt;/p&gt;
+&lt;h3 id=&quot;%E4%B8%80%E8%B5%B7%E7%A8%8D%E5%BE%AE%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B-v8-%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E4%B8%80%E8%B5%B7%E7%A8%8D%E5%BE%AE%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B-v8-%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://juejin.cn/post/7059361714575245319&quot;&gt;一起稍微了解一下 V8 的工作流程&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;V8 引擎是 Google 開發用來解析 JavaScript 用的開源專案，但你知道 V8 引擎是如何解析 JavaScript 的嗎？&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 118 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/118/smalltown-118/"/>
 		<updated>2022-02-01T00:00:00-00:00</updated>
