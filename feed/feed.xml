@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-02-01T00:00:00-00:00</updated>
+	<updated>2022-02-08T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -969,6 +969,25 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;li&gt;C -&amp;gt; Rust or Ruby&lt;/li&gt;
 &lt;li&gt;C++ -&amp;gt; Rust or Ruby&lt;/li&gt;
 &lt;/ol&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 119 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/119/gqsm-119/"/>
+		<updated>2022-02-08T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/119/gqsm-119/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;4-most-important-features-coming-in-es2022-that-you-should-know-about&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#4-most-important-features-coming-in-es2022-that-you-should-know-about&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/@bsalwiczek/4-most-important-features-coming-in-es2022-that-you-should-know-about-f7e18c1bff9b&quot;&gt;4 most important features coming in ES2022 that you should know about&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;JavaScript 的新標準 ES2022 會在今年的六月釋出，而這篇文章會介紹 4 個已經在 TC39 中達到第 4 階段的酷東西。其中包含了 Array 的 &lt;code&gt;at()&lt;/code&gt;、使用 &lt;code&gt;new Error&lt;/code&gt; 時可帶的 &lt;code&gt;cause&lt;/code&gt;、&lt;code&gt;Top-level await&lt;/code&gt; 和 Class 中的 Private 成員。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;react-virtual-dom-%E2%80%93-explained-in-simple-words&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#react-virtual-dom-%E2%80%93-explained-in-simple-words&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://tekolio.com/react-virtual-dom-explained-in-simple-words/&quot;&gt;React Virtual DOM – Explained in Simple words&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;文章中解釋了 React 中的 Virtual DOM 的運作概念，以及使用 Virtual DOM 的優勢，內容沒有涉及到太艱深的底層原理，連用詞都簡單到我不用翻譯就完全看懂了呢！😂&lt;/p&gt;
+&lt;h3 id=&quot;%E5%89%8D%E7%AB%AF%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%B3%BB%E5%88%97-%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%B3%BB%E5%88%97-%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://juejin.cn/post/7060851296491798535&quot;&gt;前端的设计模式系列-责任链模式&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者以改寫一道演算法為例子，描述責任鏈模式的使用場景，以及如何用 JavaScript 來實現該設計模式想提供給開發者的意義。&lt;/p&gt;
 
 		</content>
 	</entry>
