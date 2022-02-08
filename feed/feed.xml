@@ -975,6 +975,26 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 	
 	<entry>
 		<title>第 119 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/119/andy-119/"/>
+		<updated>2022-02-08T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/119/andy-119/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;%E4%BD%A0%E7%9F%A5%E9%81%93%E7%9A%84-javascript-%E7%9F%A5%E8%AD%98%E9%83%BD%E6%9C%89%E5%8F%AF%E8%83%BD%E6%98%AF%E9%8C%AF%E7%9A%84&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E4%BD%A0%E7%9F%A5%E9%81%93%E7%9A%84-javascript-%E7%9F%A5%E8%AD%98%E9%83%BD%E6%9C%89%E5%8F%AF%E8%83%BD%E6%98%AF%E9%8C%AF%E7%9A%84&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.huli.tw/2022/01/30/how-to-validate-javascript-knowledge/?fbclid=IwAR17M-W6YRBGF01YI0DaFNmY1_mYRIJQxcKcXBagl5U3R9T6khmTHlngCSg&quot;&gt;你知道的 JavaScript 知識都有可能是錯的&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;眾所皆知 JavaScript 是個擁有非常多地雷等著開發者去踩，一些你對於 JavaScript 觀念上的認知在你還沒去研讀 ECMAScript 的 spec 之前，有可能跟你想像的結果是不一樣，作者在這篇文章整理了一些你可能在認知上是錯誤的 JavaScript 小知識。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;webpack-or-esbuild%3A-why-not-both%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#webpack-or-esbuild%3A-why-not-both%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.logrocket.com/webpack-or-esbuild-why-not-both/&quot;&gt;webpack or esbuild: Why not both?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Builder 的套件一直以來都是前端工程師必備的技能，目前檯面上最有名的莫過於是 Webpack 了，Webpack 擁有強大的 plugins 可以使用，然而最近也有一個很強大的 builder 叫 esbuild，esbuild 擁有強大的編譯效率來減少 build 的時間，身為工程師的我們一定要想辦法達到兩個都要的效果，這篇文章就利用了 &lt;a href=&quot;https://github.com/privatenumber/esbuild-loader&quot;&gt;esbuild-loader&lt;/a&gt; 這個 webpack 的 loader 來提升 webpack 的 build 效率。&lt;/p&gt;
+&lt;h3 id=&quot;10-must-know-patterns-for-writing-clean-code-with-react-and-typescript&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#10-must-know-patterns-for-writing-clean-code-with-react-and-typescript&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/alexomeyer/10-must-know-patterns-for-writing-clean-code-with-react-and-typescript-1m0g&quot;&gt;10 Must-Know Patterns for Writing Clean Code with React and TypeScript&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Clean code 一直以來都是許多開發者想要追求的最終目標，然而實務上真的是不好達成XD&lt;br&gt;
+這篇文章作者舉了 10 個例子並且用 React 搭配 TypeScript 的方式來撰寫 clean code，有興趣的讀者可以收藏起來日後閱讀，畢竟 clean code 真的太難了XD&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 119 期 前端開發 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/119/gqsm-119/"/>
 		<updated>2022-02-08T00:00:00-00:00</updated>
 		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/119/gqsm-119/</id>
