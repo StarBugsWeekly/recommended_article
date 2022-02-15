@@ -1041,6 +1041,25 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 	
 	<entry>
 		<title>第 120 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/120/andy-120/"/>
+		<updated>2022-02-15T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/120/andy-120/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;nextui&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#nextui&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://nextui.org/&quot;&gt;NextUI&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在前端變化越來越快的年代，又有一套新的 UI Library 誕生了，這套 UI Library 是 NextUI，雖然這名字聽起來好像跟 vercel 團隊做出來的 Next.js 很像，但目前好像不是相關團隊設計出來的，有興趣的讀者可以上來看看這套新的 UI Library。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;yarn-3.0-%F0%9F%9A%80%F0%9F%A4%96-performances%2C-esbuild%2C-better-patches&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#yarn-3.0-%F0%9F%9A%80%F0%9F%A4%96-performances%2C-esbuild%2C-better-patches&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/arcanis/yarn-3-0-performances-esbuild-better-patches-e07&quot;&gt;Yarn 3.0 🚀🤖 Performances, ESBuild, Better Patches&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;眾所皆知 Yarn 每一代都會有不少大的改動需要調整，假如讀者有想要將專案的 Yarn workspace 升級到 Yarn 3 的話不妨可以先看看 Yarn 3 的一些特性再來決定是否要升版吧XD&lt;/p&gt;
+&lt;h3 id=&quot;%E4%B8%BA%E4%BB%80%E4%B9%88%E7%8E%B0%E5%9C%A8%E6%88%91%E6%9B%B4%E6%8E%A8%E8%8D%90-pnpm-%E8%80%8C%E4%B8%8D%E6%98%AF-npm%2Fyarn%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E4%B8%BA%E4%BB%80%E4%B9%88%E7%8E%B0%E5%9C%A8%E6%88%91%E6%9B%B4%E6%8E%A8%E8%8D%90-pnpm-%E8%80%8C%E4%B8%8D%E6%98%AF-npm%2Fyarn%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://jishuin.proginn.com/p/763bfbd3bcff&quot;&gt;为什么现在我更推荐 pnpm 而不是 npm/yarn?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;前端用來進行 package management 的工具越來越多，早期很多 Yarn 派的到後來的 npm 6 到現在又有 pnpm，究竟這幾個 package management 有什麼差別呢？有興趣的讀者可以看看這篇文章。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 120 期 前端開發 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/120/gqsm-120/"/>
 		<updated>2022-02-15T00:00:00-00:00</updated>
 		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/120/gqsm-120/</id>
