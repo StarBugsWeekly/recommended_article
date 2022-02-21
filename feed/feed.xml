@@ -1117,7 +1117,7 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 		<updated>2022-02-22T00:00:00-00:00</updated>
 		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/121/andy-121/</id>
 		<content type="html">
-		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+		  &lt;h2 id=&quot;state-management&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#state-management&quot;&gt;#&lt;/a&gt; State management&lt;/h2&gt;
 &lt;!-- summary --&gt;
 &lt;h3 id=&quot;jotai-vs.-recoil%3A-what-are-the-differences%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#jotai-vs.-recoil%3A-what-are-the-differences%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.logrocket.com/jotai-vs-recoil-what-are-the-differences/&quot;&gt;Jotai vs. Recoil: What are the differences?&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/pmndrs/jotai&quot;&gt;Jotai&lt;/a&gt; 以及 &lt;a href=&quot;https://github.com/facebookexperimental/Recoil&quot;&gt;Recoil&lt;/a&gt; 可以說是兩個相當新的 state management，這兩個 state management 的用法可以說是相當接近，這篇文章比較了這兩種 state management，有興趣的讀者可以參考這篇文章來決定要使用哪種 state management。&lt;/p&gt;
