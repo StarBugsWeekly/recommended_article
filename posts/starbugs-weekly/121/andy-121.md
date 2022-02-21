@@ -1,7 +1,7 @@
 ---
 title: 第 121 期 state management 推薦文章
 date: 2022-02-22
-author: smalltown
+author: andy
 
 layout: layouts/post.njk
 tags: [state management]
