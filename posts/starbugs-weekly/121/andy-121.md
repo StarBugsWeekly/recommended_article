@@ -19,6 +19,6 @@ tags: [state management]
 
 [Zustand](https://github.com/pmndrs/zustand) 是一套基於 Flux 設計模式而設計出來的 state management，跟 Redux 一樣都是用這種設計模式，如果讀者想用一些比較新穎的 state management 但是又不想跳脫 Flux 的設計模式，不妨也可以試試看 Zustand 喔～
 
-### [Intro to Xstate — a true state management library for react](https://medium.com/weekly-webtips/intro-to-xstate-a-true-state-management-system-library-for-react-d8c0051c71e4)
+### [Intro to XState — a true state management library for react](https://medium.com/weekly-webtips/intro-to-xstate-a-true-state-management-system-library-for-react-d8c0051c71e4)
 
-[Xstate](https://github.com/statelyai/xstate) 是一套基於 finite state machine 的設計理念所產出的 state management，也因為 finite state machine 需要考慮的 flow 相當多，所以 Xstate 也可以對於一個很操作邏輯相當複雜的網站可以說是相當完整的一套 state management，如果讀者目前有遇到這種情形不妨也可以利用 Xstate 進行 state 管理喔～
+[XState](https://github.com/statelyai/xstate) 是一套基於 finite state machine 的設計理念所產出的 state management，也因為 finite state machine 需要考慮的 flow 相當多，所以 XState 也可以對於一個很操作邏輯相當複雜的網站可以說是相當完整的一套 state management，如果讀者目前有遇到這種情形不妨也可以利用 Xstate 進行 state 管理喔～
