@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-02-15T00:00:00-00:00</updated>
+	<updated>2022-02-22T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -1107,6 +1107,43 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;p&gt;大家或多或少應該都會需要在 Terminal 處理有規則的字串，例如使用 kubectl get pod 後，想把某一些 Pod 給刪除掉，這時候可以先透過 &lt;code&gt;grep&lt;/code&gt; 過濾資料，但該如何把 Pod 的名稱從過濾完的資料內再萃取出來呢？這時候就可以使用 Linux 裡面一個很強大的 &lt;code&gt;cut&lt;/code&gt; 指令，他可以幫你把結構化資料的特定欄位給抓取出來，透過這篇文章可以詳細的知道如何使用它來讓自已日常工作事半功倍&lt;/p&gt;
 &lt;h3 id=&quot;spongebob-cli&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#spongebob-cli&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://github.com/trakBan/spongebob-cli&quot;&gt;spongebob-cli&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;當一直在 Terminal 做事情做到感覺有點疲憊時，該如何讓自己放鬆一下呢？！答案就是下指令 &lt;code&gt;spongebob-cli&lt;/code&gt; 看一集海綿寶寶 🤣 自己滿喜歡看海綿寶寶的，因為裡面有很多大人才看得懂的劇情，沒想到有同好竟然把觀看海綿寶寶做成了 CLI 工具，透過該指令還可以選擇要看哪一集，喜歡海綿寶寶的人不要錯過了!&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 121 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/121/smalltown-121/"/>
+		<updated>2022-02-22T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/121/smalltown-121/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;introducing-opta%3A-terraform-on-rails&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#introducing-opta%3A-terraform-on-rails&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.cncf.io/blog/2022/02/18/introducing-opta-terraform-on-rails/&quot;&gt;Introducing Opta: Terraform on Rails&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/run-x/opta&quot;&gt;Opta&lt;/a&gt; 是一個 IaC Framework，讓你可以使用高階語法來建構雲端架構，而不會迷失在低階的雲端設定組態當中，它提供使用者大量的函式庫來建立出理想中的架構，而且更棒的是他的底層使用 Terraform，所以使用者不會被鎖定在某個平台上，使用者永遠可以撰寫客製化的 Terraform，甚至是將 Opta 直接整合 Terraform 來使用&lt;/p&gt;
+&lt;p&gt;而它主要目標是希望除了業務邏輯跟 Unit Testing 由 Developer 去負責之外，其他諸如 Provision, Deployment, Observatility, Multiple Envs, Security 都由他來完成， Opta 目前支援三大主要公有雲 (AWS, GCP 跟 Azure)，現在主要有底下幾個 Module:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Microservices (powered by Kubernetes)&lt;/li&gt;
+&lt;li&gt;Databases - Postgres, MySQL, Redis&lt;/li&gt;
+&lt;li&gt;Serverless workloads&lt;/li&gt;
+&lt;li&gt;Networking - VPCs, Subnets, Load balancers&lt;/li&gt;
+&lt;li&gt;CDN (Content Delivery Network)&lt;/li&gt;
+&lt;li&gt;Object storage (S3, GCS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;除此之外他也將一些 Best Practice 融合近來，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Observability (Datadog, LogDNA)&lt;/li&gt;
+&lt;li&gt;SOC2 compliance&lt;/li&gt;
+&lt;li&gt;Continuous Deployment&lt;/li&gt;
+&lt;li&gt;Hardened network and security configurations (AWS, GCP, Azure)&lt;/li&gt;
+&lt;li&gt;Auto-scaling and high availability (HA)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;introducing-a-google-cloud-architecture-diagramming-tool&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#introducing-a-google-cloud-architecture-diagramming-tool&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://cloud.google.com/blog/topics/developers-practitioners/introducing-google-cloud-architecture-diagramming-tool&quot;&gt;Introducing a Google Cloud architecture diagramming tool&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;相較於上面的 Opta 使用 YAML 檔案格式來描述雲端架構，GCP 這邊則是推出了 Google 雲端架構繪圖工具，讓使用者可以再將想要的雲端架構圖透過該工具繪製完成後，透過指標點一下，就直接將該架構在 GCP 內給部署出來，看來以後在 IaC 的世界裡，搞不好畫圖比寫 Code 來得重要了 😂&lt;/p&gt;
+&lt;h3 id=&quot;hashicorp-terraform-aws-provider-introduces-significant-changes-to-amazon-s3-bucket-resource&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#hashicorp-terraform-aws-provider-introduces-significant-changes-to-amazon-s3-bucket-resource&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.infoq.com/news/2022/02/terraform-aws-provider-s3/&quot;&gt;HashiCorp Terraform AWS Provider Introduces Significant Changes to Amazon S3 Bucket Resource&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;看完高階的 IaC，接著來看低階一些的，HashiCorp 最近釋出 Terraform AWS Provider 4.0，在這個更新版當中，在 S3 Bucket 這個資源中包含了巨大且不可向下相容的變更，因此沒有鎖定 AWS Provider 版本的人，在最近使用的時候要注意一下，假如發生不意外的錯誤，就有可能是因為這次的更新所造成的，看是要降板，或是捲起袖子來修改一番了💪&lt;/p&gt;
+&lt;h3 id=&quot;include-diagrams-in-your-markdown-files-with-mermaid&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#include-diagrams-in-your-markdown-files-with-mermaid&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/&quot;&gt;Include diagrams in your Markdown files with Mermaid&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;上週情人節時 GitHub 宣佈一個新功能，就是以後可以在 Markdown 檔案格式中透過 Mermaid 來增加圖像了！這樣一來以後想要在 Markdown 檔案中加入流程圖的話就可以不用特地畫一張圖，然後再把圖片轉成 JPG/PNG 檔之後加到 Repository 中，然後再讓 Markdown 去引用他，可以省下不少時間 🕒&lt;/p&gt;
 
 		</content>
 	</entry>
