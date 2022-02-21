@@ -13,7 +13,7 @@ tags: [DevOps]
 <!-- summary -->
 ### [Introducing Opta: Terraform on Rails](https://www.cncf.io/blog/2022/02/18/introducing-opta-terraform-on-rails/)
 
-[Opta](https://github.com/run-x/opta) 是一個 IaC Framework，讓你可以使用高階語法來建構雲端架構，而不會迷失在低階的雲端設定組態當中，它提供使用者大量的函式庫來建立出理想中的架構，而且更棒的是他的底層使用 Terraform，所以使用者不會被鎖定在某個平台上，使用者永遠可以撰寫客製化的 Terraform，甚至是將 Opta 直接整合 Terraform 來使用
+[Opta](https://github.com/run-x/opta) 是一個 IaC Framework，讓你可以使用高階語法來建構雲端架構，而不會迷失在低階的雲端設定組態當中，它提供使用者大量的函式庫來建立出理想中的架構，而且更棒的是他的底層使用 Terraform，所以使用者不會被鎖定在某個平台上，使用者永遠可以撰寫客製化的 Terraform，甚至是將 Opta 直接整合 Terraform 來使用<!-- summary -->
 
 而它主要目標是希望除了業務邏輯跟 Unit Testing 由 Developer 去負責之外，其他諸如 Provision, Deployment, Observatility, Multiple Envs, Security 都由他來完成， Opta 目前支援三大主要公有雲 (AWS, GCP 跟 Azure)，現在主要有底下幾個 Module:
 
