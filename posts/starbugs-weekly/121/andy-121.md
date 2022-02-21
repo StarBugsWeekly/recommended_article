@@ -8,7 +8,7 @@ tags: [state management]
 # image: /img/TheSpiritAndImplementationOfAOP/0____Bm36Dv5mm97e2vF.jpg
 ---
 
-## DevOps
+## State management
 
 <!-- summary -->
 ### [Jotai vs. Recoil: What are the differences?](https://blog.logrocket.com/jotai-vs-recoil-what-are-the-differences/)
