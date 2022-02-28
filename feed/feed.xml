@@ -1186,6 +1186,25 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 	</entry>
 	
 	<entry>
+		<title>第 122 期 Design Pattern 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/122/andy-122/"/>
+		<updated>2022-03-01T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/122/andy-122/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;%E5%BE%AE%E6%9C%8D%E5%8B%99%E7%9E%8E%E8%AB%87(7)-saga-pattern&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%BE%AE%E6%9C%8D%E5%8B%99%E7%9E%8E%E8%AB%87(7)-saga-pattern&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://ithelp.ithome.com.tw/articles/10236124&quot;&gt;微服務瞎談(7) Saga Pattern&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在 microservice 的架構中，每個 service 都有自己的儲存資料的空間，那麼要如何確保這些資料可以保持一致性，這時候就可以利用 saga pattern 這個 design pattern 來處理這個問題。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;%5Bdesign-pattern%5D-decorator-%E8%A3%9D%E9%A3%BE%E8%80%85%E6%A8%A1%E5%BC%8F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%5Bdesign-pattern%5D-decorator-%E8%A3%9D%E9%A3%BE%E8%80%85%E6%A8%A1%E5%BC%8F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://ithelp.ithome.com.tw/articles/10218692&quot;&gt;[Design Pattern] Decorator 裝飾者模式&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Decorator pattern 可以說是蠻常使用的一種 design pattern，解決了需要多次繼承或者建立多種實作方式的困擾，如果讀者有遇到重複性很高或者邏輯相識度很高的程式碼，不妨也可以利用 decorator pattern 來進行一個重構的設計。&lt;/p&gt;
+&lt;h3 id=&quot;%5B-day-13-%5D-%E8%87%AA%E5%B7%B1%E4%B8%8D%E6%9C%83%E6%B2%92%E9%97%9C%E4%BF%82%EF%BD%9E%E6%89%BE%E4%B8%80%E5%80%8B%E4%BB%A3%E7%90%86%E4%BA%BA%E5%B9%AB%E5%BF%99%E8%99%95%E7%90%86---%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F-(-proxy-pattern-)&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%5B-day-13-%5D-%E8%87%AA%E5%B7%B1%E4%B8%8D%E6%9C%83%E6%B2%92%E9%97%9C%E4%BF%82%EF%BD%9E%E6%89%BE%E4%B8%80%E5%80%8B%E4%BB%A3%E7%90%86%E4%BA%BA%E5%B9%AB%E5%BF%99%E8%99%95%E7%90%86---%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F-(-proxy-pattern-)&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://ithelp.ithome.com.tw/articles/10205659&quot;&gt;[ Day 13 ] 自己不會沒關係～找一個代理人幫忙處理 - 代理模式 ( Proxy Pattern )&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Proxy pattern 是一種 design pattern 讓你可以利用代理人的方式來進行物件的控管，假如讀者在開發的過程中，遇到一個邏輯相當複雜的物件，可能複雜到很難管理，這時候就可以利用 proxy pattern 進行物件的邏輯改寫，這樣說不定就不會讓這個物件變得難以控管喔！&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 122 期 前端開發 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/122/gqsm-122/"/>
 		<updated>2022-03-01T00:00:00-00:00</updated>
