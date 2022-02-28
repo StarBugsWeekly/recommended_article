@@ -1186,6 +1186,25 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 	</entry>
 	
 	<entry>
+		<title>第 122 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/122/gqsm-122/"/>
+		<updated>2022-03-01T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/122/gqsm-122/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;%E5%81%9A%E4%BA%86%E4%B8%80%E4%BB%BD%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%A4%8D%E4%B9%A0%E8%AE%A1%E5%88%92%EF%BC%8C%E4%BF%9D%E7%86%9F%EF%BD%9E&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%81%9A%E4%BA%86%E4%B8%80%E4%BB%BD%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%A4%8D%E4%B9%A0%E8%AE%A1%E5%88%92%EF%BC%8C%E4%BF%9D%E7%86%9F%EF%BD%9E&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://juejin.cn/post/7061588533214969892&quot;&gt;做了一份前端面试复习计划，保熟～&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;與面試題相關的文章就是那種平常不會去看，但是需要用到的時候又恨著自己平常沒有找時間讀的文章，尤其是只會出現在面試中的那種題目 😂，這裡有個作者就把常見的面試題整理成大補帖，幾乎涵蓋了前端的所有領域，有空或面試之前可以就拿出來看個一兩題！ 🙌&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;future-javascript%3A-records-and-tuples&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#future-javascript%3A-records-and-tuples&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dzone.com/articles/future-javascript-records-and-tuples&quot;&gt;Future JavaScript: Records and Tuples&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Records 和 Tuples 是 JavaScript 未來有可能會出現的新功能，目前在 &lt;a href=&quot;https://github.com/tc39/proposal-record-tuple&quot;&gt;tc39 提案的第二階段&lt;/a&gt;。他們長得很像 Object 和 Array，但又有哪些其他特別的新功能，看看文章裡怎麼說吧！&lt;/p&gt;
+&lt;h3 id=&quot;exotic-objects-in-javascript&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#exotic-objects-in-javascript&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.bitsrc.io/exotic-objects-understanding-why-javascript-behaves-so-moody-5f55e867354f&quot;&gt;Exotic Objects in JavaScript&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;你有聽過 JavaScript 中的 Exotic Objects 嗎？當你對一個 String 使用一些原生的方法（像是 &lt;code&gt;.split()&lt;/code&gt; 等）時，JavaScript 的內部機制會在方法呼叫時，替你把該 String 轉換成 Object 以順利執行 &lt;code&gt;.split()&lt;/code&gt;，這件事背後就是 Exotic Objects 的概念。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 122 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/122/smalltown-122/"/>
 		<updated>2022-03-01T00:00:00-00:00</updated>
