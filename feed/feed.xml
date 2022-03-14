@@ -1364,6 +1364,25 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 	
 	<entry>
 		<title>第 124 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/124/andy-124/"/>
+		<updated>2022-03-15T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/124/andy-124/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;everything-you-need-to-know-about-the-react-18-rc&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#everything-you-need-to-know-about-the-react-18-rc&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/kathryngrayson/everything-you-need-to-know-about-the-react-18-rc-3kc6&quot;&gt;Everything You Need to Know About the React 18 RC&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;React 18 在最近幾天正式進入 release candidate 的階段了！對於前端工程師來說應該是一項非常振奮人心的消息，究竟 React 18 為各位開發者帶來哪些好用的 feature，有興趣的讀者不妨可以看看這篇文章。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;12-gorgeous-ui-components-for-your-design-inspiration&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#12-gorgeous-ui-components-for-your-design-inspiration&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/madza/12-gorgeous-ui-components-for-your-design-inspiration-3feh&quot;&gt;12 Gorgeous UI Components for Your Design Inspiration&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;對於前端工程師來說要自己純手刻出一些非常炫砲的畫面應該是相當的費時又費力，作者精挑細選了 12 個可以讓你的網頁看起來相當炫砲的 UI component，有興趣想使用的讀者不妨可以參考看看。&lt;/p&gt;
+&lt;h3 id=&quot;what&#39;s-new-in-es2022%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#what&#39;s-new-in-es2022%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/jasmin/whats-new-in-es2022-1de6&quot;&gt;What&#39;s new in ES2022?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;ES2022 即將於 2022 年的 6 月正式推出，究竟 ES2022 提供了哪些全新的功能在 JavaScript 裡頭呢？有興趣的讀者可以點進來這篇文章看看。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 124 期 前端開發 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/124/gqsm-124/"/>
 		<updated>2022-03-15T00:00:00-00:00</updated>
 		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/124/gqsm-124/</id>
