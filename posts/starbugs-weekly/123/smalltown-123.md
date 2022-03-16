@@ -1,5 +1,5 @@
 ---
-title: 第 123 期 Backend 推薦文章
+title: 第 123 期 後端開發 推薦文章
 date: 2022-03-08
 author: smalltown
 
@@ -8,7 +8,7 @@ tags: [Backend]
 # image: /img/TheSpiritAndImplementationOfAOP/0____Bm36Dv5mm97e2vF.jpg
 ---
 
-## DevOps
+## 後端開發
 
 <!-- summary -->
 ### [19 Valuable GitHub Repositories for Beginner Developers](https://dev.to/madza/19-valuable-github-repositories-for-beginner-developers-3i18)
