@@ -1345,12 +1345,12 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 	</entry>
 	
 	<entry>
-		<title>第 123 期 Backend 推薦文章</title>
+		<title>第 123 期 後端開發 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/123/smalltown-123/"/>
 		<updated>2022-03-08T00:00:00-00:00</updated>
 		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/123/smalltown-123/</id>
 		<content type="html">
-		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+		  &lt;h2 id=&quot;%E5%BE%8C%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%BE%8C%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 後端開發&lt;/h2&gt;
 &lt;!-- summary --&gt;
 &lt;h3 id=&quot;19-valuable-github-repositories-for-beginner-developers&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#19-valuable-github-repositories-for-beginner-developers&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/madza/19-valuable-github-repositories-for-beginner-developers-3i18&quot;&gt;19 Valuable GitHub Repositories for Beginner Developers&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;作者經常被詢問假如想要開始踏入 Web 開發職涯的話，有哪一些資源可以推薦給初學者，所以就將他覺得最棒的 Repository 給條列出來，雖然大部分都比較適合初學者，但或許資深的工程師也可以從中溫故知新，這些連結經過分類，其中包含課程，Handbook, 最佳守則，專案，面試的各種資源&lt;!-- summary --&gt;&lt;/p&gt;
@@ -1414,6 +1414,25 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;p&gt;自己架設服務讓組織有更多的彈性，而且資安規範必須要把服務架設在內網是很常見的事，在選擇服務的時候就可以來 awesome-selfhosted 找找有沒有特別的。除了介紹單一服務外，還有 self-hosting solutions 讓使用者一次建立多個 self-hosted 服務環境，讓你省去個別選擇的煩惱。這個專案看得出來很用心，甚至附上 demo 和 source code 的連結，也有一些分類直接導向別的 awesome 專案連結，甚至還有 License 以及程式語言的 tag。&lt;/p&gt;
 &lt;h3 id=&quot;awesome-baremetal&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#awesome-baremetal&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://github.com/alexellis/awesome-baremetal&quot;&gt;awesome-baremetal&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;awesome-baremetal 是搜集了跟實體機器有關的專案，除了工具之外還有介紹不錯的 bare metal 雲服務商。本專案特別的地方在於精挑細選的規則，就必須一直有在開發、要真的有公司使用這些工具、能夠真的被廣泛使用而不是客製化的專案以及不得有廣告的嫌疑，像是這樣的篩選讓人們可以安裝從 awesome-baremetal 專案中做選擇。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 124 期 後端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/124/smalltown-124/"/>
+		<updated>2022-03-15T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/124/smalltown-124/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%BE%8C%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%BE%8C%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 後端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;rapid-event-notification-system-at-netflix&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#rapid-event-notification-system-at-netflix&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://netflixtechblog.com/rapid-event-notification-system-at-netflix-6deb1d2b57d1&quot;&gt;Rapid Event Notification System at Netflix&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Netflix 擁有超過 2.2 億活躍用戶，他們必須確保用戶在不同的裝置間進行的任何動作 (修改 Profile, 觀看電影標題...等) 保持體驗的一致性，考量到支援的眾多裝置種類和使用者可以執行的動作之多，其實這不是一件容易達成的事情，因此 Netflix 開發了一個快速事件通知系統，用來支援任何需要 Server 與裝置間溝通的使用情境，而在這篇文章中將會介紹這套系統的大致樣貌，而且分享 Netflix 在構築它時所學到的事情&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;code-verify%3A-an-open-source-browser-extension-for-verifying-code-authenticity-on-the-web&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#code-verify%3A-an-open-source-browser-extension-for-verifying-code-authenticity-on-the-web&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://engineering.fb.com/2022/03/10/security/code-verify/&quot;&gt;Code Verify: An open source browser extension for verifying code authenticity on the web&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;自從去年 WhatsApp 推出多裝置功能之後，Meta 這邊看到越來越多人直接使用瀏覽器拜訪 WhatsApp Web，考慮到此一使用者行為轉變， Meta 這邊開始想要增加 WhatsApp Web 的安全性，所以最近推出了一個開源的瀏覽器 Extension - Code Verify，他可以自動驗證使用者拜訪的 WhatsApp Web 程式碼沒有被其他人竄改，文章內進一步 Code Verify 的運作機制與使用方式&lt;/p&gt;
+&lt;h3 id=&quot;modern-application-load-balancing-with-a-centralized-control-plane&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#modern-application-load-balancing-with-a-centralized-control-plane&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.cncf.io/blog/2022/03/10/modern-application-load-balancing-with-a-centralized-control-plane-2/&quot;&gt;Modern application load balancing with a centralized control plane&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;一個服務或是系統，一般來說可以分成 Control Plane 和 Data Plane，將兩者分開可以實現 Software-Defined Everything 和 Infrastructure as Code，這樣的做法可以將應用程式跟其運行的基礎設施解耦合，好處有增加執行效率，增加部署彈性，執行成本最佳化；而傳統的 Load Balancer 和 Web Application Firewalls 通常都沒有將 Control Plane 和 Data Plane 拆開來，當你處在數千個應用服務的環境中時，這樣的模式將會成為 Wordload 的瓶頸，所以文章中提到對於這類型的系統或是服務要如何將 Control Plane 集中化，並將 Data Plane 拆分開來，以及其帶來的好處&lt;/p&gt;
 
 		</content>
 	</entry>
