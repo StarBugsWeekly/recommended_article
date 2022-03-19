@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-03-15T00:00:00-00:00</updated>
+	<updated>2022-03-22T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -1433,6 +1433,54 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 &lt;p&gt;自從去年 WhatsApp 推出多裝置功能之後，Meta 這邊看到越來越多人直接使用瀏覽器拜訪 WhatsApp Web，考慮到此一使用者行為轉變， Meta 這邊開始想要增加 WhatsApp Web 的安全性，所以最近推出了一個開源的瀏覽器 Extension - Code Verify，他可以自動驗證使用者拜訪的 WhatsApp Web 程式碼沒有被其他人竄改，文章內進一步 Code Verify 的運作機制與使用方式&lt;/p&gt;
 &lt;h3 id=&quot;modern-application-load-balancing-with-a-centralized-control-plane&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#modern-application-load-balancing-with-a-centralized-control-plane&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.cncf.io/blog/2022/03/10/modern-application-load-balancing-with-a-centralized-control-plane-2/&quot;&gt;Modern application load balancing with a centralized control plane&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;一個服務或是系統，一般來說可以分成 Control Plane 和 Data Plane，將兩者分開可以實現 Software-Defined Everything 和 Infrastructure as Code，這樣的做法可以將應用程式跟其運行的基礎設施解耦合，好處有增加執行效率，增加部署彈性，執行成本最佳化；而傳統的 Load Balancer 和 Web Application Firewalls 通常都沒有將 Control Plane 和 Data Plane 拆開來，當你處在數千個應用服務的環境中時，這樣的模式將會成為 Wordload 的瓶頸，所以文章中提到對於這類型的系統或是服務要如何將 Control Plane 集中化，並將 Data Plane 拆分開來，以及其帶來的好處&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 125 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/125/rico-125/"/>
+		<updated>2022-03-22T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/125/rico-125/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;a-better-alternative-for-docker-desktop%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#a-better-alternative-for-docker-desktop%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/@oribenhur/a-better-alternative-for-docker-desktop-3e8fa38d618&quot;&gt;A better alternative for Docker Desktop?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;我想不少公司應該有認真考慮過 Docker Desktop license 付費的問題，這篇分享作者在使用多個方案後決定使用 Rancher Desktop，選擇的理由不外乎社群活耀度、支援 docker 和 contained、支援 docker-cli 和 nerdctl、支援 Apple M1 以及支援 build-in local volume mounts，會特別強調 local volume mounts 是因為 Podman 不太支援這點。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;p&gt;作者介紹了兩種安裝 Rancher Desktop 的方法，一個是從 shell script 安裝，另外一種比較簡單許多，直接下載 .dmg 檔案。&lt;/p&gt;
+&lt;h3 id=&quot;replace-docker-desktop-with-lima&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#replace-docker-desktop-with-lima&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/itnext/replace-docker-desktop-with-lima-88ec6f9d6a19&quot;&gt;Replace Docker Desktop with lima&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;這篇介紹另外一個取代 Docker Desktop 的選擇 Lima，作者也表示他嘗試了一下 Podman 發現 local volume mount 的問題（而且這個 issue 從 2020 就已經有了）。Lima 安裝的 script 看似很複雜但其實只是一些簡單的設定，例如：為了連線而改 hostname、設定 rootless container 以及必要的 healthcheck 等等。&lt;/p&gt;
+&lt;p&gt;附帶一提的是，不論是 Rancher Desktop 或 Lima 都有支援 docker-compose。&lt;/p&gt;
+&lt;h3 id=&quot;5-unusual-docker-container-use-cases&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#5-unusual-docker-container-use-cases&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/itnext/5-unusual-docker-container-use-cases-547804d64c35&quot;&gt;5 unusual Docker container use cases&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;介紹 5 種平常不會用到的 container 用法，不過老實說這 5 種我就蠻常用其中 3 種，讓我們來看看哪些你也中了吧：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;跑真正有 UI 的 container
+&lt;ul&gt;
+&lt;li&gt;裡面舉例了相片管理軟體 &lt;a href=&quot;https://www.digikam.org/&quot;&gt;digikam&lt;/a&gt;、瀏覽器或 Libre Office 等等都可以跑 container。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;跑 Linux 桌面版的 container
+&lt;ul&gt;
+&lt;li&gt;跟上一個用法有點雷同，Linux 桌面是從網頁去看的，也剛好有 Youtuber 拍實際跑起來的&lt;a href=&quot;https://youtu.be/Gd9bvdkIXOQ&quot;&gt;影片&lt;/a&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;把 container 當作指令
+&lt;ul&gt;
+&lt;li&gt;個人蠻常用的，畢竟有的時候不會想要安裝太多在自己的電腦裡。不過作者在這裡描述的是想要更高客製化的執行環境，他的&lt;a href=&quot;https://itnext.io/portable-kubernetes-management-with-kubectl-in-docker-cb861a2c3c02&quot;&gt;另外一篇文章&lt;/a&gt;裡就有寫為了執行 kubectl 所安裝的一系列環境。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;把 container 當作開發環境
+&lt;ul&gt;
+&lt;li&gt;也算是很常用的場景，畢竟 Apple M1 還是處處受限制，也剛好有 Gitpod 這個 SaaS 選擇。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;把 container 當作 Kubernetes 環境
+&lt;ul&gt;
+&lt;li&gt;有在使用 Kubernetes 的人一定不陌生這個使用方法，雖然不比真實的 Kubernetes，但是可以快速驗證一些基本的想法或除錯。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 
 		</content>
 	</entry>
