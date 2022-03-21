@@ -1438,6 +1438,25 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 	</entry>
 	
 	<entry>
+		<title>第 125 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/125/gqsm-125/"/>
+		<updated>2022-03-22T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/125/gqsm-125/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;getting-started-with-three.js&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#getting-started-with-three.js&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/geekculture/getting-started-with-three-js-1c2d02e18330&quot;&gt;Getting Started With Three.js&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;如果有想要學習 Three.js 然後做出各各種漂亮的 3D 場景，那從這篇文章入門會是不錯的選擇，文章裡面介紹了 Three.js 內的幾個重要的元素，包含 scene、3D geometry、Materials、Mesh、Loaders、Camera、Lighting 等等，每段介紹的時候都有再貼上用來實現的範例程式碼，有興趣的話也可以花時間看看唷！&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;css-interview-questions&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#css-interview-questions&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://kumarsonsoff.hashnode.dev/css-interview-questions#comments-list&quot;&gt;CSS Interview Questions&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者整理了常見的 CSS 面試問題，像是 CSS 的 Box Model 是什麼等等。雖然看上去都很基本，但是金魚腦如我，過一段時間不複習，就很容易就忘記，大家也可以看看自己曾經學過的知識是否還記得喲！&lt;/p&gt;
+&lt;h3 id=&quot;is-vite-better-than-webpack%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#is-vite-better-than-webpack%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.bitsrc.io/vite-is-better-than-webpack-d5dd59610d56&quot;&gt;Is Vite Better than Webpack?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Vite 從出現以來就一直以快速為它的特點，那相較於 Webpack 從一個 entry point 開始打包成 Bundle.js 的流程，Vite 究竟是如何改善我們的開發體驗呢？&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 125 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/125/rico-125/"/>
 		<updated>2022-03-22T00:00:00-00:00</updated>
