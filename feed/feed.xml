@@ -1438,6 +1438,30 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 	</entry>
 	
 	<entry>
+		<title>OCF intern</title>
+		<link href="https://starbugs-blog.netlify.app/posts/activity/20220306-OCF-intern-2022/"/>
+		<updated>2022-03-22T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/activity/20220306-OCF-intern-2022/</id>
+		<content type="html">
+		  &lt;p&gt;&lt;a href=&quot;https://blog.ocf.tw/2022/03/2022.html&quot;&gt;OCF 開放文化基金會 2022 年社群實習&lt;/a&gt;&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;p&gt;為了延續台灣開源、開放的生態，培養能夠熟悉社群運作、洞悉國際趨勢的人才，OCF 即日起開始與四個合作社群：CCTW, FreeBSD, CNTUG, CSCS 一起誠徵實習夥伴，快來和我們一起加入社群運作、貢獻的行列！！&lt;/p&gt;
+&lt;p&gt;報名時間只到 3/31 心動不如馬上行動&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h2 id=&quot;%E7%A4%BE%E7%BE%A4%E5%88%97%E8%A1%A8&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E7%A4%BE%E7%BE%A4%E5%88%97%E8%A1%A8&quot;&gt;#&lt;/a&gt; 社群列表&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://ocf.tw/p/cctw/&quot;&gt;CCTW (CC Taiwan Chapter)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Creative Commons 是美國的非營利組織提出的公眾授權條款，台灣稱為「創用 CC」授權條款，是現今網路世代身為一個創作者所不可或缺的開放共享的授權方式。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bsdtw.org/&quot;&gt;FreeBSD Taiwan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;FreeBSD 是一套寬鬆自由軟體授權的開放原始碼作業系統。具備高度的可調整性，廣泛使用於伺服器，桌面與嵌入式平台。由於先進的網路、安全性與儲存方面的特色，成為許多大型網站以及各種嵌入式系統與儲存裝置的平台選擇。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/groups/cloudnative.tw/&quot;&gt;CNTUG (Cloud Native Taiwan User Group)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cloud Native Taiwan User Group 希望整合台灣雲端相關社群如 OpenStack, Kubernetes, Ceph, SDN 等，並利用 Meetup 定期在各台灣地區舉辦技術與推廣分享活動。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ocf.tw/p/cscs/&quot;&gt;CSCS (Civil Society Cyber Shield)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CSCS 全名 Civil Society Cyber Shield, 是由台灣資安專業人士為主組成的志工服務團體，2017 年起專門為公民團體 (NGO) 提供資訊安全相關的培訓、健檢、顧問，並透過不定期的講座、擺攤活動推廣資安、隱私、數位權利等議題。CSCS 曾服務的公民團體議題類型包含言論自由、婦女、環境等等。今日，越來越多社會活動轉移至線上，而網路環境中的資訊安全和隱私威脅也日漸複雜，公民團體往往沒有足夠的資源來應對。CSCS 希望整合專業資安知識，提供公民團體資安協助，進而維護台灣的自由公民社會。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 125 期 前端開發 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/125/andy-125/"/>
 		<updated>2022-03-22T00:00:00-00:00</updated>
