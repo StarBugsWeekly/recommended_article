@@ -26,4 +26,4 @@ tags: [Backend]
 
 ### [How Do I Resolve Merge Conflicts?](https://dev.to/github/how-do-i-resolve-merge-conflicts-5438)
 
-作者剛從 coding boot camp 畢業時其實還不會處理 Git Merge Conflict，他的當時的解決方式是直接重開一個新的 Git Repository，不過他在 2019 年作為一個軟體工程師跟著團隊一起工作之後，他不可能再透過開啟新的 Git Repository 來解決問題，所以他在那一年常常解 Merge Conclict 解到泛淚，不過在經歷那段時間之後，他現在已經很有信心自己去解決 Merge Conclict，雖然還是會有點感到壓力XD 所以他想要提供一些小技巧給大家，首先可以從了解為什麼 Merge Conclict 發生開始，接著提到如何去解決 Merge Conflict，內容講得滿詳細的，推薦給對於解決 Merge Conclict 也感到苦惱的人
+作者剛從 coding boot camp 畢業時其實還不會處理 Git Merge Conflict，他的當時的解決方式是直接重開一個新的 Git Repository，不過他在 2019 年作為一個軟體工程師跟著團隊一起工作之後，他不可能再透過開啟新的 Git Repository 來解決問題，所以他在那一年常常解 Merge Conflict 解到泛淚，不過在經歷那段時間之後，他現在已經很有信心自己去解決 Merge Conflict，雖然還是會有點感到壓力XD 所以他想要提供一些小技巧給大家，首先可以從了解為什麼 Merge Conflict 發生開始，接著提到如何去解決 Merge Conflict，內容講得滿詳細的，推薦給對於解決 Merge Conflict 也感到苦惱的人
