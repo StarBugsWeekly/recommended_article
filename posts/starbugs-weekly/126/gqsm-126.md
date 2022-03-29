@@ -11,7 +11,7 @@ tags: [Front-end]
 ## 前端開發
 <!-- summary -->
 
-### [Remix – Web Standards Are Cool Again](https://medium.com/geekculture/getting-started-with-three-js-1c2d02e18330)
+### [Remix – Web Standards Are Cool Again](https://www.simplethread.com/remix-web-standards-are-cool-again/)
 
 [Remix](https://remix.run/) 是 React Router 的團隊開發，並在去年正式開源的全端框架。文章中作者介紹了他對 Remix 中感興趣的地方，像是 SSR、Routes 和 錯誤處理等，看完我都想要來試試 Remix 了！
 
