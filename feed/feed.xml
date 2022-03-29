@@ -1579,7 +1579,7 @@ JSDC 由 2011 年底開始，由三個台灣開發者社群共同發起，近年
 		<content type="html">
 		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
 &lt;!-- summary --&gt;
-&lt;h3 id=&quot;remix-%E2%80%93-web-standards-are-cool-again&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#remix-%E2%80%93-web-standards-are-cool-again&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/geekculture/getting-started-with-three-js-1c2d02e18330&quot;&gt;Remix – Web Standards Are Cool Again&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;remix-%E2%80%93-web-standards-are-cool-again&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#remix-%E2%80%93-web-standards-are-cool-again&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.simplethread.com/remix-web-standards-are-cool-again/&quot;&gt;Remix – Web Standards Are Cool Again&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://remix.run/&quot;&gt;Remix&lt;/a&gt; 是 React Router 的團隊開發，並在去年正式開源的全端框架。文章中作者介紹了他對 Remix 中感興趣的地方，像是 SSR、Routes 和 錯誤處理等，看完我都想要來試試 Remix 了！&lt;/p&gt;
 &lt;!-- summary --&gt;
 &lt;h3 id=&quot;why-does-javascript%E2%80%99s-parseint(0.0000005)-print-%E2%80%9C5%E2%80%9D%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#why-does-javascript%E2%80%99s-parseint(0.0000005)-print-%E2%80%9C5%E2%80%9D%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://javascript.plainenglish.io/why-is-javascripts-parseint-0-0000005-5-eb9e2432f1b0&quot;&gt;Why does JavaScript’s parseInt(0.0000005) print “5”?&lt;/a&gt;&lt;/h3&gt;
