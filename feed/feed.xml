@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-04-05T00:00:00-00:00</updated>
+	<updated>2022-04-12T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -1766,6 +1766,24 @@ Host smalltown
   IdentityFile ~/.ssh/smalltown.pem
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;而 SSH Config File 還可以透過類似正規表示式來設定，例如使用 * 來代表多個字元，？ 來代表單一字元，！代表不符合的字元，例如可以設定 Alpha 的機器要使用什麼樣的使用者名稱與 Credential，Production 的 Log Level 要是什麼...等，隨自己的需求組合出適合自己的 SSH Config File，讓自己事半功倍，更多詳細的資訊可以參閱內文&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 128 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/128/rico-128/"/>
+		<updated>2022-04-12T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/128/rico-128/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;camel-k-%E2%80%94-%E2%80%9Ccontainerless%E2%80%9D-deployments-on-kubernetes&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#camel-k-%E2%80%94-%E2%80%9Ccontainerless%E2%80%9D-deployments-on-kubernetes&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://itnext.io/camel-k-containerless-deployments-349da12bfa9d&quot;&gt;Camel K — “Containerless” Deployments on Kubernetes&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Camel 是一款幾乎可以整合所有系統跟服務的輕量整合框架，而 Camel K 則是專門用在 Kubernetes 上的套件，只要 developer 寫好 code 邏輯就可以直接部署上 Kubernetes 裡面，不用特別定義 container image 或寫 Kubernetes yaml，減少開發人員驗證想法的時間。&lt;!-- summary --&gt;雖然文章的標題寫說 containerless，但跟 serverless 的想法也很雷同，總體而言，該工具或許值得一試。&lt;/p&gt;
+&lt;h3 id=&quot;version-control-and-artifact-management&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#version-control-and-artifact-management&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://rickhw.github.io/2022/04/06/SoftwareEngineering/Artifact-Management-and-Version-Control/&quot;&gt;Version Control and Artifact Management&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者討論了關於 CICD 源頭的分支策略，與 CI 與 CD 中間 Artifact Management 的關係。分支策略會影響到 pipeline 複雜度，作者提到很多眉角需要去思考怎麼設計最好，打包 artifact 也建議使用 semantic versioning。萬變不離其宗的是，設計這些 pipeline 還是要給團隊使用的，必須隨時接受成員們的 feedback。&lt;/p&gt;
+&lt;h3 id=&quot;mobile-devops%3A-code-signing-ios-apps-automatically&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#mobile-devops%3A-code-signing-ios-apps-automatically&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://hackernoon.com/mobile-devops-code-signing-ios-apps-automatically&quot;&gt;Mobile DevOps: Code Signing iOS Apps Automatically&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;對於 Apple iOS 生態的 CICD pipeline 的設計每個團隊都不同，有些人會直接拿 Mac 直接跑，有些直接使用 SaaS 服務，而 Bitrise 是蠻不錯的平台，使用者體驗對開發人員都很好。本篇文章以大量的 gif 圖介紹 iOS code singing 的原理以及如何設定。&lt;/p&gt;
 
 		</content>
 	</entry>
