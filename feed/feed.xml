@@ -1771,6 +1771,25 @@ Host smalltown
 	</entry>
 	
 	<entry>
+		<title>第 128 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/128/gqsm-128/"/>
+		<updated>2022-04-12T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/128/gqsm-128/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;33-javascript-concepts-every-developer-should-know-%F0%9F%A4%93%EF%B8%8F%F0%9F%92%AF%EF%B8%8F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#33-javascript-concepts-every-developer-should-know-%F0%9F%A4%93%EF%B8%8F%F0%9F%92%AF%EF%B8%8F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/eludadev/33-javascript-concepts-every-beginner-should-know-with-tutorials-4kao&quot;&gt;33 JavaScript Concepts Every Developer Should Know 🤓️💯️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者精心列出 33 個在 JavaScript 中常會出現的一些名詞、方法、原理或是問題，每個項目下都有簡單的說明和更詳細的教學文章連結，如果有時間的話可以再確認一下，看看有沒有自己不小心忽略的部分。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;ui-design-principles&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#ui-design-principles&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://acetech.hashnode.dev/ui-design-principles&quot;&gt;UI Design Principles&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;文章中以表達是否明確、熟悉的介面、一致性、內部控制、最小化使用者的負擔和簡約的設計，這 6 個原則讓你去思考該如何設計出友善的 UI。&lt;/p&gt;
+&lt;h3 id=&quot;web-design-principles&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#web-design-principles&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.devgenius.io/web-design-principles-with-examples-b3fb9c622e57&quot;&gt;Web design principles&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者從顏色、字體、佈局等角度切入設計，並比較各種設計、佈局和 UI 的差別，解釋為什麼在不同的情境下會這樣選擇，以及這麼做的特點在哪裡。文章中包含非常多的圖片，內容也很棒！&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 128 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/128/rico-128/"/>
 		<updated>2022-04-12T00:00:00-00:00</updated>
