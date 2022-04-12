@@ -1806,4 +1806,49 @@ Host smalltown
 
 		</content>
 	</entry>
+	
+	<entry>
+		<title>第 128 期 後端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/128/smalltown-128/"/>
+		<updated>2022-04-12T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/128/smalltown-128/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%BE%8C%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%BE%8C%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 後端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;how-to-design-a-system-to-scale-to-your-first-100-million-users&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-to-design-a-system-to-scale-to-your-first-100-million-users&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d&quot;&gt;How to design a system to scale to your first 100 million users&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;如何設計一個可以服務增加到 1 億使用者的系統？作者使用很淺顯易懂的例子，跟精美的架構圖，一步一步帶著使用者去理解怎麼設計出一個可以服務 一億個使用者的系統，大概會提到的範圍如下：&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;ul&gt;
+&lt;li&gt;首先從把所有的東西都塞在同一台機器裡面為例&lt;/li&gt;
+&lt;li&gt;分析什麼叫做 Scaling Out 與 Scaling Up&lt;/li&gt;
+&lt;li&gt;解釋為什麼要把 Web Server 和 Database 拆開來&lt;/li&gt;
+&lt;li&gt;如何讓 Web Server 可以達成 Scaling Out&lt;/li&gt;
+&lt;li&gt;如何讓 Database 可以達成 Scaling Out&lt;/li&gt;
+&lt;li&gt;怎麼去選擇 NoSQL 或是 SQL&lt;/li&gt;
+&lt;li&gt;最後提到怎麼去利用 CDN 來幫助自己的系統服務使用者&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;7-tools-for-visualizing-a-codebase&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#7-tools-for-visualizing-a-codebase&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://lmy.medium.com/7-tools-for-visualizing-a-codebase-41b7cddb1a14&quot;&gt;7 tools for visualizing a codebase&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;想要撰寫文件但是卻不知道該從何開始嗎？假如有這樣困擾的話，可以考慮直接在文件中加入圖片，畢竟有圖有真相 😂 而此篇文章的作者推薦了幾個可以從程式碼或是組態，直接視覺化的工具&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;docker-compose-viz: 將 docker-compose.yml 檔案轉換成圖片&lt;/li&gt;
+&lt;li&gt;Code2flow: 將 Python, Javascript, Ruby 和 Ruby 程式碼內函式的呼叫關係轉換成圖片&lt;/li&gt;
+&lt;li&gt;pycallgraph, pyan: 跟 Code2flow 一樣的功能，但是特別針對 Python 語言做處理&lt;/li&gt;
+&lt;li&gt;Bazel: 他是一個用來 Build Java, C++, Go, ANdroid, iOS...等其他語言的工具，而他剛他剛好也可以將程式與其使用到的函式庫相依性用視覺化呈現出來&lt;/li&gt;
+&lt;li&gt;pipdeptree: 跟 Bazel 可以達到同樣的效果，不過是針對 Python 語言&lt;/li&gt;
+&lt;li&gt;depgraph-maven-plugin: 跟 Bazel 可以達到同樣的效果，不過是針對使用 Maven 的 Java 程式&lt;/li&gt;
+&lt;li&gt;Gource, CodeSee: 假如不是想要撰寫文件，只是想要快速瞭解某個 Code Repo的話，可以試試看這兩個工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;6-algorithms-every-developer-should-know&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#6-algorithms-every-developer-should-know&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/dare-to-be-better/6-algorithms-every-developer-should-know-f78b609c7e7c&quot;&gt;6 Algorithms Every Developer Should Know&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者自己並不是一個很喜愛研究資料結構和演算法的工程師，但他現在在他的工作生涯中經歷過的大大小小專案之後，發現有 6 個演算法是每個工程師都應該要知道的，因為這 6 個演算法幾乎可以解決開發流程中的每個問題，每個演算法的詳細介紹可以參閱內文&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sorting Algorithm (排序演算法)&lt;/li&gt;
+&lt;li&gt;Searching Algorithm (搜尋演算法)&lt;/li&gt;
+&lt;li&gt;Dynamic Programming (動態規劃)&lt;/li&gt;
+&lt;li&gt;Recursion Algorithm (遞迴演算法)&lt;/li&gt;
+&lt;li&gt;Divide and Conquer (分治法)&lt;/li&gt;
+&lt;li&gt;Hashing (雜湊函式)&lt;/li&gt;
+&lt;/ul&gt;
+
+		</content>
+	</entry>
 </feed>
