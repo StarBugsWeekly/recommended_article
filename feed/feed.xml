@@ -1853,6 +1853,25 @@ Host smalltown
 	</entry>
 	
 	<entry>
+		<title>第 129 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/129/gqsm-129/"/>
+		<updated>2022-04-19T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/129/gqsm-129/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;css-parent-selector&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#css-parent-selector&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://ishadeed.com/article/css-has-parent-selector/&quot;&gt;CSS Parent Selector&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;你有曾經想要去確認過是不是有某個特定的 element 包含在 parent 之中嗎？這邊要介紹的 :has 就能讓你判斷這件事情，作者在文章裡先是描述了網頁排版中會遇到的狀況，並以 :has 來解決。可惜的是 :has 在瀏覽器之間還沒有很高的支援，這點是要注意的地方！&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;javascript--iterators-and-generators&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#javascript--iterators-and-generators&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://towardsdev.com/javascript-iterators-and-gen-9e14133b57c5&quot;&gt;Javascript -Iterators and Generators&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者介紹 JavaScript 中的 iterators 和 generators 方法，記得之前面試的時候，就有被考過 iterators 的概念，以及如何在不用 Array、也不使用多餘空間（例如宣告 100 個 index 的 array，或是 100 個 key 的 object）的情況下，用 for...of 跑過 1-100 執行，當時的答案就是使用 generators&lt;/p&gt;
+&lt;h3 id=&quot;those-html-elements-you-never-use-%F0%9F%8C%9A%F0%9F%95%B5%F0%9F%8F%BF&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#those-html-elements-you-never-use-%F0%9F%8C%9A%F0%9F%95%B5%F0%9F%8F%BF&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/eludadev/those-html-elements-you-never-use-16bi&quot;&gt;Those HTML Elements You Never Use 🌚🕵🏿&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;又到了稀有 HTML 標籤的介紹時間了，作者列出了超過十個你可能沒看過的 HTML 標籤，雖然有些功能我們已經透過 UI Framework 使用很久了，但默默地 HTML 也偷偷追了上來。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 129 期 後端開發 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/129/smalltown-129/"/>
 		<updated>2022-04-19T00:00:00-00:00</updated>
