@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-04-19T00:00:00-00:00</updated>
+	<updated>2022-04-26T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -1923,6 +1923,41 @@ Host smalltown
 &lt;p&gt;作者最近看到不少文章有一個錯誤的觀念，述說著一台伺服器最多只能接受 65,000 個連線，作者首先提出一些證據來打臉，首先是 WhatsApp 所使用到的 Phoenix Web Framework 早就演示過可以在單一個 Port 上接受數百萬的連線，再來要是任何人假如不相信的話，可以使用簡單的 Java 在自己的機器做個實驗就可以了；但為了證實自己所說，作者還是詳細的做了個 PoC 將結果展示給大家看，結果顯示在 Mac 就可以接受到將近八萬個連線，並且將可能遇到的問題給記錄下來&lt;/p&gt;
 &lt;h3 id=&quot;cqrs-software-architecture-pattern%3A-the-good%2C-the-bad%2C-and-the-ugly&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#cqrs-software-architecture-pattern%3A-the-good%2C-the-bad%2C-and-the-ugly&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://betterprogramming.pub/cqrs-software-architecture-pattern-the-good-the-bad-and-the-ugly-e9d6e7a34daf&quot;&gt;CQRS Software Architecture Pattern: The Good, the Bad, and the Ugly&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Command and Query Responsibility Segregation (CQRS) 是一種專門用來將資料的讀與寫分離開來的架構，其中的 Queries 就是負責來讀取資料的模型，Commands 就是用來負責更新資料的模型；這篇文章將會詳細的介紹 CQRS 的架構，並且詳細地說明如何實作 CQRS，以及他的優缺點，跟可能會遇到的問題&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 130 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/130/rico-130/"/>
+		<updated>2022-04-26T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/130/rico-130/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;new-wave-for-helm!&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#new-wave-for-helm!&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/wriketechclub/new-wave-for-helm-b9800733587f&quot;&gt;New Wave for Helm!&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者原本使用 helmfile 來管理 Kubernetes 的部署，也很喜歡裡面的諸多的功能，不過作者依舊尋找更好的工具。作者認為 helmwave 除了常見的 everything as code 的功能外，還有循序部署、即時追蹤 Kubernetes resources、不需要額外的工具就可以直接使用 helmwave，很多測試工具如 kube-linter、Kubeval、Pluto 都可以整合，還有一個特色就是使用體驗跟 docker-compose 很像。&lt;!-- summary --&gt;&lt;/p&gt;
+&lt;h3 id=&quot;stop-using-branches-for-deploying-to-different-gitops-environments&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#stop-using-branches-for-deploying-to-different-gitops-environments&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/containers-101/stop-using-branches-for-deploying-to-different-gitops-environments-7111d0632402&quot;&gt;Stop Using Branches for Deploying to Different GitOps Environments&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;此推薦文章和下篇是同一系列，作者講述很多組織在使用 GitOps 如何在同一個 release 前進到下一個環境是大家一直探討的，因為答案有很多種，所以作者就索性說明哪些我們應該避免：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;依環境分 git branches 只適用於 legacy applications（這裡指的是傳統 git-flow），採用 trunk-based 並且用依環境用 feature flag 來控制，application code 和 configuration code 也建議放在不同 repository&lt;/li&gt;
+&lt;li&gt;前進到下個環境從來不是只有 git merge 這麼簡單，兩次的 merge 都修改同一個地方時有可能會被忽略而 merge 進去了，hotfix 時的 cherry-picks 也得小心使用&lt;/li&gt;
+&lt;li&gt;依照環境分 branches 不太適合 Helm/Kustomize，因為它們並不會知道 git branches、git merge 或 pull request，因為他們都是靠檔案做環境分類&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;how-to-model-your-gitops-environments-and-promote-releases-between-them&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-to-model-your-gitops-environments-and-promote-releases-between-them&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/containers-101/how-to-model-your-gitops-environments-and-promote-releases-between-them-ff40fd3008&quot;&gt;How to Model Your Gitops Environments and Promote Releases between Them&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;接續上篇，作者持續探討 GitOps 如何順利地 release 在各個環境中：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;要先了解你維護的服務&lt;/li&gt;
+&lt;li&gt;五個範例來解釋每次的變更對環境的互動&lt;/li&gt;
+&lt;li&gt;如何初始化新的部署&lt;/li&gt;
+&lt;li&gt;對照不同環境的設定&lt;/li&gt;
+&lt;li&gt;要如何 release 在不同的 GitOps 環境&lt;/li&gt;
+&lt;li&gt;更改設定就要改全部的環境&lt;/li&gt;
+&lt;li&gt;環境依照資料夾來分的好處&lt;/li&gt;
+&lt;li&gt;如何在 GitOps 環境中使用 Helm&lt;/li&gt;
+&lt;li&gt;大型組織可以考慮依環境分 repository&lt;/li&gt;
+&lt;li&gt;環境分類請愛用資料夾，而非 branches&lt;/li&gt;
+&lt;/ol&gt;
 
 		</content>
 	</entry>
