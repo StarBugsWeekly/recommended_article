@@ -1928,6 +1928,25 @@ Host smalltown
 	</entry>
 	
 	<entry>
+		<title>第 130 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/130/gqsm-130/"/>
+		<updated>2022-04-26T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/130/gqsm-130/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;writing-strong-front-end-test-element-locators&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#writing-strong-front-end-test-element-locators&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://css-tricks.com/front-end-test-element-locators/&quot;&gt;Writing Strong Front-end Test Element Locators&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;自動化測試可以寫下程式碼，讓程式碼代替人類的行為，操作你的網頁或是一個 Component，並且為所有行為下斷言，確保所有事情都如同你預期的那樣運作。文章中介紹了許多在寫測試案例時的知識，非常值得一讀！&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;css-tips&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#css-tips&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://markodenic.com/css-tips/&quot;&gt;CSS Tips&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者介紹滿多只用 CSS 就能達成的網頁效果，其中包含 Typing Effect、Modals 和 Dynamic Tooltips 等等，幾乎所有例子都有附上 CodePen 的程式碼頁面。&lt;/p&gt;
+&lt;h3 id=&quot;how-to-escape-from-memory-leaks-in-javascript&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-to-escape-from-memory-leaks-in-javascript&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.logrocket.com/escape-memory-leaks-javascript/&quot;&gt;How to escape from memory leaks in JavaScript&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Memory Leak 可能會造成 JavaScript 的應用程師效能低落，但在開發的時候又常常會忽略記憶體管理，這篇文章內容主要是在探討記憶體管理、Memory Leak 的類型和如何使用 Chrome 的 Devtools 尋找問題！&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 130 期 Cloud 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/130/larry-130/"/>
 		<updated>2022-04-26T00:00:00-00:00</updated>
