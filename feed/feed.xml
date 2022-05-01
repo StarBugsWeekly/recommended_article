@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-04-26T00:00:00-00:00</updated>
+	<updated>2022-05-03T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -2026,6 +2026,27 @@ Host smalltown
 &lt;p&gt;此篇文章介紹了 23 種軟體架構的基礎原則，例如：Dependency Inversion, Separation of Concerns, Inversion of Control, Dependency Injection...等，有些附有程式碼說明，自己覺得把這些原則都理解之後，應該可以對於設計服務，撰寫程式時避開不少冤枉路，減少技術債的產生&lt;/p&gt;
 &lt;h3 id=&quot;comments%3A-how-google-developers-write-their-comments&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#comments%3A-how-google-developers-write-their-comments&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://paigeshin1991.medium.com/comments-how-google-developers-write-their-comments-5443657ecc4b&quot;&gt;Comments: How Google Developers write their comments&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;寫程式需要寫 Comment 這件事情從一開始學程式就一直被教導著，不過大家知道 Comment 其實有不少種類型嗎？！例如有關於法律上的，提供資訊的，說明意圖，用來澄清，警告以及 TODO，這篇文章嘗試解釋這些不同的 Comment 類型；而在回文有不少人覺得其實將變數命名妥當，程式撰寫完善就可以讓 Comment 寫的更少，甚至不需要，大家也是這樣覺得嗎？！&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 131 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/131/rico-131/"/>
+		<updated>2022-05-03T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/131/rico-131/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;new-relic-report-shows-lots-of-java-apps-running-in-containers&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#new-relic-report-shows-lots-of-java-apps-running-in-containers&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://containerjournal.com/features/new-relic-report-shows-lots-of-java-apps-running-in-containers/&quot;&gt;New Relic Report Shows Lots of Java Apps Running in Containers&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://newrelic.com/resources/report/2022-state-of-java-ecosystem&quot;&gt;2022 年 New Relic 報告&lt;/a&gt;指出許多組織 Java 服務逐漸轉換成 container，而且每個服務有變微服務的趨勢。整體而言，Java 11 佔將近 48%，然而 Java 8 依舊佔了 46%。另外 Java Development Kit（JDK）也有增加的趨勢，在 AWS 上跑的 Java 服務 JDK 佔了 22% 而 Oracle 佔了 35%，與 2020 年相比，Oracle 曾經有 75% 的佔比。&lt;!-- summary --&gt;除了 Java 程式本身，也討論了大型企業雖然很慢但還是有在做變化甚至從地端轉化到雲上，幸好許多 Cloud Native 工具像是 OpenTelemetry 可以幫助組織監控服務的狀態，讓企業轉化可以更順利，並且以後 Open Source 跟商用軟體混用會更盛行。&lt;/p&gt;
+&lt;h3 id=&quot;kubernetes-volume-backup-for-disaster-recovery&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#kubernetes-volume-backup-for-disaster-recovery&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/@amitabhprasad/kubernetes-volume-backup-for-disaster-recovery-56a5facee7fe&quot;&gt;Kubernetes volume backup for disaster recovery&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者解釋 Kubernetes 災難復原雖然已經有 Velero 備份 volume，但是 Velero 每次都是完整的備份，當資料越來越多時恐會影響到復圓所需的時間（RTO）。作者幫大家複習 PV、PVC、StorageClass 以及比較新的 VolumeSnapshotContent、VolumeSnapshot 和 VolumeSnapshotClass 技術概念，之後 demo 如何在兩個不同 region 的 Cluster 之間靠 snapshot 複製 volume。&lt;/p&gt;
+&lt;h3 id=&quot;dockershim-not-needed%3A-docker-desktop-with-kubernetes-1.24%2B&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#dockershim-not-needed%3A-docker-desktop-with-kubernetes-1.24%2B&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.docker.com/blog/dockershim-not-needed-docker-desktop-with-kubernetes-1-24&quot;&gt;Dockershim not needed: Docker Desktop with Kubernetes 1.24+&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;自從 Kubernetes 宣布棄用 Docker 後震驚業界，社群開始考慮其他替代方案，但其實 Docker 還是有推出新的 cri-dockerd 版本，也就是使用標準的 CRI 所做的 interface，這樣 Docker 跑起來跟其他替代方案無異了，以前的流程是：&lt;/p&gt;
+&lt;p&gt;kubelet -&amp;gt; cri-dockerd -&amp;gt; dockershim -&amp;gt; docker&lt;/p&gt;
+&lt;p&gt;新的版本則是可以不用 dockershim 了：&lt;/p&gt;
+&lt;p&gt;kubelet -&amp;gt; cri-dockerd -&amp;gt; docker&lt;/p&gt;
 
 		</content>
 	</entry>
