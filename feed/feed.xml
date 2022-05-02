@@ -2031,6 +2031,25 @@ Host smalltown
 	</entry>
 	
 	<entry>
+		<title>第 131 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/131/gqsm-131/"/>
+		<updated>2022-05-03T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/131/gqsm-131/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;the-array-methods-coming-to-javascript-in-2022&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#the-array-methods-coming-to-javascript-in-2022&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://hackernoon.com/the-array-methods-coming-to-javascript-in-2022&quot;&gt;The Array Methods Coming to JavaScript in 2022&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在 JavaScript 裡，大部分的 array methods 都可以從原本的 array 再複製一個新的 array 出來，像是 map 或 filter 等等，這些操作都不會影響到原本的 array，不過還是有些像是 sort 或 reverse 等執行都還是會改變原有 array，為了改變這個狀況有些提案這麼誕生，且進入提案的第三階段了！&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;18-github-repositories-to-become-a-css-master-%F0%9F%8E%A8%F0%9F%A7%99%E2%80%8D%E2%99%82%EF%B8%8F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#18-github-repositories-to-become-a-css-master-%F0%9F%8E%A8%F0%9F%A7%99%E2%80%8D%E2%99%82%EF%B8%8F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://madza.hashnode.dev/18-github-repositories-to-become-a-css-master&quot;&gt;18 GitHub Repositories to Become a CSS Master 🎨🧙‍♂️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;這篇文章對於想學習 CSS 的人來說真的是大秘寶，裡面提到的 repo 都用自己的方式在講解關於 CSS 的知識、概念或技巧，那如果一個 repo 不夠看怎麼辦？文章裡可是列出了 18 個！&lt;/p&gt;
+&lt;h3 id=&quot;%E5%A4%A7%E8%8F%A0%E8%90%9D%EF%BC%9Fpinia%E5%B7%B2%E7%BB%8F%E6%9D%A5%E4%BA%86%EF%BC%8C%E5%86%8D%E4%B8%8D%E5%AD%A6%E4%BD%A0%E5%B0%B1out%E4%BA%86&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%A4%A7%E8%8F%A0%E8%90%9D%EF%BC%9Fpinia%E5%B7%B2%E7%BB%8F%E6%9D%A5%E4%BA%86%EF%BC%8C%E5%86%8D%E4%B8%8D%E5%AD%A6%E4%BD%A0%E5%B0%B1out%E4%BA%86&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://juejin.cn/post/7078281612013764616&quot;&gt;大菠萝？Pinia已经来了，再不学你就out了&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Pinia 是在 Vue 框架內，除了 Vuex 外的另一個 state 管理工具，在 Pinia 的 &lt;a href=&quot;https://github.com/vuejs/pinia#faq&quot;&gt;README.md&lt;/a&gt; 中，也直接說明了 Pinia 就是 Vuex 的後繼者，那它在使用上和 Vuex 有什麼不同呢？一起看看文章中的用法介紹和下方的留言討論吧！&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 131 期 Book 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/131/larry-131/"/>
 		<updated>2022-05-03T00:00:00-00:00</updated>
