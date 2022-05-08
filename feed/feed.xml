@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-05-03T00:00:00-00:00</updated>
+	<updated>2022-05-10T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -2104,6 +2104,25 @@ Host smalltown
 &lt;p&gt;當你嘗試從系統中獲得更多資訊時，你的應用程式是不是也變得更慢了？你並不孤獨，雖然有人說過不要過早去優化系統，但在某些時候，你還是必須要花點時間去研究看看如何提高系統效能，作者所在的 Sky Ledge 最近遇到類似的問題...一個簡單的 Query 本來預期在 1 秒內就要跑完，但在 Staging 環境花了將近 30 秒才取得回應，作者後來花了兩個多小時將問題解決掉！文中巨細彌遺地慢慢解釋他怎麼用科學方式去分析找到問題的過程還滿值得參考一下的&lt;/p&gt;
 &lt;h3 id=&quot;system-design-%E2%80%94-design-a-monitoring-system&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#system-design-%E2%80%94-design-a-monitoring-system&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://gongybable.medium.com/system-design-design-a-monitoring-system-f0f0cbafc895&quot;&gt;System Design — Design a Monitoring System&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;如何設計一個監控系統？這個問題應該滿常會在面試中被提問到，首先必須考量的點在於如何收集 Metric，是要用 Pull 或是 Push 模式，假如使用 Pull 模式的話要怎麼去設計 Exporter；而一個監控系統應該要具備擴展性，那麼要如何達成？儲存資料的 DB 要怎麼設計...等，這一連串的問題，作者用一篇文章來含括與回答，讓大家可以更清楚的理解監控系統的設計&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 132 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/132/rico-132/"/>
+		<updated>2022-05-10T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/132/rico-132/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;cdns-aren&#39;t-just-for-caching&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#cdns-aren&#39;t-just-for-caching&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://jvns.ca/blog/2016/04/29/cdns-arent-just-for-caching/&quot;&gt;CDNs aren&#39;t just for caching&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者表示 CDN 不是只有 caching 而已，加快 TLS handshake、更好的網路 routing 和阻擋 DDoS 攻擊。作者對是不是 CDN 有更好的資安打上了一個問號，因為很多資安的設定都不是掌握在自己手裡而是交給 CDN 服務商。還有一點就是把 SSL 證書給 CDN 並且傳遞敏感的資訊，你無法知道使用者的資料是不是真的安全的，對此情況政府也有所顧慮。&lt;!-- summary --&gt;&lt;br&gt;
+最後就是 CDN 的設定和 CDN 故障這兩點都會影響網站的可靠性，作者也希望可以找到大廠 CDN 的 SLAs 是否符合的統計數據，但都沒找到。作者也推薦大家可以看看 Cloudflare 的技術文章。&lt;/p&gt;
+&lt;h3 id=&quot;reasons-for-servers-to-support-ipv6&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#reasons-for-servers-to-support-ipv6&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://jvns.ca/blog/2022/01/29/reasons-for-servers-to-support-ipv6/&quot;&gt;Reasons for servers to support IPv6&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;IPv6 可以解決 IPv4 address 不足的問題，但實現起來困難重重，很多時候是 ISP 並不支援。作者以很多的觀點解釋為什麼即使 IPv4 和 IPv6 可以切換自如但還是建議 server 支援 IPv6，最有趣的大概就是 Facebook 在他的 IPv6 裡面藏了 &lt;code&gt;face:b00c&lt;/code&gt; 的彩蛋。&lt;/p&gt;
+&lt;h3 id=&quot;a-list-of-new(ish)-command-line-tools&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#a-list-of-new(ish)-command-line-tools&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/&quot;&gt;A list of new(ish) command line tools&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者在 twitter 上問有什麼新潮的 command line 工具，結果大家的回覆非常多元甚至沒聽過，於是作者整理了一份工具清單，其中有替代舊工具的新選擇、完全創新的工具、JSON/YAML/CSV 資料處理工具、grep 各種東西的工具，最後作者也有推薦他喜歡的是什麼。&lt;/p&gt;
 
 		</content>
 	</entry>
