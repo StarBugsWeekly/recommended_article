@@ -2109,6 +2109,25 @@ Host smalltown
 	</entry>
 	
 	<entry>
+		<title>第 132 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/132/gqsm-132/"/>
+		<updated>2022-05-10T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/132/gqsm-132/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;you-don%E2%80%99t-need-a-ui-framework&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#you-don%E2%80%99t-need-a-ui-framework&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.smashingmagazine.com/2022/05/you-dont-need-ui-framework/&quot;&gt;You Don’t Need A UI Framework&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;這篇標題滿聳動的，但是作者其實是從「客製化的設計」、「節省時間」和「可用性和可訪問性」幾個面向，逐一讓讀者去思考，真的任何時候都需要選擇 UI Framework 嗎？也許自己花在把 UI Framework 所提供的樣式，調整成自己成專案所需求樣式的時間，都早就超過直接完成需求的時間了，我想這應該也是 &lt;a href=&quot;https://tailwindcss.com/&quot;&gt;Tailwind CSS&lt;/a&gt; 那麼深受開發者喜愛的原因之一。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;memoization-in-javascript&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#memoization-in-javascript&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://parthasarma.hashnode.dev/memoization-in-javascript&quot;&gt;Memoization in JavaScript&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在需要反覆執行一些長時間運算的方法時，我們可以自己實做一個 memoization function，去紀錄 function 在什麼參數執行下會回傳什麼結果，並在下一次以相同參數執行的時候，就不需要再重複運算，只需要直接從紀錄中找到結果直接回傳就好。這個概念也有點像Design Pattern 裡的 Proxy Pattern。&lt;/p&gt;
+&lt;h3 id=&quot;most-common-mistakes-of-(not-only)-javascript-developers&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#most-common-mistakes-of-(not-only)-javascript-developers&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.thecode.xyz/most-common-mistakes-of-not-only-javascript-developers#comments-list&quot;&gt;Most common mistakes of (not only) JavaScript developers&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者在文中舉出幾個剛學習 JavaScript 時會沒留意到的幾個小地方，比較常見的包含 &lt;code&gt;==&lt;/code&gt; 和 &lt;code&gt;===&lt;/code&gt;、&lt;code&gt;null&lt;/code&gt; 的 type 是 Object 或是寫 &lt;code&gt;switch&lt;/code&gt; 的時候要記得考慮 default 狀況等，算是一篇初階且容易閱讀的文章。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 132 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/132/rico-132/"/>
 		<updated>2022-05-10T00:00:00-00:00</updated>
