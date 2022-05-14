@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-05-10T00:00:00-00:00</updated>
+	<updated>2022-05-17T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -2180,6 +2180,31 @@ Host smalltown
 &lt;p&gt;在這篇文章中，作者想要根據自己這 3~4 年來的經驗跟大家介紹三種 Go 語言的 Best Practice，主題包含 Package Layout, context 和 Table Driven Test，使用 Go 的開發者可以參考一下，不過其中關於 Package Layout 的部份，大家應該會有不同的看法，你覺得作者建議的方式是對的嗎？&lt;/p&gt;
 &lt;h3 id=&quot;after-900-leetcode-problems-here-is-what-i-learned&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#after-900-leetcode-problems-here-is-what-i-learned&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://iorilan.medium.com/after-900-leetcode-problems-here-is-what-i-learned-4d39b17e0853&quot;&gt;After 900 leetcode problems here is what I learned&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;大家應該或多或少有聽過 leetcode 吧？！現在不管是要單純練功寫程式，或是找工作應該都會使用他才對，作者把他解決了 900 個 leetcode 的問題之後的心得濃縮起來成為這篇文章，裡面包含各種類型的演算法的簡單介紹，看過一遍之後，應該可以在解決 leetcode 問題時更有方向&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 133 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/133/rico-133/"/>
+		<updated>2022-05-17T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/133/rico-133/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;deleting-production-in-a-few-easy-steps-(and-how-to-fix-it)&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#deleting-production-in-a-few-easy-steps-(and-how-to-fix-it)&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://thenewstack.io/deleting-production-in-a-few-easy-steps-and-how-to-fix-it/&quot;&gt;Deleting Production in a Few Easy Steps (and How to Fix It)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;講解真實環境的災難還原之旅，起初 ArgoCD 因為 path 寫錯導致部署錯誤，而且剛好刪到最核心的業務。當下團隊直覺想到何不 revert 就好，但可惜的是該服務為 stateful 的，且 ArgoCD 會重新創建新的 instance 但會沒有使用者重要的 metadata。於是團隊開始著手災難復原，先把 backing service 裡的資料恢復（文章把相依關係和一些技巧寫的很詳細務必細讀），核心業務的服務暫時上線後先加大硬體和多開幾台應付暫時的大量流量，這趟災難復原總共花了 6 小時。&lt;!-- summary --&gt;&lt;/p&gt;
+&lt;p&gt;關於災難復原要做的好，除了平常的備份外，也要熟悉服務相依性、架構和細節才行，而且也得做事後檢討改善部署流程，像是改善生產 YAML 的方式、在生產 YAML 的時候偵測有沒有重複、把 ArgoCD 設定成不能刪除既有的 stateful 資源以及多個 ArgoCD 之間不能互相干涉彼此部署的服務。&lt;/p&gt;
+&lt;h3 id=&quot;service-mesh-at-scale%3A-how-xbox-cloud-gaming-secures-22k-pods-with-linkerd&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#service-mesh-at-scale%3A-how-xbox-cloud-gaming-secures-22k-pods-with-linkerd&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.cncf.io/blog/2022/05/10/service-mesh-at-scale-how-xbox-cloud-gaming-secures-22k-pods-with-linkerd%EF%BF%BC/&quot;&gt;Service mesh at scale: How Xbox Cloud Gaming secures 22k pods with Linkerd&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;文章描述 Microsoft Xbox 如何使用 service mesh 工具 Linkerd 減少維護的人力成本（令我訝異的是原來對延遲要求甚高的遊戲也會用 service mesh），團隊一開始考慮的工具有 Istio、Linkerd、Consul Connect 和其他工具，但最後還是選擇 Linkerd，原因如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;容易設定 mTLS&lt;/li&gt;
+&lt;li&gt;因為有 Service Mesh Interface API 所以跟其他 CNCF 專案工具有很好的整合&lt;/li&gt;
+&lt;li&gt;mTLS 是從 proxy level 下手，不用特別呼叫專門的 mTLS 服務可以減少 100ms 的延遲&lt;/li&gt;
+&lt;li&gt;更好的網路流量監控，而且很多功能都開箱即用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;build-or-buy%3F-developer-productivity-vs.-flexibility&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#build-or-buy%3F-developer-productivity-vs.-flexibility&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://thenewstack.io/build-or-buy-developer-productivity-vs-flexibility/&quot;&gt;Build or Buy? Developer Productivity vs. Flexibility&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;設計架構時應該要選怎樣的工具？雲服務還是地端？高階語言還是低階語言做開發？自架還是託管服務？自己設計工具還是使用 SaaS？文章給了一個當開發時應該選擇用 library 還是 API 當作範例參考，在選擇的過程中，其中最大的兩個原則是這個專案是否跟核心業務有關，以及這個專案是否可以透過客製化獲得商業上的成功。&lt;/p&gt;
 
 		</content>
 	</entry>
