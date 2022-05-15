@@ -2185,6 +2185,26 @@ Host smalltown
 	</entry>
 	
 	<entry>
+		<title>第 133 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/133/gqsm-133/"/>
+		<updated>2022-05-17T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/133/gqsm-133/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;state-of-css-2022&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#state-of-css-2022&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://web.dev/state-of-css-2022/&quot;&gt;State of CSS 2022&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者 Adam Argyle 把在 &lt;a href=&quot;https://io.google/2022/&quot;&gt;Google IO 2022&lt;/a&gt; 上所講的議程內容寫成文章，文章中提到 14 個 CSS 在 2022 或之後的新功能，內容不會鑽研得太過艱澀，如果沒時間看文章也可以把議程影片當 podcast 聽，順便練習英聽 😂。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;what-if-our-sliders-actually-slid%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#what-if-our-sliders-actually-slid%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.smashingmagazine.com/2022/04/what-if-sliders-actually-slid-html-element-input-range/&quot;&gt;What If Our Sliders Actually Slid?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;這篇文章適合推薦在當你覺得「每天寫的程式都好無聊」或是「工作真無趣」的時候閱讀，作者一個突發奇想想讓 range 使用起來變得有趣而進行的「Creative Coding」&lt;/p&gt;
+&lt;p&gt;雖然花了好多時間研究和寫出一個看起來沒屁用的東西，但就是這一切讓 Coding 變得很有趣啊！像作者說的：「it takes a little more for us to think “outside the box” and have fun!」&lt;/p&gt;
+&lt;h3 id=&quot;hoisting-in-javascript-explained-visually-%F0%9F%94%A5-%F0%9F%98%8D&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#hoisting-in-javascript-explained-visually-%F0%9F%94%A5-%F0%9F%98%8D&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://webdriphashnode.hashnode.dev/hoisting-in-javascript-explained-visually&quot;&gt;Hoisting in JavaScript explained visually 🔥 😍&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;把 JavaScript 內的 Hosting 行為做成動畫和程式碼的行數互相對照，不只講解了 var，還有關於用 let 及 const 在宣告時會有的 temporal dead zone。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 133 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/133/rico-133/"/>
 		<updated>2022-05-17T00:00:00-00:00</updated>
