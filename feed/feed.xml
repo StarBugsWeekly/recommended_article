@@ -2228,4 +2228,35 @@ Host smalltown
 
 		</content>
 	</entry>
+	
+	<entry>
+		<title>第 133 期 後端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/133/smalltown-133/"/>
+		<updated>2022-05-17T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/133/smalltown-133/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%BE%8C%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%BE%8C%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 後端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;how-i-became-a-web3-dev-in-just-7-days-and-got-my-first-8000%24-web3-contract&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-i-became-a-web3-dev-in-just-7-days-and-got-my-first-8000%24-web3-contract&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.cryptostars.is/how-i-became-a-web3-dev-in-just-7-days-and-got-my-first-8000-web3-contract-8f554bcb5352&quot;&gt;How I became a Web3 dev in just 7 days and got my first 8000$ Web3 contract&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者從事 Full-Stack 開發將近六年，而且從來未處理過有關於區塊鏈或是 Web3，但他熱他挑戰，所以他想要分享如何用七天的時間從零知識到寫出一個 Smart Contract&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;10-books-every-senior-engineer-should-read&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#10-books-every-senior-engineer-should-read&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://semaphoreci.medium.com/10-books-every-senior-engineer-should-read-a61c1917e2a7&quot;&gt;10 Books Every Senior Engineer Should Read&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;這篇文章介紹了十本書籍，其中包含著經典，永垂不朽或是足以改變遊戲規則的出版物，雖然主要是針對資深工程師和開發人員來著，但其實不必是資深工程師，任何對於軟體開發有興趣的人都可以從這份書單中受益，透過閱讀來加強開發技能&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Extreme Programming Explained: Embrace Change (2nd Edition) by Kent Beck&lt;/li&gt;
+&lt;li&gt;Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation by Jez Humble and David Farley&lt;/li&gt;
+&lt;li&gt;Remote: Office Not Required by Jason Fried and David Heinemeier Hansson&lt;/li&gt;
+&lt;li&gt;The Mythical Man-Month by Frederick P. Brooks Jr.&lt;/li&gt;
+&lt;li&gt;Getting Real&lt;/li&gt;
+&lt;li&gt;Designing Data-Intensive Apps by Martin Kleppmann&lt;/li&gt;
+&lt;li&gt;Site Reliability Engineering&lt;/li&gt;
+&lt;li&gt;The Phoenix Project by Gene Kim, Kevin Behr, and George Spafford&lt;/li&gt;
+&lt;li&gt;Building Microservices: Designing Fine-Grained Systems by Sam Newman&lt;/li&gt;
+&lt;li&gt;Modern Software Engineering: Doing What Works to Build Better Software Faster by Dave Farley&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;better-error-handling-in-golang%3A-theory-and-practical-tips&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#better-error-handling-in-golang%3A-theory-and-practical-tips&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://levelup.gitconnected.com/better-error-handling-in-golang-theory-and-practical-tips-758b90d3f6b4&quot;&gt;Better error handling in Golang: Theory and practical tips&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者介紹幾個在撰寫 Goling 時要怎麼處理錯誤的方法，並且提供了一些技巧，讓你在開發過程中更加容易處理錯誤，例如：為什麼要一再的重複 if err != nil，不要使用 panic() 而是應該要去處理錯誤才對，記得要寫 Log...等&lt;/p&gt;
+
+		</content>
+	</entry>
 </feed>
