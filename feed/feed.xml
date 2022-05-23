@@ -2185,25 +2185,6 @@ Host smalltown
 	</entry>
 	
 	<entry>
-		<title>第 133 期 MongoDB 推薦文章</title>
-		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/133/larry-133/"/>
-		<updated>2022-05-10T00:00:00-00:00</updated>
-		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/133/larry-133/</id>
-		<content type="html">
-		  &lt;h2 id=&quot;mongodb&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#mongodb&quot;&gt;#&lt;/a&gt; MongoDB&lt;/h2&gt;
-&lt;!-- summary --&gt;
-&lt;h3 id=&quot;mongodb-schema-%E8%A8%AD%E8%A8%88%E6%8C%87%E5%8D%97&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#mongodb-schema-%E8%A8%AD%E8%A8%88%E6%8C%87%E5%8D%97&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.toright.com/posts/4483/mongodb-schema-%E8%A8%AD%E8%A8%88%E6%8C%87%E5%8D%97.html&quot;&gt;MongoDB Schema 設計指南&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;在使用像 MongoDB 這類 document-based 的 NoSQL 時，因為每筆資料的格式都是 JSON，而且 MongoDB 也支援很多跟 Object、Array 相關的功能，所以在設計 Schema 時會跟傳統的 SQL Database 有點不一樣，不能直接把 SQL 那套理論原封不動搬過來用哦。&lt;/p&gt;
-&lt;!-- summary --&gt;
-&lt;h3 id=&quot;mongodb-aggregation-%E5%84%AA%E5%8C%96&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#mongodb-aggregation-%E5%84%AA%E5%8C%96&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.myctw.cc/post/acdb.html&quot;&gt;MongoDB Aggregation 優化&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;用過 MongoDB 一陣子之後應該都會接觸到他的 aggregation，他可以把你想要做的一系列操作寫成一個落落長的 pipeline，譬如說先搜尋、統計、最後做排序。而這篇文章提到了在寫 pipeline 有一些要注意的小地方，雖然有些部分 MongoDB 會幫你最佳化，但還是要注意一下讓你的 aggregation 效能更好。&lt;/p&gt;
-&lt;h3 id=&quot;do-you-need-mongoose-when-developing-node.js-and-mongodb-applications%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#do-you-need-mongoose-when-developing-node.js-and-mongodb-applications%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.mongodb.com/developer/article/mongoose-versus-nodejs-driver/&quot;&gt;Do You Need Mongoose When Developing Node.js and MongoDB Applications?&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;有在 Node.js 中用過 MongoDB 的人應該都知道 Mongoose 這套 ODM，他最大的好處就是可以幫你做 schema validation，讓你的資料庫不會有一堆缺值、型別錯誤的資料。但現在的 MongoDB 內建的 schema validation 也逐漸成熟了，所以下個專案也許可以考慮不需要使用 Mongoose，直接用內建的就好。&lt;/p&gt;
-
-		</content>
-	</entry>
-	
-	<entry>
 		<title>第 133 期 前端開發 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/133/gqsm-133/"/>
 		<updated>2022-05-17T00:00:00-00:00</updated>
@@ -2219,6 +2200,25 @@ Host smalltown
 &lt;p&gt;雖然花了好多時間研究和寫出一個看起來沒屁用的東西，但就是這一切讓 Coding 變得很有趣啊！像作者說的：「it takes a little more for us to think “outside the box” and have fun!」&lt;/p&gt;
 &lt;h3 id=&quot;hoisting-in-javascript-explained-visually-%F0%9F%94%A5-%F0%9F%98%8D&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#hoisting-in-javascript-explained-visually-%F0%9F%94%A5-%F0%9F%98%8D&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://webdriphashnode.hashnode.dev/hoisting-in-javascript-explained-visually&quot;&gt;Hoisting in JavaScript explained visually 🔥 😍&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;把 JavaScript 內的 Hosting 行為做成動畫和程式碼的行數互相對照，不只講解了 var，還有關於用 let 及 const 在宣告時會有的 temporal dead zone。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 133 期 MongoDB 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/133/larry-133/"/>
+		<updated>2022-05-17T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/133/larry-133/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;mongodb&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#mongodb&quot;&gt;#&lt;/a&gt; MongoDB&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;mongodb-schema-%E8%A8%AD%E8%A8%88%E6%8C%87%E5%8D%97&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#mongodb-schema-%E8%A8%AD%E8%A8%88%E6%8C%87%E5%8D%97&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.toright.com/posts/4483/mongodb-schema-%E8%A8%AD%E8%A8%88%E6%8C%87%E5%8D%97.html&quot;&gt;MongoDB Schema 設計指南&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在使用像 MongoDB 這類 document-based 的 NoSQL 時，因為每筆資料的格式都是 JSON，而且 MongoDB 也支援很多跟 Object、Array 相關的功能，所以在設計 Schema 時會跟傳統的 SQL Database 有點不一樣，不能直接把 SQL 那套理論原封不動搬過來用哦。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;mongodb-aggregation-%E5%84%AA%E5%8C%96&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#mongodb-aggregation-%E5%84%AA%E5%8C%96&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.myctw.cc/post/acdb.html&quot;&gt;MongoDB Aggregation 優化&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;用過 MongoDB 一陣子之後應該都會接觸到他的 aggregation，他可以把你想要做的一系列操作寫成一個落落長的 pipeline，譬如說先搜尋、統計、最後做排序。而這篇文章提到了在寫 pipeline 有一些要注意的小地方，雖然有些部分 MongoDB 會幫你最佳化，但還是要注意一下讓你的 aggregation 效能更好。&lt;/p&gt;
+&lt;h3 id=&quot;do-you-need-mongoose-when-developing-node.js-and-mongodb-applications%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#do-you-need-mongoose-when-developing-node.js-and-mongodb-applications%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.mongodb.com/developer/article/mongoose-versus-nodejs-driver/&quot;&gt;Do You Need Mongoose When Developing Node.js and MongoDB Applications?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;有在 Node.js 中用過 MongoDB 的人應該都知道 Mongoose 這套 ODM，他最大的好處就是可以幫你做 schema validation，讓你的資料庫不會有一堆缺值、型別錯誤的資料。但現在的 MongoDB 內建的 schema validation 也逐漸成熟了，所以下個專案也許可以考慮不需要使用 Mongoose，直接用內建的就好。&lt;/p&gt;
 
 		</content>
 	</entry>
@@ -2294,6 +2294,25 @@ Host smalltown
 &lt;p&gt;上禮拜在 Facebook 快閃了一場 &lt;a href=&quot;https://tailwindcss.com/&quot;&gt;TailwindCSS&lt;/a&gt; 之戰，而在這場戰爭後，有許多 TailwindCSS 的開發者也都跳出來分享自己使用的看法，以及 TailwindCSS 究竟是解決了哪些問題。&lt;/p&gt;
 &lt;h3 id=&quot;uselayouteffect-is-a-powerful-hook&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#uselayouteffect-is-a-powerful-hook&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.telerik.com/blogs/uselayouteffect-powerful-hook&quot;&gt;useLayoutEffect Is a Powerful Hook&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;React 的 useLayoutEffect 相較於 useEffect 來說比較少有人注意到，大多情境使用 useEffect 就足以完成需求，因此完全沒有用過 useLayoutEffect，但你知道他們兩者的主要區別在哪裡嗎？一起看看文章介紹吧！ 🙌&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 134 期 軟體工程 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/134/larry-134/"/>
+		<updated>2022-05-24T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/134/larry-134/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B&quot;&gt;#&lt;/a&gt; 軟體工程&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;20-%E5%B9%B4%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E7%94%9F%E6%B6%AF%E6%89%80%E5%AD%B8%E5%88%B0%E7%9A%84-20-%E4%BB%B6%E4%BA%8B&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#20-%E5%B9%B4%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E7%94%9F%E6%B6%AF%E6%89%80%E5%AD%B8%E5%88%B0%E7%9A%84-20-%E4%BB%B6%E4%BA%8B&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.gcos.me/post/2022-04-03_20-things-ive-learned-in-my-20-years-as-a-software-engineer/&quot;&gt;20 年軟體工程生涯所學到的 20 件事&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;要成為一個更好的工程師，除了程式要寫好之外，也需要對軟體工程有相當程度的了解。這篇文章翻譯了「20 Things I’ve Learned in my 20 Years as a Software Engineer」中作者提到自己學到的東西，文章不長而且內容相當精闢，身為工程師都應該要讀一讀。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;domain-driven-design%3A-the-first-15-years&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#domain-driven-design%3A-the-first-15-years&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://facebook.com/story.php?story_fbid=10220019719351943&amp;amp;id=1492360517&quot;&gt;Domain-Driven Design: The First 15 Years&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;不知道大家有沒有聽過「Domain-Driven Design: The First 15 Years」這本書，DDD 台灣社群兩年前花了時間把他翻譯成繁體中文，而且還是免費的（也可以花錢贊助他們），想了解 DDD 的話一定要來讀一讀&lt;/p&gt;
+&lt;h3 id=&quot;%E9%96%92%E8%AB%87%E8%BB%9F%E9%AB%94%E6%9E%B6%E6%A7%8B%EF%BC%9A%E4%BE%86%E7%85%AE%E7%A2%97%E6%8B%89%E9%BA%B5%E5%90%A7&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E9%96%92%E8%AB%87%E8%BB%9F%E9%AB%94%E6%9E%B6%E6%A7%8B%EF%BC%9A%E4%BE%86%E7%85%AE%E7%A2%97%E6%8B%89%E9%BA%B5%E5%90%A7&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/%E9%96%92%E8%AB%87%E8%BB%9F%E9%AB%94%E6%9E%B6%E6%A7%8B/%E9%96%92%E8%AB%87%E8%BB%9F%E9%AB%94%E6%9E%B6%E6%A7%8B-%E4%BE%86%E7%85%AE%E7%A2%97%E6%8B%89%E9%BA%B5%E5%90%A7-bf7c61ec8249&quot;&gt;閒談軟體架構：來煮碗拉麵吧&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;如果覺得直接啃 DDD 的書太硬了，可以先來看看怎麼把 Domain 融合進去拉麵裡面，有了 Domain 的概念之後，再來看 DDD 的書應該會比較能體會到作者在說什麼哦&lt;/p&gt;
 
 		</content>
 	</entry>
