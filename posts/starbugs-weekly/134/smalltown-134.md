@@ -1,14 +1,14 @@
 ---
-title: 第 134 期 軟體開發 推薦文章
+title: 第 134 期 工作職涯 推薦文章
 date: 2022-05-24
 author: smalltown
 
 layout: layouts/post.njk
-tags: [Backend]
+tags: [Career]
 # image: /img/TheSpiritAndImplementationOfAOP/0____Bm36Dv5mm97e2vF.jpg
 ---
 
-## 軟體開發
+## 工作職涯
 
 <!-- summary -->
 ### [Many software companies are a joke](https://liou28335.medium.com/many-software-companies-are-a-joke-9f4b10378c7a)
