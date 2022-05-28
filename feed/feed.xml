@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-05-24T00:00:00-00:00</updated>
+	<updated>2022-05-31T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -2352,6 +2352,24 @@ Host smalltown
 &lt;p&gt;作者表示他並未透過刷 Leetcode 考題就同時從 FAANG 收到實習和畢業 Offer，當然不是因為他已經厲害到不需要任何練習就可以通過面試，其實他很擅長寫程式，只是不擅長刷 Leetcode，為了避免自己為了刷題兒刷題最終導致降低對這個軟體領域的熱情，所以他才沒有去一直刷 Leetcode，而文章主要述說他是如何再不刷 Leetcode 的情況之下，成功獲取 FAANG  Offer 的經驗&lt;/p&gt;
 &lt;h3 id=&quot;ten-fastest-growing-apps-in-2022-(including-some-you-don%E2%80%99t-know)&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#ten-fastest-growing-apps-in-2022-(including-some-you-don%E2%80%99t-know)&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.curiosity.ai/ten-fastest-growing-apps-in-2022-including-some-you-dont-know-c177e46cc5f1&quot;&gt;Ten fastest-growing apps in 2022 (including some you don’t know)&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;這篇文章的作者介紹了在 2022 年成長最快的 Apps，分別是 Notion, TripActions, Postman, Figma, Miro, Keeper, Airtable, Fivetran, &lt;a href=&quot;http://monday.com/&quot;&gt;monday.com&lt;/a&gt;, Gong，稍微看了一下介紹後，發現滿多都跟專案管理與協同合作相關，自己覺得應該跟這兩年來不少人都遠端工作有關係&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 135 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/135/rico-135/"/>
+		<updated>2022-05-31T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/135/rico-135/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;how-to-create-kubernetes-yaml-manifests-quickly&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-to-create-kubernetes-yaml-manifests-quickly&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://devopscube.com/create-kubernetes-yaml/&quot;&gt;How To Create Kubernetes YAML Manifests Quickly&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;你是否曾經遇過突然一時之間需要生產一個 Kubernetes YAML 做個簡單的實驗？但是靠自己記憶刻出一份完整 YAML 讓 Kubernetes API 不會報錯是有那麼一點不切實際的，所以文章介紹了一些工具可以減少人為失誤，其原理都不會很難理解，本文章還有個不錯的用途就是指令範例可以直接拿來複製貼上拿來用。&lt;!-- summary --&gt;&lt;/p&gt;
+&lt;h3 id=&quot;kubernetes-pod-priority%2C-priorityclass%2C-and-preemption-explained&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#kubernetes-pod-priority%2C-priorityclass%2C-and-preemption-explained&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://devopscube.com/pod-priorityclass-preemption/&quot;&gt;Kubernetes Pod Priority, PriorityClass, and Preemption Explained&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Pod Priority 和 Pod Preemption 是大家相對少用的功能，不過可以用在確保像是 DaemonSet、logging 或金流相關的服務擁有更高的 priority，是情況也會踢除 priority 較低的 pod，這篇文章用簡單明瞭的範例和清晰的運作原理讓讀者輕鬆的理解。&lt;/p&gt;
+&lt;h3 id=&quot;17-best-linux-networking-and-troubleshooting-commands-for-beginners&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#17-best-linux-networking-and-troubleshooting-commands-for-beginners&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://devopscube.com/list-linux-networking-troubleshooting-and-commands-beginners/&quot;&gt;17 Best Linux Networking and Troubleshooting Commands for Beginners&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;身為一位 DevOps or SRE 工程師至少要對網路的除錯工具或多或少要了解一些，這 17 個指令無非是最基本款必須要懂的，有些 protocol 可能不止一個工具支援，再加上每個環境並不是所有網路除錯工具都有，所以多熟悉一點絕不是壞事。&lt;/p&gt;
 
 		</content>
 	</entry>
