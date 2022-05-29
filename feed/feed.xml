@@ -2357,6 +2357,25 @@ Host smalltown
 	</entry>
 	
 	<entry>
+		<title>第 135 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/135/gqsm-135/"/>
+		<updated>2022-05-31T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/135/gqsm-135/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;%E4%B8%8D%E8%A6%81%E5%86%8D%E6%BB%A5%E7%94%A8css%E6%A0%B7%E5%BC%8F!important%E8%A7%84%E5%88%99%E4%BA%86&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E4%B8%8D%E8%A6%81%E5%86%8D%E6%BB%A5%E7%94%A8css%E6%A0%B7%E5%BC%8F!important%E8%A7%84%E5%88%99%E4%BA%86&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://juejin.cn/post/7101671371993776142&quot;&gt;不要再滥用css样式!important规则了&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者在文章中用簡單的例子帶出 CSS 中的優先級，以及用表格說明該如何計算當前 CSS 對於 element 的優先級，接著再提到 !important 正確的使用情境，文章短短的很適合閱讀後再好好思考。 😂&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;the-amazing-html5-picture-element&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#the-amazing-html5-picture-element&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://eke.hashnode.dev/the-amazing-html5-picture-element&quot;&gt;The amazing HTML5 Picture Element&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;picture&lt;/code&gt; 是 HTML5 提供的元素，它提供的 media 屬性可以讓開發者在不需要寫 CSS 的狀況下，就能實現根據不同的視窗尺寸顯示圖片的功能，文章裡有簡單的 demo 可以看它呈現的效果。&lt;/p&gt;
+&lt;h3 id=&quot;35%2B-html-404-page-templates&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#35%2B-html-404-page-templates&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/stackfindover/35-html-404-page-templates-5bge&quot;&gt;35+ HTML 404 Page Templates&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;404 頁面在網頁開發中是很重要的存在，如果使用者不小心輸入錯網址，或是想要點進已經不存在的頁面中，都需要 404 頁面來告知。雖然大多網站的 404 頁面都會是簡單清楚的一兩行文字或圖片，但如果 404 頁面設計得像文章中列出來的特有巧思，說不定會想要特地輸入錯網址看看！ 😂&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 135 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/135/rico-135/"/>
 		<updated>2022-05-31T00:00:00-00:00</updated>
