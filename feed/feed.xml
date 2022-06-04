@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-05-31T00:00:00-00:00</updated>
+	<updated>2022-06-07T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -2427,6 +2427,24 @@ Host smalltown
 &lt;p&gt;假如你需要除錯一個 K8s Pod 但是基於安全考量不能夠在其中任意安裝除錯工具，那該如何怎麼辦呢？！好加在 Kubernetes 介紹了一個叫做 Ephemeral Container 的概念來應付此種狀況，透過這篇文章的介紹來了解如何使用此功能&lt;/p&gt;
 &lt;h3 id=&quot;don&#39;t-write-your-own-kubernetes-yaml-generator&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#don&#39;t-write-your-own-kubernetes-yaml-generator&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://matduggan.com/tips-for-making-kubernetes-yaml-less-annoying/&quot;&gt;Don&#39;t Write Your Own Kubernetes YAML Generator&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;維運 K8s 的人其實不太需要撰寫程式，但一定會許要撰寫 YAML 檔案來對 K8s Cluster 進行配置，這篇文章在開頭便提出作者為什麼不建議使用 YAML Generator 來做這件事情，而是可以準備好簡易的 YAML 檔案之後，再透過 yq, Kustomize 去做修改，甚至可以透過 client libary 來配置 K8s Cluster&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 136 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/136/rico-136/"/>
+		<updated>2022-06-07T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/136/rico-136/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;multi-cloud-architecture%3A-pros-and-cons&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#multi-cloud-architecture%3A-pros-and-cons&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.cncf.io/blog/2022/06/01/multi-cloud-architecture-pros-and-cons/&quot;&gt;Multi-cloud architecture: pros and cons&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;相信大家不論在商業或者技術考量上有想過多雲供應商的架構，每個雲供應商有各自的優勢外，大家最常討論的不外乎還是減少服務停機時間。不過相對地，缺點可說是非常多，成本管理、資安和維運複雜度都會變得十分困難。有鑑於此，文章有列出哪些商業考量的點才需要考慮多雲架構。&lt;!-- summary --&gt;&lt;/p&gt;
+&lt;h3 id=&quot;service-mesh-gets-boring-and-that%E2%80%99s-a-good-thing&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#service-mesh-gets-boring-and-that%E2%80%99s-a-good-thing&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://thenewstack.io/service-mesh-gets-boring-and-thats-a-good-thing/&quot;&gt;Service Mesh Gets Boring and That’s a Good Thing&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;近期 Cloud Native Computing Foundation 調查指出 service mesh 對於組織在 microservice 和 Kubernetes 上至關重要，與此同時，寫這篇文章的 The New Stack 媒體也發現 service mesh 相關文章的讀者越來越少了，顯示出大家對這議題開始感到無聊，也代表 service mesh 漸漸變成主流的 solution。&lt;/p&gt;
+&lt;h3 id=&quot;terraform-1.2-improves-exception-handling-and-updates-to-the-cli-driven-workflow&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#terraform-1.2-improves-exception-handling-and-updates-to-the-cli-driven-workflow&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.hashicorp.com/blog/terraform-1-2-improves-exception-handling-and-updates-to-the-cli-driven-workflow&quot;&gt;Terraform 1.2 Improves Exception Handling and Updates to the CLI-driven Workflow&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Terraform 1.2 新增了三大功能，Preconditions &amp;amp; Postconditions 的功能讓 Terraform module 可以驗證動態的 variable input，讓 module 可以更快地跳出 error 給使用者，甚至還有提供&lt;a href=&quot;https://learn.hashicorp.com/tutorials/terraform/custom-conditions&quot;&gt;教學&lt;/a&gt;。也新增了一些與 Terraform Cloud 相關的環境變數讓設定更彈性，另外 Terraform Cloud Run Tasks 正式 Generally Available，其功能為在 Terraform Cloud workflow 使用第三方的工具。&lt;/p&gt;
 
 		</content>
 	</entry>
