@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-06-07T00:00:00-00:00</updated>
+	<updated>2022-06-14T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -2445,6 +2445,25 @@ Host smalltown
 &lt;p&gt;近期 Cloud Native Computing Foundation 調查指出 service mesh 對於組織在 microservice 和 Kubernetes 上至關重要，與此同時，寫這篇文章的 The New Stack 媒體也發現 service mesh 相關文章的讀者越來越少了，顯示出大家對這議題開始感到無聊，也代表 service mesh 漸漸變成主流的 solution。&lt;/p&gt;
 &lt;h3 id=&quot;terraform-1.2-improves-exception-handling-and-updates-to-the-cli-driven-workflow&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#terraform-1.2-improves-exception-handling-and-updates-to-the-cli-driven-workflow&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.hashicorp.com/blog/terraform-1-2-improves-exception-handling-and-updates-to-the-cli-driven-workflow&quot;&gt;Terraform 1.2 Improves Exception Handling and Updates to the CLI-driven Workflow&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Terraform 1.2 新增了三大功能，Preconditions &amp;amp; Postconditions 的功能讓 Terraform module 可以驗證動態的 variable input，讓 module 可以更快地跳出 error 給使用者，甚至還有提供&lt;a href=&quot;https://learn.hashicorp.com/tutorials/terraform/custom-conditions&quot;&gt;教學&lt;/a&gt;。也新增了一些與 Terraform Cloud 相關的環境變數讓設定更彈性，另外 Terraform Cloud Run Tasks 正式 Generally Available，其功能為在 Terraform Cloud workflow 使用第三方的工具。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 136 期 後端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/136/smalltown-136/"/>
+		<updated>2022-06-14T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/136/smalltown-136/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%BE%8C%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%BE%8C%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 後端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;cache-made-consistent%3A-meta%E2%80%99s-cache-invalidation-solution&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#cache-made-consistent%3A-meta%E2%80%99s-cache-invalidation-solution&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://engineering.fb.com/2022/06/08/core-data/cache-invalidation/&quot;&gt;Cache made consistent: Meta’s cache invalidation solution&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Phil Karlton 曾說過在 Computer Science 領域最困難的兩件事情就是 &lt;strong&gt;使暫存失效&lt;/strong&gt; 跟 &lt;strong&gt;命名東西&lt;/strong&gt;，在 Meta 內部署著某些世界上最大的 Cache 系統，其中包含著 TAO 與 Memcache，而在過去幾年來，他們改善了 TAO 的暫存一致性，將其從 99.9999 % 提升到 99.99999999，對 Cache 改善有興趣的人不要錯過了&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;comparing-ceph%2C-linstor%2C-mayastor%2C-and-vitastor-storage-performance-in-kubernetes&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#comparing-ceph%2C-linstor%2C-mayastor%2C-and-vitastor-storage-performance-in-kubernetes&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.flant.com/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor/&quot;&gt;Comparing Ceph, LINSTOR, Mayastor, and Vitastor storage performance in Kubernetes&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者說每一份工作總是會被要求對不同的 SDS 解決方案做基準測試，這次加入 Flant 後也不意外，所以這篇文章便是紀錄 Ceph, LINSTOR, Vitastor 和 Mayastor 在 Kuberneter 環境下大 PK 之後的結果，最後的冠軍為 LINSTOR，根據結果，作者覺得他是最成熟可以應用在正式環境的解決方案，詳細數據請參閱內文&lt;/p&gt;
+&lt;h3 id=&quot;linux-memory%3A-buffer-vs-cache&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#linux-memory%3A-buffer-vs-cache&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/geekculture/linux-memory-buffer-vs-cache-44d8a187f310&quot;&gt;Linux Memory: Buffer vs Cache&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在 Linux 系統內的 &lt;strong&gt;Buffer&lt;/strong&gt; 和 &lt;strong&gt;Cache&lt;/strong&gt; 有什麼不同呢？Buffer 會用來當做要寫到磁碟中資料的暫存空間，那麼他會用來暫存從磁碟讀取而來的資料嗎？Cache 是用來暫存從檔案讀取而來的資料，那麼他會用來暫存準備寫到檔案內的資料嗎？假如不知道這些問題答案的話，趕快看一看這篇文章就對了！&lt;/p&gt;
 
 		</content>
 	</entry>
