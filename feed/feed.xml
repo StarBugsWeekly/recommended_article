@@ -2432,6 +2432,25 @@ Host smalltown
 	</entry>
 	
 	<entry>
+		<title>第 136 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/136/gqsm-136/"/>
+		<updated>2022-06-07T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/136/gqsm-136/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;monorepo.-building-one-roof-for-your-ui-apps.&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#monorepo.-building-one-roof-for-your-ui-apps.&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://sagarpreet.in/monorepo-building-one-roof-for-your-ui-apps&quot;&gt;Monorepo. Building one roof for your UI apps.&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Monorepo 能夠將多個應用程式放在同一個專案中管理，還可以讓多個應用程式都會用到的元件和商務邏輯做共用，也省去了不同專案間的 package.json 包的管理成本。那這個酷東西到底該如何用呢？作者在文章裡闡述了他的導入過程，很值得一看！如果想看中文版的介紹的話，Andy 也有寫一篇文章：&lt;a href=&quot;https://medium.com/starbugs/%E6%B7%BA%E8%AB%87-monorepo-%E5%B8%B6%E4%BE%86%E7%9A%84%E6%95%88%E7%9B%8A-%E4%BB%A5-turborepo-%E7%82%BA%E4%BE%8B-615fb4af5ebd&quot;&gt;淺談 Monorepo 帶來的效益：以 Turborepo 為例&lt;/a&gt;。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;%E7%82%BA%E4%BD%95-useevent-%E6%98%AF%E5%80%8B%E7%B3%9F%E7%B3%95%E7%9A%84%E6%96%B9%E6%A1%88%EF%BC%9F(%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%9C%A8%E9%80%99)&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E7%82%BA%E4%BD%95-useevent-%E6%98%AF%E5%80%8B%E7%B3%9F%E7%B3%95%E7%9A%84%E6%96%B9%E6%A1%88%EF%BC%9F(%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%9C%A8%E9%80%99)&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/@anokyy/%E7%82%BA%E4%BD%95useevent%E6%98%AF%E5%80%8B%E7%B3%9F%E7%B3%95%E7%9A%84%E6%96%B9%E6%A1%88-%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%9C%A8%E9%80%99-de7fc2e509e8&quot;&gt;為何 useEvent 是個糟糕的方案？(更好的在這)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;自 React16 出現以來，只要 React 公布新的 hooks，總會讓各個開發者感到興奮不已，但是本篇文章的作者卻認為，這一次的 useEvent 在解決問題的同時，也帶來了更多的問題。&lt;/p&gt;
+&lt;h3 id=&quot;%E6%8E%A2%E7%A9%B6babel%E8%83%8C%E5%90%8E%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%F0%9F%A4%94&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E6%8E%A2%E7%A9%B6babel%E8%83%8C%E5%90%8E%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%F0%9F%A4%94&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://juejin.cn/post/7108268258020556836&quot;&gt;探究babel背后的工作原理🤔&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Babel 是一款 JavaScript 的編譯器，開發者可以容易地透過一些設定和插件，讓 babel 把我們的 JavaScript 編譯為相容性更高的語法，那 babel 究竟是如何對 JavaScript 做解析、編譯和產生最後的 JavaScript 呢？一起看看文章如何介紹吧！&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 136 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/136/rico-136/"/>
 		<updated>2022-06-07T00:00:00-00:00</updated>
