@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-06-14T00:00:00-00:00</updated>
+	<updated>2022-06-21T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -2502,6 +2502,24 @@ Host smalltown
 &lt;p&gt;作者說每一份工作總是會被要求對不同的 SDS 解決方案做基準測試，這次加入 Flant 後也不意外，所以這篇文章便是紀錄 Ceph, LINSTOR, Vitastor 和 Mayastor 在 Kuberneter 環境下大 PK 之後的結果，最後的冠軍為 LINSTOR，根據結果，作者覺得他是最成熟可以應用在正式環境的解決方案，詳細數據請參閱內文&lt;/p&gt;
 &lt;h3 id=&quot;linux-memory%3A-buffer-vs-cache&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#linux-memory%3A-buffer-vs-cache&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/geekculture/linux-memory-buffer-vs-cache-44d8a187f310&quot;&gt;Linux Memory: Buffer vs Cache&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;在 Linux 系統內的 &lt;strong&gt;Buffer&lt;/strong&gt; 和 &lt;strong&gt;Cache&lt;/strong&gt; 有什麼不同呢？Buffer 會用來當做要寫到磁碟中資料的暫存空間，那麼他會用來暫存從磁碟讀取而來的資料嗎？Cache 是用來暫存從檔案讀取而來的資料，那麼他會用來暫存準備寫到檔案內的資料嗎？假如不知道這些問題答案的話，趕快看一看這篇文章就對了！&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 137 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/137/rico-137/"/>
+		<updated>2022-06-21T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/137/rico-137/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;a-deep-dive-into-opentelemetry-metrics&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#a-deep-dive-into-opentelemetry-metrics&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.cncf.io/blog/2022/06/08/a-deep-dive-into-opentelemetry-metrics/&quot;&gt;A deep dive into OpenTelemetry metrics&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;OpenTelemetry 相信大家都不陌生，此篇文章從基本開始分享起，並且解釋收集 metrics 流程的細節，也有解釋同步與非同步的實作上的差異，另外文章裡的各種分類表和 OpenTelemetry SDK 範例也十分受用。&lt;!-- summary --&gt;&lt;/p&gt;
+&lt;h3 id=&quot;troubleshooting-amazon-eks-api-servers-with-prometheus&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#troubleshooting-amazon-eks-api-servers-with-prometheus&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://aws.amazon.com/blogs/containers/troubleshooting-amazon-eks-api-servers-with-prometheus/&quot;&gt;Troubleshooting Amazon EKS API servers with Prometheus&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;文章以圖文並茂的方式教大家怎麼 troubleshooting EKS API。其中提到的 LIST 和 WATCH 的差異，使用 WATCH 可以讓 Kubernetes 規模更大，不過當 object 或 worker nodes 越多也是有負擔，本文也有寫解決方法，另外當有些服務使用過多的 LIST 呼叫時務必加上 limit。維運人員也要注意服務詭異的行爲像是讀跟寫的次數不一致是否是預期的？API 優先程度可以根據服務有所調整，這樣就可以避免有些服務影響到 API server。&lt;/p&gt;
+&lt;h3 id=&quot;why-is-everyone-ignoring-the-day-2-kubernetes-problem%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#why-is-everyone-ignoring-the-day-2-kubernetes-problem%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://thenewstack.io/why-is-everyone-ignoring-the-day-2-kubernetes-problem/&quot;&gt;Why Is Everyone Ignoring the Day 2 Kubernetes Problem?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;單純使用 Kubernetes 的 Deployment、Service 或 Ingress 並不難，最難的是如何持續的維運 cluster，比起技術上的使用，更多的是要了解 Kubernetes 的生態圈，然後在各個面向選擇適合組織的工具。例如：如何標準化 Kubernetes 的更新管理、使用者的權限管理與隔離、監控、審計以及如何整合第三方工具等等。&lt;/p&gt;
 
 		</content>
 	</entry>
