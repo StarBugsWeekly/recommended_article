@@ -2507,6 +2507,25 @@ Host smalltown
 	</entry>
 	
 	<entry>
+		<title>第 137 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/137/gqsm-137/"/>
+		<updated>2022-06-21T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/137/gqsm-137/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;css-day-2022&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#css-day-2022&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://css-irl.info/css-day-2022/&quot;&gt;CSS Day 2022&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;這篇文章的作者是 &lt;a href=&quot;https://cssday.nl/2022&quot;&gt;CSS Day 2022&lt;/a&gt; 的其中一位講者，他在文章中分享了第一次參與 CSS Day 的過程，以及在這之中聽見的 CSS 有趣知識，如果沒有時間研究所有議程，可以參考這位講者他感興趣的主題。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;how-to-solve-the-parking-lot-challenge-in-javascript&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-to-solve-the-parking-lot-challenge-in-javascript&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.freecodecamp.org/news/parking-lot-challenge-solved-in-javascript/&quot;&gt;How to Solve the Parking Lot Challenge in JavaScript&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;透過一些遊戲的做法來模擬解決現實中的問題，是學習程式語言中讓人感到不會枯燥的一部份，而且身為前端如果能夠再將寫好的核心邏輯已可視化的介面呈現那這個過程就會變得相當有趣。作者在文章中解釋它處理 Parking Lot Challenge 的過程及方式。&lt;/p&gt;
+&lt;h3 id=&quot;do-you-really-need-a-react-state-management-library%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#do-you-really-need-a-react-state-management-library%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.bitsrc.io/react-do-you-really-need-an-external-library-for-state-management-28f67d03ebe5&quot;&gt;Do You Really Need a React State Management Library?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;不論是要另外使用第三方的狀態管理工具（例如 redux），或是直接利用 React 提供的 context API，選擇這些解決方案的思考模式應該是來自於你對專案狀態的理解，熟悉各種解決方式它提供的優缺點，而不單單認為「這個比較好」。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 137 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/137/rico-137/"/>
 		<updated>2022-06-21T00:00:00-00:00</updated>
