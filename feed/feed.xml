@@ -2526,6 +2526,23 @@ Host smalltown
 	</entry>
 	
 	<entry>
+		<title>第 137 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/137/larry-137/"/>
+		<updated>2022-06-21T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/137/larry-137/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;golang&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#golang&quot;&gt;#&lt;/a&gt; Golang&lt;/h2&gt;
+&lt;h3 id=&quot;data-race-patterns-in-go&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#data-race-patterns-in-go&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://eng.uber.com/data-race-patterns-in-go/&quot;&gt;Data Race Patterns in Go&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Uber 的 Go 專案有超過五千萬行程式碼，工程師從以前到現在也修過超過一千個 data race（他們真的不考慮用 Rust 嗎XD）。而這篇文章就是他們修了這麼多 data race 之後，整理出來最可能犯錯的地方，非常值得讀的一篇文章～&lt;/p&gt;
+&lt;h3 id=&quot;options-pattern-in-golang&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#options-pattern-in-golang&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://link.medium.com/BWX0EmRySqb&quot;&gt;Options Pattern in Golang&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Options pattern 是 Go 裡面很常見的寫法，在很多框架裡面都能見到他的蹤影，一起來看看什麼情況下可以使用這樣的 pattern，以及有什麼好處吧&lt;/p&gt;
+&lt;h3 id=&quot;effective-error-handling-in-golang&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#effective-error-handling-in-golang&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://earthly.dev/blog/golang-errors/&quot;&gt;Effective Error Handling in Golang&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Go 內建的 error 跟很多語言不一樣，不僅不支援傳統的 try catch，甚至不包含 stack trace，所以用起來有一些不便，但也因此更輕量。如果才剛開始學 Go，來看看如何好好的使用 Go 的 error 吧&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 137 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/137/rico-137/"/>
 		<updated>2022-06-21T00:00:00-00:00</updated>
