@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-06-21T00:00:00-00:00</updated>
+	<updated>2022-06-28T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -2576,6 +2576,24 @@ Host smalltown
 &lt;p&gt;所以作者最近在研究開源監控解決方案時，覺得監控系統應該要具備高效能，高可用，便宜，易擴展，能備份且儲存相對久時間週期的資料 ，再把 Thanos, Cortex, Grafana-Mimir 和 VictoriaMetrics 都拿出來比較過一輪之後覺得 VictoriaMetrics 應該會是最符合這些需求的贏家，想要知道為什麼的人可以參考詳細內文&lt;/p&gt;
 &lt;h3 id=&quot;how-to-handle-terabytes-of-metrics-in-kubernetes-monitoring&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-to-handle-terabytes-of-metrics-in-kubernetes-monitoring&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/@holidu/how-to-handle-terabytes-of-metrics-in-kubernetes-monitoring-a3056adf92b&quot;&gt;How to Handle Terabytes of Metrics in Kubernetes Monitoring&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;在基礎設施中 Monitoring 當然是相當重要的一環，它能夠協助遇見事故的發生，並且避免服務產生不預期的 Downtime，在作者的公司 Holidu 因為不斷增加的客戶導致基礎設施的不斷增長，每秒所產生約 4 萬個 Metric 的樣本資料，導致監控設施不堪負荷且增加了營運的成本；在此挑戰之下，作者的公司顯然需要一個新的可擴展且穩定的監控系統，所以他們將原來使用的 Prometheus 架構透過 Thanos 重新改進，用以順利處理每秒 4 萬個 Metric 的樣本資料，想要知道詳細做法的話，可以參閱詳細內文&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 138 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/138/rico-138/"/>
+		<updated>2022-06-28T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/138/rico-138/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;kubeconfig-file-explained-with-practical-examples&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#kubeconfig-file-explained-with-practical-examples&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://devopscube.com/kubernetes-kubeconfig-file/&quot;&gt;Kubeconfig File Explained With Practical Examples&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;一開始接觸 Kubernetes 想必有很多人會疑惑自己的電腦到底是怎麼連線到 Kubernetes cluster API？其實就是靠 kubeconfig。這篇文章以實際的例子介紹 kubeconfig 的使用方法，例如：怎麼靈活運動 kubeconfig、如何 merge kubeconfig、如何生產 kubeconfig（很多 cloud provider 在這方面都把使用者體驗做得很好）以及一些 FAQs 讓讀者更了解 kubeconfig 知識。&lt;!-- summary --&gt;&lt;/p&gt;
+&lt;h3 id=&quot;continuous-operations-is-the-unsung-hero-of-devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#continuous-operations-is-the-unsung-hero-of-devops&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://thenewstack.io/continuous-operations-is-the-unsung-hero-of-devops/&quot;&gt;Continuous Operations is the Unsung Hero of DevOps&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;這篇文章的標題「持續維運（Continuous Operations）是 DevOps 文化裡的無名英雄」只要是身為第一線維運人員應該感同身受，其中的概念就提到應該把維運自動化到期望的設定狀態，讓維運人員可以專心在複雜的問題上，或者系統可以持續的掃描和修正錯誤。而持續維運可以解釋為 infrastructure 的持續交付（Continuous Delivery），如果使用 public cloud provider 和 Infrastructure-as-Code 就很容易，但是如果是 on-premises 環境就得花更多心力。&lt;/p&gt;
+&lt;h3 id=&quot;how-to-run-untrusted-containers-in-kubernetes&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-to-run-untrusted-containers-in-kubernetes&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.sighup.io/how-to-run-untrusted-containers-in-kubernetes/&quot;&gt;How to run untrusted containers in Kubernetes&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;我們都知道 container 的隔離性還是有限，所以才會開始有在 Kubernetes 裡跑虛擬機的做法，只要虛擬機有按照 CRI（Container Runtime Iterface）的標準就可以。這邊介紹的 gVisor 可以提供虛擬機環境給 container，讓每個 container 的 kernel 都是獨立的，可以提供更好的獨立性。&lt;/p&gt;
 
 		</content>
 	</entry>
