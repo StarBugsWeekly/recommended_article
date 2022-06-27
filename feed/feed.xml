@@ -2600,6 +2600,23 @@ Host smalltown
 	</entry>
 	
 	<entry>
+		<title>第 138 期 資料庫 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/138/larry-138/"/>
+		<updated>2022-06-28T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/138/larry-138/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E8%B3%87%E6%96%99%E5%BA%AB&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E8%B3%87%E6%96%99%E5%BA%AB&quot;&gt;#&lt;/a&gt; 資料庫&lt;/h2&gt;
+&lt;h3 id=&quot;how-the-n%2B1-query-can-burn-your-database&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-the-n%2B1-query-can-burn-your-database&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://betterprogramming.pub/how-the-n-1-query-can-burn-your-database-3841c93987e5&quot;&gt;How the N+1 Query Can Burn Your Database&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;N+1 問題是資料庫領域非常知名的問題，這篇文章詳細解釋了 N+1 問題的成因，以及該如何解決，如果才剛開始碰資料庫或是後端開發，建議可以讀讀看哦～&lt;/p&gt;
+&lt;h3 id=&quot;herding-elephants%3A-lessons-learned-from-sharding-postgres-at-notion&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#herding-elephants%3A-lessons-learned-from-sharding-postgres-at-notion&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.notion.so/blog/sharding-postgres-at-notion&quot;&gt;Herding elephants: Lessons learned from sharding Postgres at Notion&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;應該很多人都聽過 Notion 這個筆記軟體，隨著使用者跟資料量越來越多，他們決定要對 PostgreSQL 建的資料庫做 sharding，這篇文章說明了他們是怎麼做的、過程中遇到什麼困難，非常不錯的文章（但有點長讀起來有點累XD）&lt;/p&gt;
+&lt;h3 id=&quot;hosting-sqlite-databases-on-github-pages&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#hosting-sqlite-databases-on-github-pages&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/&quot;&gt;Hosting SQLite databases on Github Pages&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;你一定知道 SQLite 這個資料庫，但你有想過他可以被架在 Github page 上嗎。這篇的作者先把 SQLite 編譯成 WebAssembly，接著再弄一個 file system 讓他去幫忙抓資料。雖然實用性不高但還滿有趣的XD&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 138 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/138/rico-138/"/>
 		<updated>2022-06-28T00:00:00-00:00</updated>
