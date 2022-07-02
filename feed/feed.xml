@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-06-28T00:00:00-00:00</updated>
+	<updated>2022-07-05T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -2630,6 +2630,24 @@ Host smalltown
 &lt;p&gt;這篇文章的標題「持續維運（Continuous Operations）是 DevOps 文化裡的無名英雄」只要是身為第一線維運人員應該感同身受，其中的概念就提到應該把維運自動化到期望的設定狀態，讓維運人員可以專心在複雜的問題上，或者系統可以持續的掃描和修正錯誤。而持續維運可以解釋為 infrastructure 的持續交付（Continuous Delivery），如果使用 public cloud provider 和 Infrastructure-as-Code 就很容易，但是如果是 on-premises 環境就得花更多心力。&lt;/p&gt;
 &lt;h3 id=&quot;how-to-run-untrusted-containers-in-kubernetes&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-to-run-untrusted-containers-in-kubernetes&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.sighup.io/how-to-run-untrusted-containers-in-kubernetes/&quot;&gt;How to run untrusted containers in Kubernetes&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;我們都知道 container 的隔離性還是有限，所以才會開始有在 Kubernetes 裡跑虛擬機的做法，只要虛擬機有按照 CRI（Container Runtime Iterface）的標準就可以。這邊介紹的 gVisor 可以提供虛擬機環境給 container，讓每個 container 的 kernel 都是獨立的，可以提供更好的獨立性。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 139 期 DevOps 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/139/rico-139/"/>
+		<updated>2022-07-05T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/139/rico-139/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;devops&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops&quot;&gt;#&lt;/a&gt; DevOps&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;devops-vs.-sre-vs.-platform-engineering%3F-the-gaps-might-be-smaller-than-you-think&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#devops-vs.-sre-vs.-platform-engineering%3F-the-gaps-might-be-smaller-than-you-think&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.cncf.io/blog/2022/07/01/devops-vs-sre-vs-platform-engineering-the-gaps-might-be-smaller-than-you-think/&quot;&gt;DevOps vs. SRE vs. Platform Engineering? The gaps might be smaller than you think&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;DevOps、SRE 和平台工程師究竟差在哪？文中探討了許多組織 DevOps 文化的問題，很多維運工程師轉變成 SRE 後其實沒有什麼差別，開發跟 SRE 還是有個鴻溝，所以內部用平台就是為了實踐 DevOps 精神，而核心精神就是當作真正的產品來維護。&lt;!-- summary --&gt;&lt;/p&gt;
+&lt;h3 id=&quot;why-we-need-devops-for-ml-data&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#why-we-need-devops-for-ml-data&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.tecton.ai/blog/devops-ml-data/&quot;&gt;Why We Need DevOps for ML Data&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;一般的 application 生命週期在沒有 DevOps 文化的加速下非常地緩慢，更不用說 machine learning，再加上各個部門需求的夾擊下讓迭代又更慢了。裡面提及很多 machine learning 實際開發和交付時會遇上的困難，十分值得一看。&lt;/p&gt;
+&lt;h3 id=&quot;terraform-%E2%80%94-provider&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#terraform-%E2%80%94-provider&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.devgenius.io/terraform-provider-aa57ade59eec&quot;&gt;Terraform — Provider&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;我們常常使用 Terraform 各式各樣的 providers，但是你知道它怎麼運作的嗎？例如：基礎原理、如何尋找、如何宣告、版本控制、內建 providers 以及同個 provider 放在不同位置，好奇的話務必一探究竟。&lt;/p&gt;
 
 		</content>
 	</entry>
