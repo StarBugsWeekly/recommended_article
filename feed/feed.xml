@@ -2581,7 +2581,7 @@ Host smalltown
 	</entry>
 	
 	<entry>
-		<title>第 137 期 前端開發 推薦文章</title>
+		<title>第 138 期 前端開發 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/138/gqsm-138/"/>
 		<updated>2022-06-28T00:00:00-00:00</updated>
 		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/138/gqsm-138/</id>
@@ -2630,6 +2630,25 @@ Host smalltown
 &lt;p&gt;這篇文章的標題「持續維運（Continuous Operations）是 DevOps 文化裡的無名英雄」只要是身為第一線維運人員應該感同身受，其中的概念就提到應該把維運自動化到期望的設定狀態，讓維運人員可以專心在複雜的問題上，或者系統可以持續的掃描和修正錯誤。而持續維運可以解釋為 infrastructure 的持續交付（Continuous Delivery），如果使用 public cloud provider 和 Infrastructure-as-Code 就很容易，但是如果是 on-premises 環境就得花更多心力。&lt;/p&gt;
 &lt;h3 id=&quot;how-to-run-untrusted-containers-in-kubernetes&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#how-to-run-untrusted-containers-in-kubernetes&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.sighup.io/how-to-run-untrusted-containers-in-kubernetes/&quot;&gt;How to run untrusted containers in Kubernetes&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;我們都知道 container 的隔離性還是有限，所以才會開始有在 Kubernetes 裡跑虛擬機的做法，只要虛擬機有按照 CRI（Container Runtime Iterface）的標準就可以。這邊介紹的 gVisor 可以提供虛擬機環境給 container，讓每個 container 的 kernel 都是獨立的，可以提供更好的獨立性。&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 139 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/139/gqsm-139/"/>
+		<updated>2022-07-05T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/139/gqsm-139/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E5%89%8D%E7%AB%AF%E6%B8%AC%E8%A9%A6&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E5%89%8D%E7%AB%AF%E6%B8%AC%E8%A9%A6&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://medium.com/asiayo-engineering/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E5%89%8D%E7%AB%AF%E6%B8%AC%E8%A9%A6-b41689b84996&quot;&gt;從零開始的前端測試&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者的團隊在公司內將網站的前後端分離，並且將大部分元件規劃好後，就開始對它們做單元測試，以及多個元件之間的整合測試。在文章裡會描述作者一開始的思考，和在過程中所碰到的問題，是一篇乾貨滿滿的好文章！&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;are-you-struggling-with-css%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#are-you-struggling-with-css%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://blog.reactplay.io/are-you-struggling-with-css&quot;&gt;Are you Struggling with CSS?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者表示他自己相當害怕 CSS，也曾試著到處看喜歡網站的原始碼，但是這對他來說只有挫折而已。如果你也常因為 CSS 感到挫敗，不妨看看他覺得這一路熟練 CSS 的過程中，哪些事情是最重要的。&lt;/p&gt;
+&lt;h3 id=&quot;my-wonderful-html-email-workflow&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#my-wonderful-html-email-workflow&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.joshwcomeau.com/react/wonderful-emails-with-mjml-and-mdx/#integrating-with-email-service-providers&quot;&gt;My Wonderful HTML Email Workflow&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;用 HTML 寫 Email 有許多需要注意的小細節，包含沒有 &lt;code&gt;media&lt;/code&gt; 屬性，排版也不能用 &lt;code&gt;flex&lt;/code&gt; 或 &lt;code&gt;grid&lt;/code&gt; 處理，為了讓這一切變得更容易，作者使用了 &lt;a href=&quot;https://mjml.io/&quot;&gt;MJML&lt;/a&gt; 套件，並且將所有工作流程都紀錄在文章中。&lt;/p&gt;
 
 		</content>
 	</entry>
