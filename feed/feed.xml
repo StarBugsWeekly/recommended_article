@@ -2654,6 +2654,23 @@ Host smalltown
 	</entry>
 	
 	<entry>
+		<title>第 139 期 Golang 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/139/larry-139/"/>
+		<updated>2022-07-05T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/139/larry-139/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;golang&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#golang&quot;&gt;#&lt;/a&gt; Golang&lt;/h2&gt;
+&lt;h3 id=&quot;a-closer-look-at-go%E2%80%99s-sync-package&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#a-closer-look-at-go%E2%80%99s-sync-package&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://teivah.medium.com/a-closer-look-at-go-sync-package-9f4e4a28c35a&quot;&gt;A Closer Look at Go’s sync Package&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;知道怎麼啟動 goroutine 之後，下一個問題是怎麼讓多個 goroutine 分工合作，這時候就會用到 sync 裡面的 Mutex 或是 WaitGroup。這篇文章詳細介紹了 sync package 裡面的東西，先把這篇看完再開始用 goroutine 一定會大有幫助哦&lt;/p&gt;
+&lt;h3 id=&quot;custom-github-action-with-go&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#custom-github-action-with-go&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://thedevelopercafe.com/articles/custom-github-action-with-go-29d9ce66e5a8&quot;&gt;Custom GitHub Action with Go&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Github Action 已經推出好一段時間了，應該有不少人都用過了。那有沒有想過要自己寫一個 action 呢？這邊有一篇簡單的教學，只要跟著做很快就可以寫出來哦～&lt;/p&gt;
+&lt;h3 id=&quot;csp-vs-actor-model-for-concurrency&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#csp-vs-actor-model-for-concurrency&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://dev.to/karanpratapsingh/csp-vs-actor-model-for-concurrency-1cpg&quot;&gt;CSP vs Actor model for concurrency&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;寫 Go 的人應該都知道 Go 的 goroutine 跟 channel 是 CSP model 的具體實現，而有另外一種 concurrency model 叫 actor model 則是可以在 Elixir 中看到，有興趣可以來了解一下他們的差異～&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
 		<title>第 139 期 DevOps 推薦文章</title>
 		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/139/rico-139/"/>
 		<updated>2022-07-05T00:00:00-00:00</updated>
