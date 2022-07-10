@@ -9,6 +9,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/140/gqsm-140/",
+      "url": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/140/gqsm-140/",
+      "title": "第 140 期 前端開發 推薦文章",
+      "content_html": "<h2 id=\"%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC\"><a class=\"direct-link\" href=\"#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC\">#</a> 前端開發</h2>\n<!-- summary -->\n<h3 id=\"%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%83%BD%E5%9C%A8%E5%BF%99%E4%BA%9B%E4%BB%80%E9%BA%BC%EF%BC%9F\"><a class=\"direct-link\" href=\"#%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%83%BD%E5%9C%A8%E5%BF%99%E4%BA%9B%E4%BB%80%E9%BA%BC%EF%BC%9F\">#</a> <a href=\"https://kimtoday.medium.com/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%83%BD%E5%9C%A8%E5%BF%99%E4%BA%9B%E4%BB%80%E9%BA%BC-39a066128a\">前端工程師都在忙些什麼？</a></h3>\n<p>作者憑藉著自己的記憶和求證紀錄，在文章中描述了過去十年來前端圈到底發生了哪些事情，文章中將分成以下幾種時期，闡述每個時期間的發展：</p>\n<ul>\n<li>歡樂老時光 — 2007–2009</li>\n<li>混合開發，前端生態 — 2009–2010</li>\n<li>開發體系，模組化 — 2011–2013</li>\n<li>資料流 ，體驗最佳化 — 2014–2016</li>\n<li>可免則免，快狠準 —2017–now</li>\n</ul>\n<p>這些時期在前端圈發展出來的工具非常非常多，很喜歡作者最後說的：「每個工具都有想解決的問題，發展和演進也都有它的原因，去了解它們，不需要想得太複雜，也不用盲目地追求技術」。</p>\n<!-- summary -->\n<h3 id=\"bun-is-a-fast-all-in-one-javascript-runtime\"><a class=\"direct-link\" href=\"#bun-is-a-fast-all-in-one-javascript-runtime\">#</a> <a href=\"https://bun.sh/\">Bun is a fast all-in-one JavaScript runtime</a></h3>\n<p>繼幾年前的 <a href=\"https://deno.land/\">deno</a> 之後，又出現了一款能夠打包、轉譯、安裝和執行 JavaScript 的 Bun！Bun 使用的 JavaScript 引擎是 <a href=\"https://github.com/WebKit/WebKit/tree/main/Source/JavaScriptCore\">JavaScriptCore</a>，且大部分的轉譯內容包含 JSX/TypeScript、SQLite client、WebSocket client 等都是從頭寫出來的。還有其他更多特色，到官網中看看有哪些吸引到你的！</p>\n<h3 id=\"introduction-to-defensive-css\"><a class=\"direct-link\" href=\"#introduction-to-defensive-css\">#</a> <a href=\"https://defensivecss.dev/articles/intro-defensive-css/\">Introduction to Defensive CSS</a></h3>\n<p>在今年初的 114 期週刊中，有推薦一篇 <a href=\"https://ishadeed.com/article/defensive-css/\">Defensive CSS</a>，而這篇也是以相同概念作延伸，並增加一些 UI 設計師在設計時對版面的思考，以及在工程師端該如何處理內容過多，導致圖片根據版面被撐開造成比例錯誤的狀況。</p>\n",
+      "date_published": "2022-07-12T00:00:00-00:00"
+    },{
       "id": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/139/smalltown-139/",
       "url": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/139/smalltown-139/",
       "title": "第 139 期 系統監控 推薦文章",

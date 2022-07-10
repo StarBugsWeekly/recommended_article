@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-07-05T00:00:00-00:00</updated>
+	<updated>2022-07-12T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -2713,6 +2713,33 @@ Host smalltown
 &lt;p&gt;Vault 可以算是開源界 Credential Management 的第一把交椅，他可以很安全地保護機敏資料，不過他本身也是一個應用服務，要如何收集分析他的 Log？以及怎麼知道哪一些訊息表示他出問題了，需要有 Alert 通知我們呢？官方的這篇文章提供了一個簡單且免費的解決方案，讓使用者運行此方案在 AWS 環境中，就可以讓 Vault 服務可以簡易的處理 Log 與具備有 Alert 通知功能，有使用 Vault 的人千萬不要錯過了&lt;/p&gt;
 &lt;h3 id=&quot;opentelemetry-roadmap-and-latest-updates&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#opentelemetry-roadmap-and-latest-updates&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://horovits.medium.com/opentelemetry-roadmap-and-latest-updates-a389144f3812&quot;&gt;OpenTelemetry Roadmap and Latest Updates&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;OpenTelemetry 目前是 CNCF 第二活躍的專案，在 KubeCon Europe 2022 中關於他的最大新聞應該就是 OpenTelemetry Metrics 已經到了 RC 階段，使用 Java, .Net 和 Python 實作的相關 API 和 SDK 也都趨於穩定，OpenTelemetry Protocol 也是越來越穩定，同時他也全面支援 Prometheus，不管是要匯出或是匯入 Prometheus 格式的 Metric 都可以，更多關於 OpenTelemetry 近期更新可以參考詳細內文&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 140 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/140/gqsm-140/"/>
+		<updated>2022-07-12T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/140/gqsm-140/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%83%BD%E5%9C%A8%E5%BF%99%E4%BA%9B%E4%BB%80%E9%BA%BC%EF%BC%9F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%83%BD%E5%9C%A8%E5%BF%99%E4%BA%9B%E4%BB%80%E9%BA%BC%EF%BC%9F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://kimtoday.medium.com/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%83%BD%E5%9C%A8%E5%BF%99%E4%BA%9B%E4%BB%80%E9%BA%BC-39a066128a&quot;&gt;前端工程師都在忙些什麼？&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;作者憑藉著自己的記憶和求證紀錄，在文章中描述了過去十年來前端圈到底發生了哪些事情，文章中將分成以下幾種時期，闡述每個時期間的發展：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;歡樂老時光 — 2007–2009&lt;/li&gt;
+&lt;li&gt;混合開發，前端生態 — 2009–2010&lt;/li&gt;
+&lt;li&gt;開發體系，模組化 — 2011–2013&lt;/li&gt;
+&lt;li&gt;資料流 ，體驗最佳化 — 2014–2016&lt;/li&gt;
+&lt;li&gt;可免則免，快狠準 —2017–now&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這些時期在前端圈發展出來的工具非常非常多，很喜歡作者最後說的：「每個工具都有想解決的問題，發展和演進也都有它的原因，去了解它們，不需要想得太複雜，也不用盲目地追求技術」。&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;bun-is-a-fast-all-in-one-javascript-runtime&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#bun-is-a-fast-all-in-one-javascript-runtime&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://bun.sh/&quot;&gt;Bun is a fast all-in-one JavaScript runtime&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;繼幾年前的 &lt;a href=&quot;https://deno.land/&quot;&gt;deno&lt;/a&gt; 之後，又出現了一款能夠打包、轉譯、安裝和執行 JavaScript 的 Bun！Bun 使用的 JavaScript 引擎是 &lt;a href=&quot;https://github.com/WebKit/WebKit/tree/main/Source/JavaScriptCore&quot;&gt;JavaScriptCore&lt;/a&gt;，且大部分的轉譯內容包含 JSX/TypeScript、SQLite client、WebSocket client 等都是從頭寫出來的。還有其他更多特色，到官網中看看有哪些吸引到你的！&lt;/p&gt;
+&lt;h3 id=&quot;introduction-to-defensive-css&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#introduction-to-defensive-css&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://defensivecss.dev/articles/intro-defensive-css/&quot;&gt;Introduction to Defensive CSS&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在今年初的 114 期週刊中，有推薦一篇 &lt;a href=&quot;https://ishadeed.com/article/defensive-css/&quot;&gt;Defensive CSS&lt;/a&gt;，而這篇也是以相同概念作延伸，並增加一些 UI 設計師在設計時對版面的思考，以及在工程師端該如何處理內容過多，導致圖片根據版面被撐開造成比例錯誤的狀況。&lt;/p&gt;
 
 		</content>
 	</entry>
