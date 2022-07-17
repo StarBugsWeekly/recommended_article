@@ -5,7 +5,7 @@
 	
 	<link href="https://starbugs-blog.netlify.app/feed/feed.xml" rel="self"/>
 	<link href="https://starbugs-blog.netlify.app"/>
-	<updated>2022-07-12T00:00:00-00:00</updated>
+	<updated>2022-07-19T00:00:00-00:00</updated>
 	<id>https://starbugs-blog.netlify.app/</id>
 	<author>
 		<name>StarBugs Weekly</name>
@@ -2777,6 +2777,25 @@ Host smalltown
 &lt;p&gt;K8s 有沒有可能根據時間把叢集變小？為什麼會想要這樣做呢？因為作者所為維護的服務其實在下班時間沒有什麼流量，尤其在週末更是慘澹，所以假如可以根據時間把 K8s Cluster 縮小的話，就可以解省很多的經費，所以他想要跟大家介紹一個叫做 &lt;a href=&quot;https://codeberg.org/hjacobs/kube-downscaler&quot;&gt;Kubernetes Downscaler&lt;/a&gt; 的開源專案，讓 K8s 可以根據使用者需求節能省碳&lt;/p&gt;
 &lt;h3 id=&quot;cubernetes&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#cubernetes&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.justingarrison.com/blog/2022-07-06-cubernetes/&quot;&gt;Cubernetes&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;有在研究自架 K8s 的人應該有聽過 &lt;a href=&quot;https://aws.amazon.com/blogs/containers/getting-started-with-eks-anywhere-on-bare-metal/&quot;&gt;Amazon EKS Anywhere&lt;/a&gt;，而作者就利用這個專案花了幾個月的時間自幹的一座 K8s Cluster，並將其取名為 Cubernetes，文中詳細地描述了如何完成這台機器的詳細過程，看起來滿酷的，會有人也想要跟作者一樣也自己來一台嗎XD&lt;/p&gt;
+
+		</content>
+	</entry>
+	
+	<entry>
+		<title>第 141 期 前端開發 推薦文章</title>
+		<link href="https://starbugs-blog.netlify.app/posts/starbugs-weekly/141/gqsm-141/"/>
+		<updated>2022-07-19T00:00:00-00:00</updated>
+		<id>https://starbugs-blog.netlify.app/posts/starbugs-weekly/141/gqsm-141/</id>
+		<content type="html">
+		  &lt;h2 id=&quot;%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC&quot;&gt;#&lt;/a&gt; 前端開發&lt;/h2&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;micro-frontend%E2%80%94why-and-how%3F&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#micro-frontend%E2%80%94why-and-how%3F&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.syncfusion.com/blogs/post/micro-frontend-why-and-how.aspx&quot;&gt;Micro-Frontend—Why and How?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;微前端的概念類似於微服務，我們可以將整個應用程式分解成更小的應用功能，這些功能可以由各個團隊自主開發，如此一來就能夠讓不同的團隊在不各自影響的狀況下進行開發。這篇文章給了很好的入門觀念和實作方式，如果對微前端架構有興趣的話，可以撥空看一下，並跟著實作！&lt;/p&gt;
+&lt;!-- summary --&gt;
+&lt;h3 id=&quot;applying-solid-principles-in-react&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#applying-solid-principles-in-react&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://konstantinlebedev.com/solid-in-react/&quot;&gt;Applying SOLID principles in React&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;SOLID 在軟體開發中，是非常常看到的設計原則。作者在文章中分別介紹了 SOLID 的意思，並且在某些原則上用了 React 的程式碼範例幫助理解（只少了 Liskov），但是文章的範例都很簡單！就算與 React 不熟也可以讀讀看喲！&lt;/p&gt;
+&lt;h3 id=&quot;javascript-design-patterns-%E2%80%93-explained-with-examples&quot;&gt;&lt;a class=&quot;direct-link&quot; href=&quot;#javascript-design-patterns-%E2%80%93-explained-with-examples&quot;&gt;#&lt;/a&gt; &lt;a href=&quot;https://www.freecodecamp.org/news/javascript-design-patterns-explained/&quot;&gt;JavaScript Design Patterns – Explained with Examples&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;我本身算是很喜歡在遇到問題時，使用設計模式去做重構或是思考，但是 JavaScript 畢竟不是 OOP，因此有些設計模式的觀念都再要自己轉換到 JS 中，這時候如果有篇用 JavaScript 為例子講解設計模式的文章，就會覺得挖到寶了趕快來看看，如果你們也一樣的話，就快點進文章中吧！&lt;/p&gt;
 
 		</content>
 	</entry>

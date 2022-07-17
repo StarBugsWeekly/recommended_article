@@ -9,6 +9,12 @@
     "url": ""
   },
   "items": [{
+      "id": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/141/gqsm-141/",
+      "url": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/141/gqsm-141/",
+      "title": "第 141 期 前端開發 推薦文章",
+      "content_html": "<h2 id=\"%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC\"><a class=\"direct-link\" href=\"#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC\">#</a> 前端開發</h2>\n<!-- summary -->\n<h3 id=\"micro-frontend%E2%80%94why-and-how%3F\"><a class=\"direct-link\" href=\"#micro-frontend%E2%80%94why-and-how%3F\">#</a> <a href=\"https://www.syncfusion.com/blogs/post/micro-frontend-why-and-how.aspx\">Micro-Frontend—Why and How?</a></h3>\n<p>微前端的概念類似於微服務，我們可以將整個應用程式分解成更小的應用功能，這些功能可以由各個團隊自主開發，如此一來就能夠讓不同的團隊在不各自影響的狀況下進行開發。這篇文章給了很好的入門觀念和實作方式，如果對微前端架構有興趣的話，可以撥空看一下，並跟著實作！</p>\n<!-- summary -->\n<h3 id=\"applying-solid-principles-in-react\"><a class=\"direct-link\" href=\"#applying-solid-principles-in-react\">#</a> <a href=\"https://konstantinlebedev.com/solid-in-react/\">Applying SOLID principles in React</a></h3>\n<p>SOLID 在軟體開發中，是非常常看到的設計原則。作者在文章中分別介紹了 SOLID 的意思，並且在某些原則上用了 React 的程式碼範例幫助理解（只少了 Liskov），但是文章的範例都很簡單！就算與 React 不熟也可以讀讀看喲！</p>\n<h3 id=\"javascript-design-patterns-%E2%80%93-explained-with-examples\"><a class=\"direct-link\" href=\"#javascript-design-patterns-%E2%80%93-explained-with-examples\">#</a> <a href=\"https://www.freecodecamp.org/news/javascript-design-patterns-explained/\">JavaScript Design Patterns – Explained with Examples</a></h3>\n<p>我本身算是很喜歡在遇到問題時，使用設計模式去做重構或是思考，但是 JavaScript 畢竟不是 OOP，因此有些設計模式的觀念都再要自己轉換到 JS 中，這時候如果有篇用 JavaScript 為例子講解設計模式的文章，就會覺得挖到寶了趕快來看看，如果你們也一樣的話，就快點進文章中吧！</p>\n",
+      "date_published": "2022-07-19T00:00:00-00:00"
+    },{
       "id": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/140/smalltown-140/",
       "url": "https://starbugs-blog.netlify.app/posts/starbugs-weekly/140/smalltown-140/",
       "title": "第 140 期 Kubernetes 推薦文章",
