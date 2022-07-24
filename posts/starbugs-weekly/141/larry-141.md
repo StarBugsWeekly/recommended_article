@@ -4,7 +4,7 @@ date: 2022-07-19
 author: larry
 
 layout: layouts/post.njk
-tags: [Golang]
+tags: [System Design]
 ---
 
 ## 系統設計
