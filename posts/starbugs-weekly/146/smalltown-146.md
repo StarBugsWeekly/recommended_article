@@ -13,7 +13,7 @@ tags: [Terraform]
 <!-- summary -->
 ### [How to manage multiple environments with Terraform](https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-32c7bc5d692)
 
-一開始使用 Terraform 來部署開發環境時可能沒有多想，東西也都可以正常運行，但當環境開始變多時，問題開始接踵而來，例如一堆重複的程式碼，環境之間的隔離性不足，很難去做 Debug 的工作...等，所以 Gruntwork 的 Co-founder 準備了三篇文章，分別解釋如何使用 [Terraform WOrkspace](https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-using-workspaces-98680d89a03e), [Git Branches](https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-using-branches-875d1a2ee647) 和 [Terragrunt](https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-using-terragrunt-2c3e32fc60a8) 來達成分離環境的做法，讓大家可以對這個主題有個全面的的了解
+一開始使用 Terraform 來部署開發環境時可能沒有多想，東西也都可以正常運行，但當環境開始變多時，問題開始接踵而來，例如一堆重複的程式碼，環境之間的隔離性不足，很難去做 Debug 的工作...等，所以 Gruntwork 的 Co-founder 準備了三篇文章，分別解釋如何使用 [Terraform Workspace](https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-using-workspaces-98680d89a03e), [Git Branches](https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-using-branches-875d1a2ee647) 和 [Terragrunt](https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-using-terragrunt-2c3e32fc60a8) 來達成分離環境的做法，讓大家可以對這個主題有個全面的了解
 
 <!-- summary -->
 
