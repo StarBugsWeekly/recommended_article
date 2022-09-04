@@ -13,7 +13,7 @@ tags: [Front-end]
 
 ### [How to Lazy Load Images in React](https://www.freecodecamp.org/news/how-to-lazy-load-images-in-react/)
 
-優化靜態資源的載入是提高網站效能最好的方式之一，只要處理好這部分的優化，能夠在第一時間快速載入頁面、增強使用者體驗、對 SEO 也有幫助！在文章裡會以 [unsplash](https://unsplash.com/) 為例子，實現類似的效果。
+優化靜態資源的載入是提高網站效能最好的方式之一，只要處理好這部分的優化，能夠在第一時間快速載入頁面、增強使用者體驗、對 SEO 也有幫助！在文章裡會以 [unsplash](https://unsplash.com/) 網站的圖片 lazy load 為例子，實現與它類似的效果。
 
 <!-- summary -->
 
