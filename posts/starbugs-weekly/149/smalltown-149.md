@@ -30,4 +30,4 @@ Git 這套版本管理系統賦予軟體開發者能力去追蹤，管理和組�
 
 ### [Merging two GitHub repositories without losing commit history](https://hacks.mozilla.org/2022/08/merging-two-github-repositories-without-losing-commit-history/)
 
-自己是有把 Git Repository 搬來搬去的經驗，但是把兩個 Repository 合併在一起的經驗卻是第一次，這篇文章介紹了如何將兩個 Repository 合併在一起，並且保留原本的 Commit History。先筆記下來，搞不好將來有一天自己也會使用到
+自己是有把 Git Repository 搬來搬去的經驗，但是把兩個 Repository 合併在一起的卻還沒有嘗試過，這篇文章介紹了如何將兩個 Repository 合併在一起，並且保留原本的 Commit History。先筆記下來，搞不好將來有一天自己也會使用到
