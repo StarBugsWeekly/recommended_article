@@ -17,6 +17,6 @@ tags: ['Hacker News']
 
 不錯的履歷指南，裡面有許多履歷的範例與 cover letter。包含了許多履歷的小秘訣：履歷最容易犯的錯，該做的事情，不該做的事情。
 
-### [Outdated vs. Complete]//(https://vivqu.com/blog/2022/09/25/outdated-apps/)
+### [Outdated vs. Complete](https://vivqu.com/blog/2022/09/25/outdated-apps/)
 
 作者開發了一款很穩定的 APP, 三年前就已經屬於穩定狀態，但是最近收到官方的更新通知，官方告訴他如果再不更新就要將他的　APP 標示為過時的。
