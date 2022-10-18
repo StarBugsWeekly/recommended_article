@@ -7,7 +7,7 @@ layout: layouts/post.njk
 tags: ['Youtube']
 ---
 
-##　[Rust Tutorial Full Course](https://www.youtube.com/watch?v=ygL_xcavzQ4)
+## [Rust Tutorial Full Course](https://www.youtube.com/watch?v=ygL_xcavzQ4)
 
 一堂課學 Rust 的課程，一個終端機，分章節標示出來，有十萬人觀看過，看來 Rust 真的很夯。
 
