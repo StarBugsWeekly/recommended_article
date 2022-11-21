@@ -15,7 +15,7 @@ tags: [Software Engineering]
 
 ### [The Architecture of a Modern Startup](https://betterprogramming.pub/architecture-of-modern-startup-abaec235c2eb)
 
-如果你是一間新創公司的 CTO，正準備要開始設計產品的系統架構，那有幾個關鍵可能是你必須要先考慮的，譬如說公司的產品是否要用 Kubernetes、要有 Staging 環境嗎？要用哪個雲端平台等等，這篇文章會帶你了解一些新創公司在設計架構時，需要考慮的一些問題。讓你更有方向的做出一個好的系統。
+如果你是一間新創公司的 CTO，正準備要開始設計產品的系統架構，那有幾個關鍵可能是你必須要先考慮的，譬如說公司的產品是否要用 Kubernetes、要有 Staging 環境嗎？要用哪個雲端平台等等，這篇文章會帶你了解一些新創公司在設計架構時，需要考慮的一些問題，讓你更有方向的做出一個好的系統。
 
 ### [How we reduced our annual server costs by 80% — from $1M to $200k — by moving away from AWS](https://levelup.gitconnected.com/how-we-reduced-our-annual-server-costs-by-80-from-1m-to-200k-by-moving-away-from-aws-2b98cbd21b46)
 
