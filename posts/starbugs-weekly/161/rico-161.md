@@ -15,7 +15,7 @@ tags: [DevOps]
 
 Slack 使用 Terraform 時也是早期從單一個 AWS 帳號逐漸擴展，也會把大型服務拆成多個 Terraform state files 管理，也會分配不同 AWS IAM 權限來提供 sandbox 環境，使用文法檢查工具來輔助 Terraform 多版本讓環境可以逐一升級<!-- summary -->，Terraform module 從原本相對路徑逐漸改成用 git 抓下來到最後開發工具只可惜更難做測試，也開發了 Terraform Smart Planner 讓還沒 merge 的測試結果印出 output 讓 reviewer 更好審視。這篇文章的結語也說們的 Terraform 之旅離完美還很遠，也不忘在文章最後偷偷徵才。
 
-### [How to Mentor Interns to Become Skillful Engineers](How to Mentor Interns to Become Skillful Engineers)
+### [How to Mentor Interns to Become Skillful Engineers](https://slack.engineering/how-to-mentor-interns-to-become-skillful-engineers/)
 
 如何讓讓實習生快速進入狀況也是 DevOps 的一環，Slack 就分享除了要注意分配給實習生要做什麼專案外，他的 onboarding 流程跟資源是否能讓他快速進入狀況？如何測量實習生的實習成效是成功的？如果實習生有多位 mentors 該怎麼確保他可以溝通順暢？文章對於制定這些計畫有個詳細的紀錄，即使用在正職員工上也很受用。
 
