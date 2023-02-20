@@ -5,10 +5,11 @@ on:
       - main
     tags:
       - 'v*'
-permissions:
-  contents: write
+
 jobs:
   build-and-deploy:
+    permissions:
+        contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
