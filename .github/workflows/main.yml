@@ -5,7 +5,10 @@ on:
       - main
     tags:
       - 'v*'
-    
+
+permissions:
+   contents: read
+   
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
