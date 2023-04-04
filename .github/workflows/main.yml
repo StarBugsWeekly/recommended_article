@@ -11,6 +11,9 @@ jobs:
     permissions:
         contents: write
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12]
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
