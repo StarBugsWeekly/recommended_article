@@ -4,7 +4,7 @@ date: 2023-04-18
 author: luka
 
 layout: layouts/post.njk
-tags: [AI]
+tags: [ai]
 ---
 
 ## AI
@@ -13,7 +13,7 @@ tags: [AI]
 
 根據最新報導，特斯拉創始人 Elon Musk 將推出一家名為 X.AI 的新人工智慧（AI）初創公司，直接競爭 OpenAI。據《金融時報》報導，Musk 已經開始組建 AI 研究和工程師團隊，並與 SpaceX 和 Tesla 的幾位投資者談過支持他的新 AI 初創公司的事宜。此外，他還購買了約 1 萬個圖形處理單元（GPU）來為新的 AI 項目提供支持。然而，這一決定引起了 OpenAI 聯合創始人 Sam Altman 的擔憂。此前，Musk 在 OpenAI 的董事會上辭職，並批評該組織追求人工通用智慧（AGI）的做法。這次，Musk 的新冒險是在他表達對人工智慧潛在危險的擔憂和對監管和監督的需要之後而進行的。
 
-### 為什麼負責任的 AI 導致更準確和有效的 AI 模型？
+### [[英] 為什麼負責任的 AI 導致更準確和有效的 AI 模型？](https://venturebeat.com/ai/algorithms-auditing-algorithms-gpt-4-responsible-ai-beyond-human-scale/)
 
 負責任的 AI 定義了在設計、開發和部署 AI 模型時確保安全、公平和道德的承諾。通過確保模型按預期運行 - 並且不會產生不良結果 - 負責任的 AI 可以幫助增加信任，保護免受損害，並提高模型表現。
 
