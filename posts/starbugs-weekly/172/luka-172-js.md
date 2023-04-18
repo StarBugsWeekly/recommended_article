@@ -3,11 +3,11 @@ title: 第 171 期 JavaScript 推薦文章
 date: 2023-04-18
 author: luka
 layout: layouts/post.njk
-tags: [javascript]
+tags: [js]
 ---
 ## JavaScript
 
-### [[英]JavaScript == 踩地雷遊戲](https://eqeq.js.org/)
+### [[英]JavaScript 等於等於踩地雷遊戲](https://eqeq.js.org/)
 在提醒了 JavaScript 的 == 的恐懼之後，踩地雷遊戲將感覺像在公園散步一樣輕鬆。如果您需要深入瞭解，ECMAScript 規範的 7.2.14 節將對您有所幫助，否則呢？除非您有充分的理由，否則請使用三個等號（===）。
 
 ### [[英]2023 Web Framework Performance Report | Astro](https://astro.build/blog/2023-web-framework-performance-report/)
