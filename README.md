@@ -2,7 +2,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a1926bf8-7473-4fdb-bbb7-60740e2d89bb/deploy-status)](https://app.netlify.com/sites/recommend-starbugs/deploys)
 
 - Recommend Website: https://recommend.starbugs.dev/
-- Weekly Website: https://weekly.starbugs.dev/
+- Weekly Website: https://starbugs.dev/
 - Blog Website: https://medium.com/starbugs
 ## Contribution
 
@@ -36,13 +36,13 @@ If you contribute this repo first-time, you should add information to `_data/met
       "name": "starbugs",
       "intro": "星巴哥技術週刊",
       "avatarUrl": "/img/authors/starbugs_logo.png",
-      "site": "https://weekly.starbugs.dev/"
+      "site": "https://starbugs.dev/"
     }
   },
   ...
 ```
 
-1. Add your avatar to `img/authors`. 
+1. Add your avatar to `img/authors`.
 2. create a personal post template for yourself
 3. modify the name
 4. The avatar should work on a post list, a post page, and the about page.
@@ -56,7 +56,7 @@ npm install
 npm run watch
 ```
 
-## Deployment 
+## Deployment
 
 Deployment is trigger by release.
 
@@ -65,8 +65,8 @@ Deployment is trigger by release.
 - [Eleventy Documentation](https://www.11ty.dev/docs/collections/)
 - [Nunjucks template document](https://mozilla.github.io/nunjucks/templating.html)
 
-## the project forks from the following projects: 
+## the project forks from the following projects:
 
 - [Cymetrics Tech Blog](https://github.com/cymetrics/blog)
-- [error-baker-blog](https://github.com/Lidemy/error-baker-blog) 
+- [error-baker-blog](https://github.com/Lidemy/error-baker-blog)
 - [eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)

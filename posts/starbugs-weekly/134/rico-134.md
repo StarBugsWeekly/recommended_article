@@ -13,7 +13,7 @@ tags: [DevOps]
 <!-- summary -->
 ### [The most important changes in Kubernetes 1.24 and why they matter](https://www.padok.fr/en/blog/new-kubernetes-changes)
 
-作者幫大家重點整理了新版 Kubernetes 1.24 重要的 7 點改動。最知名的改動不外乎就是 Dockershim 正式的被移除了，雖然裡面寫 Docker 正式不能被使用，但事實上還是有辦法使用，Docker 有推出 cri-dockerd 版本，<!-- summary -->詳情可以參考我們 Starbugs 131 期寫的[文章推薦](https://weekly.starbugs.dev/2022/05/03/131-may-day/)。
+作者幫大家重點整理了新版 Kubernetes 1.24 重要的 7 點改動。最知名的改動不外乎就是 Dockershim 正式的被移除了，雖然裡面寫 Docker 正式不能被使用，但事實上還是有辦法使用，Docker 有推出 cri-dockerd 版本，<!-- summary -->詳情可以參考我們 Starbugs 131 期寫的[文章推薦](https://starbugs.dev/2022/05/03/131-may-day/)。
 
 還有其他重要的功能如：新的 OOM metric、指定 Load Balancer 類型可以改用 LoadBalancerClass 而不是難設定的 annotation、不能指定 Load Balancer 的 IP address（即便在某些商業需求下很好用）、service account token 為了安全將開始有些限制、RuntimeClass.Overhead 正式進入 stable version 讓 pod 可以設定 cpu + memory、以及 Kubernetes 團隊決定所有 beta 的 API 都不再是預設值（得另外 enable 才行）。
 

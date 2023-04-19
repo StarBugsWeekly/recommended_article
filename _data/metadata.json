@@ -7,7 +7,7 @@
   "googleAnalyticsId": "",
   "sendWebVitals": false,
   "facebookUrl": "https://www.facebook.com/StarbugsWeekly/",
-  "websiteUrl": "https://weekly.starbugs.dev/",
+  "websiteUrl": "https://starbugs.dev/",
   "feed": {
     "subtitle": "StarBugs Weekly",
     "filename": "feed.xml",
@@ -87,7 +87,7 @@
       "name": "starbugs",
       "intro": "星巴哥技術週刊",
       "avatarUrl": "/img/authors/starbugs_logo.png",
-      "site": "https://weekly.starbugs.dev/"
+      "site": "https://starbugs.dev/"
     }
   },
   "publisher": {
