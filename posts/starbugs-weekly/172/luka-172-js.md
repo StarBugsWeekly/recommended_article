@@ -1,5 +1,5 @@
 ---
-title: 第 171 期 JavaScript 推薦文章
+title: 第 172 期 JavaScript 推薦文章
 date: 2023-04-18
 author: luka
 
