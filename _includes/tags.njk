@@ -1,7 +1,7 @@
 <div class="tag-list">
-  {% set allowTags = ['Conference', 'Front-end', 'Back-end', 'DevOps', 'Computer Science', 'Software Engineering'] %}
+  {# {% set allowTags = ['Conference', 'Front-end', 'Back-end', 'DevOps', 'Computer Science', 'Software Engineering', 'AI'] %} #}
   {% for tag in collections.tagList %}
-    {% if tag in allowTags %}
+    {% if tag %}
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
       <a class="tag-list__item {% if tag === currentTag %}tag-list__item--active{% endif %}" href="{{ tagUrl | url }}">#{{ tag }}</a>
     {% endif %}
