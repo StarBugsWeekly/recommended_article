@@ -1,6 +1,6 @@
 ---
-title: 第 178 期 前端開發 推薦文章
-date: 2023-07-11
+title: 第 179 期 前端開發 推薦文章
+date: 2023-07-25
 author: gqsm
 
 layout: layouts/post.njk
@@ -10,14 +10,14 @@ tags: [Front-end]
 ## 前端開發
 <!-- summary -->
 
-### [The End of Front-End Development](https://www.joshwcomeau.com/blog/the-end-of-frontend-development/)
+### [The case against self-closing tags in HTML](https://jakearchibald.com/2023/against-self-closing-tags-in-html/)
 
-近幾年來 AI 急速成長，有許多前端工程師都會認為自己會被 AI 所取代，因為他們甚至能夠根據畫在紙上的 UI，產生對應的 HTML、CSS 和 JavaScript，這聽起來非常可怕，也讓許多前端工程師開始焦慮自己是否要繼續走下去。但是作者在這篇文章中指出，早在 CSS 誕生後的兩年內，第一個號稱不需要寫任何程式碼就能建構網站的 Homestead 就誕生了，但是現在前端工程師絕種了嗎？並沒有。而作者也有從其他面向去討論 AI 對軟體工程師的影響，最推薦的是最後一段寫給有熱忱的開發者的一段話。早上醒來看完這篇文章，心裡的暖都分不清到底是來自於作者的文字還是夏天的太陽。
+作者喜歡 Prettier，但他對於 Prettier 中的自我關閉 `/>` 感到相當不認同，認為這並非純 HTML 下的產物，只是因為歷史沿革而產生的一種通融，也對於其他人支持的「`/>` 讓初學者不必學習哪種標籤為自動關閉」的意見回應了自己的看法，也用了較相似了例子 JSX 進來比較，或是從編譯的角度來看待 `/>`。是一篇很有趣的文章！
 
-### [The modern way of serving images](https://kurtextrem.de/posts/modern-way-of-img)
+### [How React 18 Improves Application Performance](https://vercel.com/blog/how-react-18-improves-application-performance)
 
-文章中一開始用數據表示，從 HTTP Archive 收集到的資訊當中，至少 70% 的網站都利用當作網站裡最吸引人的部分，但只有 34% 使用了 `<img srcset>` 建立響應式和高效能的圖片顯示。作者會在文章中解釋為什麼我們會需要建立響應式的圖片，以及我們要如何利用 `<img srcset>` 和 `<picture>` 改善顯示或載入圖片時，在網頁遇到的常見問題以及使用者體驗！
+文章一開始會先從 JavaScript 的 Main thread 和 Long tasks 開始說起，解釋有哪些因素會影響到效能，也有稍微介紹一些 web 指標，將讀者帶入效能對使用者的影響層面。接著就開始介紹 React 18 做的 Transitions、Suspense 和 React Server Components 等相關功能是如何提高應用程序性能的！文章裡面的圖片遠遠大於範例的程式碼內容，非常容易理解！
 
-### [Zedux: Is this the one?](https://omnistac.github.io/zedux/blog/zedux-is-this-the-one)
+### [Tailwind CSS Tips and Tricks Worth Knowing](https://www.builder.io/blog/tailwind-css-tips-and-tricks)
 
-Zedux 是為最自由的 React 所建立的狀態管理工具，它潛伏了 5 年多仔細研究 React 狀態管理工具的生態，然後將各種狀態管理工具的優點全部 all for one 到自己身上。Zedux 中的 atom 參考了 Recoil，也吸收了 React Query 擁有簡單版本的 query 和 mutation，其中也包含 Redux 和 Jotai 的所有功能。那看來只要學習這套，之後怎麼鬼轉其他狀態管理工具都沒問題了。 😂
+這篇文章會提到許多在使用 tailwind CSS 的一些技巧，和你可能採到坑的部分，我覺得非常適合剛剛在學習 tailwind CSS 的讀者閱讀！像是文章一開始提到的動態顏色，因為 tailwind 會幫你移除沒用到的樣式名稱，讓 CSS 在打包過後的 size 較小，所以動態顏色就不能這麼做 `className={`bg-${color}-500`}`，你必須得讓完整的樣式名稱能夠被 tailwind 抓到。
