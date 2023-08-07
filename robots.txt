@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /tags
+Disallow: /articles
+
+Sitemap: https://starbugs-blog.netlify.app/sitemap.xml
